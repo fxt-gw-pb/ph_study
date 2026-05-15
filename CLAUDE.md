@@ -34,14 +34,22 @@ site.js          → the whole app (routing + views + theme)
 
 `site.js`'s chapter/point/exercise/search views assume exactly these fields across all subjects.
 
-## Data pipeline (occupational-health only)
+## Data pipeline
 
-Source of truth: `知识仓库/职业卫生学往年题考点整理.md` (the `知识仓库/` dir is in the repo but not referenced by the site, so it isn't served). `build-data.js` parses `## 第X章`, `### N. 知识点`, and the fields beneath (`**考频：N 次**`, `**对应小节：**`, `**匹配依据：**`, `**知识点原文摘取：**`, `**对应往年题：**` followed by `【往年题N｜source｜type】` blocks).
+Source of truth lives in `知识仓库/` (in the repo but not referenced by the site, so not served). `build-data.js` holds a `TARGETS` list — one entry per real subject — and runs the same `parse()` over each:
 
-It emits two committed artifacts (both must exist so the site works with no Node toolchain on the deploy target):
+| Source markdown | → json | → js (global) |
+|---|---|---|
+| `职业卫生学往年题考点整理.md` | `data.json` | `site-data.js` (`window.SITE_DATA`) |
+| `毒理学往年题考点整理.md` | `tox-data.json` | `tox-data.js` (`window.TOX_SITE_DATA`) |
 
-- `data.json` — `{ meta, chapters, allQuestions }`.
-- `site-data.js` — same payload as `window.SITE_DATA` so the site runs from `file://` with no fetch.
+All four artifacts are committed (the site must work with no Node toolchain on the deploy target). `parse()` reads `## 第X章` / `## 附：…` chapter headings, `### N. 知识点`, and the fields beneath. **Field formats differ by subject and the parser tolerates both** — do not "tighten" these regexes:
+- 考频: OH `**考频：2 次**` *and* TOX `**考频：** 12 次` / `30 余次（…）` → `/^\*\*考频[：:]\*{0,2}\s*(\d+)/`.
+- `**知识来源：**` exists only in TOX; captured into `point.source` so it doesn't leak into the excerpt (OH points simply omit `source`).
+- Chapter titles: OH `第一章 绪论`; TOX `第一章 / 《1 绪论》（生物转运）` → `cleanChapterTitle()` strips the `/ `, takes the 《》 inner text (dropping its leading file number), prefers a trailing （中文）gloss, drops a trailing year.
+- `## 附：…` (TOX appendix) is a real chapter (num `附`, integer id continuing the sequence; the site renders chapters by `ch.id`, not `ch.num`).
+
+Then it parses `**对应小节：**`, `**匹配依据：**`, `**知识点原文摘取：**`, and `**对应往年题：**` followed by `【往年题N｜source｜type】` blocks.
 
 It also re-sorts each chapter's points by frequency desc, computes rollups (`totalFreq`, `totalQuestions`, `peak`, `hi` = count of points with freq ≥ 3), and flattens `allQuestions` (tagged with chapter/point + a year extracted from the source) for the exercises and search views.
 
@@ -51,7 +59,7 @@ Regenerate after editing the source markdown:
 node build-data.js
 ```
 
-**`build-data.js`'s `MD_PATH` is hardcoded to the occupational-health markdown.** `知识仓库/毒理学往年题考点整理.md` also exists but is **not** wired into the build — toxicology still serves placeholder data. Adding a real second subject means generalizing the parser (or hand-writing a data file), plus a registry entry.
+**To wire a new real subject:** add a `TARGETS` entry in `build-data.js`, set the registry entry's `status: 'ready'` in `subjects.js`, load the generated `*-data.js` in `index.html` (after `subjects-data.js` so it overrides any placeholder), and drop that subject's placeholder block from `subjects-data.js`. Other source markdown may sit in `知识仓库/` (e.g. `环境健康学往年题考点整理.md`) without being wired in — those subjects stay placeholder until added to `TARGETS`.
 
 ## Knowledge-point ID schemes (do not change casually)
 

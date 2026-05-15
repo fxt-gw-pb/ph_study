@@ -1,17 +1,47 @@
 #!/usr/bin/env node
-// Parses 知识仓库/职业卫生学往年题考点整理.md into structured data.json.
+// Parses the past-exam markdown in 知识仓库/ into structured data files.
 // Run: node build-data.js
+//
+// Each TARGET produces a <json> (structured) and a <js> (window.<varName>
+// assignment so the site runs from file:// without a fetch). Both are
+// committed so the site needs no Node toolchain on the deploy target.
 
 const fs = require('fs');
 const path = require('path');
 
-const MD_PATH = path.resolve(__dirname, '知识仓库', '职业卫生学往年题考点整理.md');
-const OUT_PATH = path.resolve(__dirname, 'data.json');
+const REPO = path.resolve(__dirname);
+const SRC = path.join(REPO, '知识仓库');
+
+const TARGETS = [
+  // Occupational Health — the original site data (legacy window.SITE_DATA).
+  { md: '职业卫生学往年题考点整理.md', json: 'data.json',    js: 'site-data.js', varName: 'SITE_DATA' },
+  // Toxicology — second real subject (window.TOX_SITE_DATA).
+  { md: '毒理学往年题考点整理.md',     json: 'tox-data.json', js: 'tox-data.js',  varName: 'TOX_SITE_DATA' },
+];
 
 const CHAPTER_NUM_TO_ID = {
   '一':1,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,
   '九':9,'十':10,'十一':11,'十二':12,'十三':13,'十四':14,'十五':15,'十六':16,
 };
+
+// Chapter titles vary by source:
+//   OH:  "绪论" / "职业生理与工效（何丽华）"  → strip a trailing （…） aside.
+//   TOX: "/ 《1 绪论》" / "/ 《3 …》（生物转运）" → take the 《…》 inner
+//        text (dropping its leading file number), preferring a trailing
+//        （中文）gloss when present, and dropping a trailing year.
+function cleanChapterTitle(raw) {
+  let t = raw.trim().replace(/^[\/／]\s*/, '');
+  const m = t.match(/《([^》]+)》/);
+  if (m) {
+    const inner = m[1].replace(/^\d+\s*/, '').trim();
+    const gloss = t.match(/》\s*（([^）]+)）\s*$/);
+    t = (gloss ? gloss[1] : inner).trim();
+    t = t.replace(/\s*\d{4}\s*$/, '').trim();
+  } else {
+    t = t.replace(/（[^）]*）\s*$/, '').trim();
+  }
+  return t;
+}
 
 function parse(md) {
   const lines = md.split(/\r?\n/);
@@ -26,7 +56,7 @@ function parse(md) {
     if (mode === 'excerpt') {
       curKP.excerpt = buf.join('\n').replace(/\n{3,}/g, '\n\n').trim();
     } else if (mode === 'questions') {
-      // Parse 【...】blocks; each followed by question text until next 【 or blank-line group end.
+      // Parse 【...】blocks; each followed by question text until next 【 or end.
       const text = buf.join('\n').trim();
       const blocks = [];
       const re = /【往年题(\d+)[｜|]([^｜|】]+)[｜|]([^】]+)】\s*([\s\S]*?)(?=\n【往年题\d+|$)/g;
@@ -44,25 +74,32 @@ function parse(md) {
     buf = [];
   }
 
+  function startChapter(num, rawTitle) {
+    flushBuf();
+    mode = null;
+    curKP = null;
+    const id = CHAPTER_NUM_TO_ID[num] || chapters.length + 1;
+    curCh = {
+      id,
+      num,
+      title: cleanChapterTitle(rawTitle),
+      rawTitle: rawTitle.trim(),
+      points: [],
+    };
+    chapters.push(curCh);
+  }
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
-    // Chapter heading: ## 第X章 标题
+    // Chapter heading: ## 第X章 标题   (OH and TOX both use this)
     const chMatch = line.match(/^##\s+第([一二三四五六七八九十]+)章\s+(.+?)\s*$/);
-    if (chMatch) {
-      flushBuf();
-      mode = null;
-      curKP = null;
-      const num = chMatch[1];
-      const id = CHAPTER_NUM_TO_ID[num] || chapters.length + 1;
-      curCh = {
-        id,
-        num,
-        title: chMatch[2].replace(/（[^）]*）$/, '').trim(),
-        rawTitle: chMatch[2].trim(),
-        points: [],
-      };
-      chapters.push(curCh);
+    if (chMatch) { startChapter(chMatch[1], chMatch[2]); continue; }
+
+    // Appendix section (TOX): ## 附：实验操作题…  — real KPs, treat as a chapter.
+    const fuMatch = line.match(/^##\s+(附[：:].*?)\s*$/);
+    if (fuMatch && curCh) {
+      startChapter('附', fuMatch[1].replace(/^附[：:]\s*/, ''));
       continue;
     }
 
@@ -89,11 +126,10 @@ function parse(md) {
 
     if (!curKP) continue;
 
-    // **考频：X 次**
-    const freqMatch = line.match(/^\*\*考频[：:]\s*(\d+)\s*次\*\*\s*$/);
+    // **考频：N 次**  (OH)  or  **考频：** N 次 / N 余次（…）  (TOX)
+    const freqMatch = line.match(/^\*\*考频[：:]\*{0,2}\s*(\d+)/);
     if (freqMatch) {
-      flushBuf();
-      mode = null;
+      flushBuf(); mode = null;
       curKP.freq = parseInt(freqMatch[1], 10);
       continue;
     }
@@ -101,8 +137,7 @@ function parse(md) {
     // **对应小节：** ...
     const secMatch = line.match(/^\*\*对应小节[：:]\*\*\s*(.+?)\s*$/);
     if (secMatch) {
-      flushBuf();
-      mode = null;
+      flushBuf(); mode = null;
       curKP.section = secMatch[1].trim();
       continue;
     }
@@ -110,37 +145,39 @@ function parse(md) {
     // **匹配依据：** ...
     const basisMatch = line.match(/^\*\*匹配依据[：:]\*\*\s*(.+?)\s*$/);
     if (basisMatch) {
-      flushBuf();
-      mode = null;
+      flushBuf(); mode = null;
       curKP.basis = basisMatch[1].trim();
+      continue;
+    }
+
+    // **知识来源：** ...   (TOX only — capture so it does not leak into excerpt)
+    const srcMatch = line.match(/^\*\*知识来源[：:]\*\*\s*(.+?)\s*$/);
+    if (srcMatch) {
+      flushBuf(); mode = null;
+      curKP.source = srcMatch[1].trim();
       continue;
     }
 
     // **知识点原文摘取：**
     if (/^\*\*知识点原文摘取[：:]\*\*\s*$/.test(line)) {
-      flushBuf();
-      mode = 'excerpt';
+      flushBuf(); mode = 'excerpt';
       continue;
     }
 
     // **对应往年题：**
     if (/^\*\*对应往年题[：:]\*\*\s*$/.test(line)) {
-      flushBuf();
-      mode = 'questions';
+      flushBuf(); mode = 'questions';
       continue;
     }
 
     // Separator
     if (/^---\s*$/.test(line)) {
-      flushBuf();
-      mode = null;
+      flushBuf(); mode = null;
       continue;
     }
 
     // Body content
-    if (mode) {
-      buf.push(line);
-    }
+    if (mode) buf.push(line);
   }
   flushBuf();
 
@@ -153,12 +190,11 @@ function parse(md) {
     ch.hi = ch.points.filter(p => p.freq >= 3).length;
   }
 
-  // Build a flat list of past questions tagged with KP info, for the exercises view.
+  // Flat list of past questions tagged with KP info, for the exercises view.
   const allQuestions = [];
   for (const ch of chapters) {
     for (const p of ch.points) {
       for (const q of p.questions) {
-        // Try to extract a year tag like "24" / "21" from the source.
         const yearMatch = q.source.match(/(\d{2,4})\s*[级年]/);
         allQuestions.push({
           ...q,
@@ -173,30 +209,36 @@ function parse(md) {
     }
   }
 
-  const totals = {
+  const meta = {
     chapters: chapters.length,
     points: chapters.reduce((s, c) => s + c.points.length, 0),
     questions: allQuestions.length,
     hiFreqPoints: chapters.reduce((s, c) => s + c.hi, 0),
   };
 
-  return { meta: totals, chapters, allQuestions };
+  return { meta, chapters, allQuestions };
 }
 
-const md = fs.readFileSync(MD_PATH, 'utf8');
-const data = parse(md);
-fs.writeFileSync(OUT_PATH, JSON.stringify(data, null, 2));
+for (const t of TARGETS) {
+  const mdPath = path.join(SRC, t.md);
+  if (!fs.existsSync(mdPath)) {
+    console.warn(`SKIP ${t.md} — not found`);
+    continue;
+  }
+  const data = parse(fs.readFileSync(mdPath, 'utf8'));
+  const jsonPath = path.join(REPO, t.json);
+  const jsPath = path.join(REPO, t.js);
+  fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
+  fs.writeFileSync(jsPath,
+    '// Auto-generated by build-data.js — do not edit by hand.\n' +
+    `window.${t.varName} = ` + JSON.stringify(data) + ';\n');
 
-// Also emit a JS file that assigns window.SITE_DATA, so the site can be
-// opened directly via file:// without a local server (fetch is blocked there).
-const SITE_JS = path.resolve(__dirname, 'site-data.js');
-fs.writeFileSync(SITE_JS,
-  '// Auto-generated by build-data.js — do not edit by hand.\n' +
-  'window.SITE_DATA = ' + JSON.stringify(data) + ';\n');
-
-console.log(`Wrote ${OUT_PATH}`);
-console.log(`Wrote ${SITE_JS}`);
-console.log(`Chapters: ${data.meta.chapters}, knowledge points: ${data.meta.points}, past questions: ${data.meta.questions}, hi-freq points: ${data.meta.hiFreqPoints}`);
-for (const ch of data.chapters) {
-  console.log(`  第${ch.num}章 ${ch.title} — ${ch.points.length} pts / ${ch.totalQuestions} qs / peak ${ch.peak}`);
+  console.log(`${t.md}`);
+  console.log(`  → ${t.json}, ${t.js} (window.${t.varName})`);
+  console.log(`  chapters: ${data.meta.chapters}, points: ${data.meta.points}, ` +
+    `questions: ${data.meta.questions}, hi-freq: ${data.meta.hiFreqPoints}`);
+  for (const ch of data.chapters) {
+    console.log(`    第${ch.num}章 ${ch.title} — ${ch.points.length} pts / ` +
+      `${ch.totalQuestions} qs / peak ${ch.peak}`);
+  }
 }
