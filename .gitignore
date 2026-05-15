@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Claude Code local session/agent state — never commit
+.claude/
+memory/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node (if ever used)
+node_modules/

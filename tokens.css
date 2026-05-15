@@ -1,0 +1,224 @@
+/* ─────────────────────────────────────────────────────────────────
+   职业卫生学复习网站 — Design Tokens
+   学术蓝主色 · 中等密度 · 学习友好
+   ───────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Colors — light (default) */
+  --bg-page: #f4f6fa;
+  --bg-surface: #ffffff;
+  --bg-sunken: #fafbfd;
+  --bg-sidebar: #fbfcfe;
+  --bg-rail: #f8fafc;
+
+  --line: #e6eaf1;
+  --line-soft: #eef1f6;
+  --line-strong: #d3dbe6;
+
+  --ink-1: #0e1b33;
+  --ink-2: #3a4a64;
+  --ink-3: #6c7c93;
+  --ink-4: #9ba8bc;
+
+  --primary: #2d5fd5;
+  --primary-700: #1f4ec0;
+  --primary-300: #6a8fe0;
+  --primary-100: #e8f0ff;
+  --primary-050: #f3f7ff;
+
+  /* Frequency tags — designed to be calm, not signal alarm */
+  --freq-hi-fg: #b6432f;
+  --freq-hi-bg: #fdebe5;
+  --freq-hi-bd: #f6cdc1;
+
+  --freq-mid-fg: #2451c5;
+  --freq-mid-bg: #e6efff;
+  --freq-mid-bd: #cfdcfa;
+
+  --freq-low-fg: #4a6f5e;
+  --freq-low-bg: #e6efea;
+  --freq-low-bd: #cfdfd6;
+
+  --accent-amber-fg: #8a5a14;
+  --accent-amber-bg: #fbf1d9;
+
+  /* Heat scale (考频热力) — 0..5 steps */
+  --heat-0: #eef2f7;
+  --heat-1: #d8e3f3;
+  --heat-2: #b5c8e9;
+  --heat-3: #8aa6da;
+  --heat-4: #5d80c8;
+  --heat-5: #2d5fd5;
+
+  --success: #1f8a5b;
+  --success-bg: #e6f3ec;
+
+  --shadow-1: 0 1px 2px rgba(15,27,51,.04), 0 1px 1px rgba(15,27,51,.03);
+  --shadow-2: 0 4px 14px rgba(15,27,51,.06), 0 1px 3px rgba(15,27,51,.04);
+  --shadow-pop: 0 18px 48px rgba(15,27,51,.14), 0 4px 12px rgba(15,27,51,.08);
+
+  /* Type */
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+               "Noto Sans SC", "Microsoft YaHei", system-ui, "Segoe UI", sans-serif;
+  --font-serif: "PingFang SC", "Source Han Serif SC", "Noto Serif SC", "Songti SC",
+                 "STSong", Georgia, serif;
+  --font-mono: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+
+  --tracking-tight: -0.012em;
+  --tracking-wide: 0.04em;
+
+  /* Reading body */
+  --read-size: 15px;
+  --read-leading: 1.78;
+  --read-width: 720px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+}
+
+/* Eye-care (paper) */
+.theme-paper {
+  --bg-page: #f3eede;
+  --bg-surface: #fbf6e7;
+  --bg-sunken: #f5efdc;
+  --bg-sidebar: #f7f1de;
+  --bg-rail: #f6f0dc;
+  --line: #e2d8b8;
+  --line-soft: #ebe2c4;
+  --line-strong: #d2c69e;
+  --ink-1: #2d2616;
+  --ink-2: #5a4f30;
+  --ink-3: #8a7d56;
+  --ink-4: #ae9f74;
+  --primary: #6c5d2a;
+  --primary-700: #564921;
+  --primary-100: #efe6c2;
+  --primary-050: #f5edcd;
+  --freq-hi-fg: #8a3517;
+  --freq-hi-bg: #f4dec8;
+  --freq-hi-bd: #e7c399;
+  --freq-mid-fg: #4a4214;
+  --freq-mid-bg: #efe6bf;
+  --freq-mid-bd: #ddd098;
+  --freq-low-fg: #4d5b2d;
+  --freq-low-bg: #ecead0;
+  --heat-0: #eee5c5;
+  --heat-1: #e3d6a8;
+  --heat-2: #d4c389;
+  --heat-3: #b8a361;
+  --heat-4: #8e7937;
+  --heat-5: #6c5d2a;
+}
+
+/* Dark */
+.theme-dark {
+  --bg-page: #0e131c;
+  --bg-surface: #161c28;
+  --bg-sunken: #131824;
+  --bg-sidebar: #131826;
+  --bg-rail: #131826;
+  --line: #232a39;
+  --line-soft: #1c2230;
+  --line-strong: #2c3548;
+  --ink-1: #e7ecf6;
+  --ink-2: #b8c1d3;
+  --ink-3: #8593aa;
+  --ink-4: #5d6a82;
+  --primary: #6e95ff;
+  --primary-700: #557aef;
+  --primary-300: #94afff;
+  --primary-100: #1c2a4d;
+  --primary-050: #161f3a;
+  --freq-hi-fg: #f0a18f;
+  --freq-hi-bg: #3a1f17;
+  --freq-hi-bd: #5a2d20;
+  --freq-mid-fg: #a3bdff;
+  --freq-mid-bg: #1c2a4d;
+  --freq-mid-bd: #2c3a64;
+  --freq-low-fg: #8fc1ad;
+  --freq-low-bg: #19281f;
+  --freq-low-bd: #294431;
+  --heat-0: #1a2230;
+  --heat-1: #1f2c45;
+  --heat-2: #28395f;
+  --heat-3: #36507f;
+  --heat-4: #4a6cae;
+  --heat-5: #6e95ff;
+  --success: #5cc795;
+  --success-bg: #15281f;
+  --shadow-1: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-2: 0 6px 18px rgba(0,0,0,.45);
+  --shadow-pop: 0 18px 48px rgba(0,0,0,.55);
+}
+
+/* ─── Artboard scaffolding ─── */
+.ab {
+  font-family: var(--font-sans);
+  color: var(--ink-1);
+  background: var(--bg-page);
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  letter-spacing: var(--tracking-tight);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum" 1, "ss01" 1;
+}
+.ab * { box-sizing: border-box; }
+.ab a { color: inherit; text-decoration: none; }
+
+/* shared chips/buttons */
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  height: 22px; padding: 0 8px;
+  border-radius: 999px;
+  font-size: 11.5px; font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.chip-hi  { color: var(--freq-hi-fg);  background: var(--freq-hi-bg);  box-shadow: inset 0 0 0 1px var(--freq-hi-bd); }
+.chip-mid { color: var(--freq-mid-fg); background: var(--freq-mid-bg); box-shadow: inset 0 0 0 1px var(--freq-mid-bd); }
+.chip-low { color: var(--freq-low-fg); background: var(--freq-low-bg); box-shadow: inset 0 0 0 1px var(--freq-low-bd); }
+.chip-ghost { color: var(--ink-3); background: transparent; box-shadow: inset 0 0 0 1px var(--line); }
+.chip-solid { color: #fff; background: var(--primary); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  height: 32px; padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--bg-surface);
+  color: var(--ink-1);
+  font-size: 13px; font-weight: 500;
+  cursor: pointer;
+}
+.btn-primary { background: var(--primary); color: #fff; border-color: transparent; }
+.btn-primary:hover { background: var(--primary-700); }
+.btn-ghost { background: transparent; border-color: transparent; color: var(--ink-2); }
+
+.kbd {
+  display: inline-flex; align-items: center;
+  height: 18px; min-width: 18px; padding: 0 5px;
+  border-radius: 4px;
+  background: var(--bg-sunken);
+  border: 1px solid var(--line);
+  font: 11px var(--font-mono);
+  color: var(--ink-3);
+}
+
+.divider { height: 1px; background: var(--line); }
+
+.muted { color: var(--ink-3); }
+.dim   { color: var(--ink-4); }
+
+/* utility text */
+.eyebrow {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+/* scrollbar hide inside artboards */
+.ab ::-webkit-scrollbar { display: none; }
+.ab { scrollbar-width: none; }
