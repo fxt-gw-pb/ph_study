@@ -670,10 +670,11 @@
       if (/应用|案例/.test(t)) return '应用/案例';
       if (/填空/.test(t)) return '填空';
       if (/实验操作/.test(t)) return '实验操作';
+      if (/口试/.test(t)) return '口试';
       if (/复习题|附录/.test(t)) return '其他';
       return '其他';
     }
-    const baseTypes = ['名解', '单选', '多选', '简答', '论述', '应用/案例', '填空', '实验操作', '其他'];
+    const baseTypes = ['名解', '单选', '多选', '简答', '论述', '应用/案例', '填空', '实验操作', '口试', '其他'];
 
     let list = all.slice();
     if (yearF) list = list.filter(q => q.year === yearF);
