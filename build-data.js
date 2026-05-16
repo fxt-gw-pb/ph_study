@@ -15,8 +15,9 @@ const SRC = path.join(REPO, '知识仓库');
 const TARGETS = [
   // Occupational Health — the original site data (legacy window.SITE_DATA).
   { md: '职业卫生学往年题考点整理.md', json: 'data.json',    js: 'site-data.js', varName: 'SITE_DATA' },
-  // Toxicology — second real subject (window.TOX_SITE_DATA).
-  { md: '毒理学往年题考点整理.md',     json: 'tox-data.json', js: 'tox-data.js',  varName: 'TOX_SITE_DATA' },
+  // Toxicology — second real subject (window.TOX_SITE_DATA). Its excerpts are
+  // long unbroken blocks; break them at sentence terminators for readability.
+  { md: '毒理学往年题考点整理.md',     json: 'tox-data.json', js: 'tox-data.js',  varName: 'TOX_SITE_DATA', breakExcerpt: true },
 ];
 
 const CHAPTER_NUM_TO_ID = {
@@ -43,7 +44,21 @@ function cleanChapterTitle(raw) {
   return t;
 }
 
-function parse(md) {
+// Insert a line break after every sentence terminator (。！？, plus any
+// trailing closing quotes/brackets that belong to it), so long excerpt
+// paragraphs read one sentence per line. Operates per existing line so
+// paragraph breaks (blank lines) are preserved; the trailing terminator of
+// a line gets no extra break.
+function breakSentences(text) {
+  return text.split('\n').map(seg => {
+    if (!seg.trim()) return seg;
+    return seg
+      .replace(/([。！？]+[”’」』）)】》]*)/g, '$1\n')
+      .replace(/\n+$/, '');
+  }).join('\n').replace(/\n{3,}/g, '\n\n');
+}
+
+function parse(md, opts = {}) {
   const lines = md.split(/\r?\n/);
   const chapters = [];
   let curCh = null;
@@ -54,7 +69,9 @@ function parse(md) {
   function flushBuf() {
     if (!curKP || !mode) { buf = []; return; }
     if (mode === 'excerpt') {
-      curKP.excerpt = buf.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+      let ex = buf.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+      if (opts.breakExcerpt) ex = breakSentences(ex);
+      curKP.excerpt = ex;
     } else if (mode === 'questions') {
       // Parse 【...】blocks; each followed by question text until next 【 or end.
       const text = buf.join('\n').trim();
@@ -225,7 +242,7 @@ for (const t of TARGETS) {
     console.warn(`SKIP ${t.md} — not found`);
     continue;
   }
-  const data = parse(fs.readFileSync(mdPath, 'utf8'));
+  const data = parse(fs.readFileSync(mdPath, 'utf8'), { breakExcerpt: t.breakExcerpt });
   const jsonPath = path.join(REPO, t.json);
   const jsPath = path.join(REPO, t.js);
   fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));

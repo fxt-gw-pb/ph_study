@@ -21,7 +21,7 @@
           "freq": 12,
           "section": "三、Basic Concepts of Toxicology /《1 绪论》第25页\"效应和反应\"、第27页\"剂量–效应（反应）关系的类型\"",
           "basis": "多年口试反复直接考\"dose-response relationship 的概念和毒理学意义、S 型曲线的意义\"\"剂量反应关系、剂量效应关系、S 型曲线的解释和意义\"，语义完全对应本小节。",
-          "excerpt": "效应（effect）指接触的外源化学物所引起的生物学改变。此种变化的程度用计量单位来表示。毒效应是化学物质对机体所致的不可逆或有害的生物学改变。反应（response）指接触的外源化学物的群体中出现某种效应的个体在群体中所占比例，一般以百分率或比值表示。\n\n剂量–效应（反应）关系的类型：1. 直线型；2. 抛物线型（先陡峭后平缓的对数曲线）；3. S形曲线，在外源化学物的剂量–反应关系中较为常见，呈两端平缓中间陡峭的\"S\"形，即在低剂量范围内随着剂量增加反应或效应强度增高较为缓慢，然后剂量较高时反应或效应强度也随之急速增加，但当剂量继续增加时反应或效应强度增高又趋向缓慢。可分为对称S形曲线和非对称S形曲线两种形式。",
+          "excerpt": "效应（effect）指接触的外源化学物所引起的生物学改变。\n此种变化的程度用计量单位来表示。\n毒效应是化学物质对机体所致的不可逆或有害的生物学改变。\n反应（response）指接触的外源化学物的群体中出现某种效应的个体在群体中所占比例，一般以百分率或比值表示。\n\n剂量–效应（反应）关系的类型：1. 直线型；2. 抛物线型（先陡峭后平缓的对数曲线）；3. S形曲线，在外源化学物的剂量–反应关系中较为常见，呈两端平缓中间陡峭的\"S\"形，即在低剂量范围内随着剂量增加反应或效应强度增高较为缓慢，然后剂量较高时反应或效应强度也随之急速增加，但当剂量继续增加时反应或效应强度增高又趋向缓慢。\n可分为对称S形曲线和非对称S形曲线两种形式。",
           "questions": [
             {
               "n": 1,
@@ -59,7 +59,7 @@
           "freq": 12,
           "section": "二、Methods in Toxicology Study /《1 绪论》第12–14页、第45页",
           "basis": "\"毒理学主要研究方法的优缺点\"\"四种毒理学方法的优缺点\"\"各种毒理学研究方法的优缺点\"反复出现，对应本小节四种研究方法的优缺点比较表。",
-          "excerpt": "1 In vivo study in experimental animals：Advantages——化学物在实验动物产生的作用大多数情况下可以外推于人；易于控制暴露条件；能评价宿主特征的作用（如性别、年龄、遗传特征等）。Disadvantages——实验动物和人对外源化学物的反应敏感性不同，有时甚至存在着质的差别；暴露的浓度和时间的模式不同于人群的暴露；动物保护和动物福利的压力。\n\n2 In vitro study：Advantages——影响因素少，易于控制；可进行深入的研究（如机制、代谢）；人力物力花费较少。Disadvantages——不能全面反映毒作用；难以观察慢性毒作用。\n\n3 Human clinical study：Advantages——控制暴露条件；直接获得人体毒性资料。Disadvantages——伦理限制；限于暂时、微小、可逆的效应；一般不适于研究敏感的人群。\n\n4 Epidemiologic study in population：Advantages——真实的暴露条件；涵盖全部的人敏感性。Disadvantages——有混杂暴露；多为回顾性。",
+          "excerpt": "1 In vivo study in experimental animals：Advantages——化学物在实验动物产生的作用大多数情况下可以外推于人；易于控制暴露条件；能评价宿主特征的作用（如性别、年龄、遗传特征等）。\nDisadvantages——实验动物和人对外源化学物的反应敏感性不同，有时甚至存在着质的差别；暴露的浓度和时间的模式不同于人群的暴露；动物保护和动物福利的压力。\n\n2 In vitro study：Advantages——影响因素少，易于控制；可进行深入的研究（如机制、代谢）；人力物力花费较少。\nDisadvantages——不能全面反映毒作用；难以观察慢性毒作用。\n\n3 Human clinical study：Advantages——控制暴露条件；直接获得人体毒性资料。\nDisadvantages——伦理限制；限于暂时、微小、可逆的效应；一般不适于研究敏感的人群。\n\n4 Epidemiologic study in population：Advantages——真实的暴露条件；涵盖全部的人敏感性。\nDisadvantages——有混杂暴露；多为回顾性。",
           "questions": [
             {
               "n": 1,
@@ -115,7 +115,7 @@
           "freq": 11,
           "section": "一、Categories of Toxicology /《1 绪论》第8–10页、第45页",
           "basis": "\"毒理学研究范畴\"\"毒理学的领域及相互联系\"\"毒理学研究范畴和关系\"反复出现，对应描述、机制、管理三大范畴及基础毒理学与各分支关系。",
-          "excerpt": "Descriptive 描述毒理学：通过各种毒性试验研究环境因素的毒作用特征。以期为安全性评价和管理法规与措施的制订提供基础资料。Mechanistic 机制毒理学：研究环境因素对生物体毒作用的细胞、分子以及生化机制。Regulatory 管理毒理学：依据描述和机制毒理学对毒作用规律的研究成果，协助政府部门制订相关法规条例和管理措施并付诸实施，以确保对化学品、药品、食品等进行有效的管理，保障接触人群的健康和环境安全。\n\n（基础毒理学与各分支以及相关学科的关系：环境和职业毒理学、食品毒理学、药物毒理学；基础毒理涉及遗传学、系统毒理、细胞与分子毒理、生化、分子生物、生理、病理、免疫。）",
+          "excerpt": "Descriptive 描述毒理学：通过各种毒性试验研究环境因素的毒作用特征。\n以期为安全性评价和管理法规与措施的制订提供基础资料。\nMechanistic 机制毒理学：研究环境因素对生物体毒作用的细胞、分子以及生化机制。\nRegulatory 管理毒理学：依据描述和机制毒理学对毒作用规律的研究成果，协助政府部门制订相关法规条例和管理措施并付诸实施，以确保对化学品、药品、食品等进行有效的管理，保障接触人群的健康和环境安全。\n\n（基础毒理学与各分支以及相关学科的关系：环境和职业毒理学、食品毒理学、药物毒理学；基础毒理涉及遗传学、系统毒理、细胞与分子毒理、生化、分子生物、生理、病理、免疫。）",
           "questions": [
             {
               "n": 1,
@@ -159,7 +159,7 @@
           "freq": 10,
           "section": "三、Basic Concepts of Toxicology /《1 绪论》第29–30页",
           "basis": "\"biomarker 的概念、分类、毒理学意义\"反复出现，完全对应生物学标志定义及接触/效应/易感性三类标志。",
-          "excerpt": "生物学标志（biomarker）：指可反映外源化学物通过生物学屏障进入组织或体液（其原型及其代谢产物）以及引起的生物学后果（包括可测量的细胞、生化组分、结构及功能的改变和行为改变）的指标。\n\n接触生物学标志（biomarker of exposure）：在组织、体液或排泄物中测定的外源化学物或其代谢物，以及生物体内测定的外源化学物或其代谢物与靶分子或靶细胞之间相互作用的产物。可提供有关化学物质暴露的信息，可用于预测个体所接受的化学物质剂量，并能与导致的损害相关联。效应生物学标志（biomarker of effect）：在生物体内可测量的生化、生理、行为、病理组织学或其他方面的变化。易感性生物学标志（biomarker of susceptibility）：可反映机体对化学物质毒作用敏感程度的生理或生化状态改变的指标，对于易感人群的鉴定、区分和保护具有重要的意义。",
+          "excerpt": "生物学标志（biomarker）：指可反映外源化学物通过生物学屏障进入组织或体液（其原型及其代谢产物）以及引起的生物学后果（包括可测量的细胞、生化组分、结构及功能的改变和行为改变）的指标。\n\n接触生物学标志（biomarker of exposure）：在组织、体液或排泄物中测定的外源化学物或其代谢物，以及生物体内测定的外源化学物或其代谢物与靶分子或靶细胞之间相互作用的产物。\n可提供有关化学物质暴露的信息，可用于预测个体所接受的化学物质剂量，并能与导致的损害相关联。\n效应生物学标志（biomarker of effect）：在生物体内可测量的生化、生理、行为、病理组织学或其他方面的变化。\n易感性生物学标志（biomarker of susceptibility）：可反映机体对化学物质毒作用敏感程度的生理或生化状态改变的指标，对于易感人群的鉴定、区分和保护具有重要的意义。",
           "questions": [
             {
               "n": 1,
@@ -209,7 +209,7 @@
           "freq": 10,
           "section": "三、Basic Concepts of Toxicology /《1 绪论》第22页\"致死剂量\"、第23页\"LOAEL/NOAEL/阈剂量\"",
           "basis": "\"阈值（threshold）的概念和毒理学意义\"\"NOAEL和LOAEL的概念和意义\"\"threshold dose、NOAEL、LOAEL定义及毒理学意义\"反复出现，对应本小节各毒性参数定义；致死参数定义亦出自本页。",
-          "excerpt": "绝对致死剂量（LD100）：能引起一组观察生物体全部死亡的最低剂量。最小致死剂量（MLD）：在一个观察群体中，仅引起个别生物体发生死亡的最低剂量。最大耐受剂量（MTD，LD0）：在一个观察群体中，不引起生物体死亡的最高剂量。半数致死剂量（LD50）：在一个观察群体中能引起50%生物体死亡的剂量。它是依据实验数据，经过计算得到的一个统计值。\n\n观察到有害作用的最低剂量（LOAEL）：通过实验和观察，引起机体某种有害改变的最低剂量。最大未观察到有害作用剂量（NOAEL）：通过实验和观察，以现有的技术手段和检测指标，未观察到与受试物有关的毒性作用的最大剂量。阈剂量（threshold dose）：化学物质引起受试对象中的少数个体出现某种最轻微的异常改变的最低剂量。",
+          "excerpt": "绝对致死剂量（LD100）：能引起一组观察生物体全部死亡的最低剂量。\n最小致死剂量（MLD）：在一个观察群体中，仅引起个别生物体发生死亡的最低剂量。\n最大耐受剂量（MTD，LD0）：在一个观察群体中，不引起生物体死亡的最高剂量。\n半数致死剂量（LD50）：在一个观察群体中能引起50%生物体死亡的剂量。\n它是依据实验数据，经过计算得到的一个统计值。\n\n观察到有害作用的最低剂量（LOAEL）：通过实验和观察，引起机体某种有害改变的最低剂量。\n最大未观察到有害作用剂量（NOAEL）：通过实验和观察，以现有的技术手段和检测指标，未观察到与受试物有关的毒性作用的最大剂量。\n阈剂量（threshold dose）：化学物质引起受试对象中的少数个体出现某种最轻微的异常改变的最低剂量。",
           "questions": [
             {
               "n": 1,
@@ -253,7 +253,7 @@
           "freq": 9,
           "section": "三、Basic Concepts of Toxicology /《1 绪论》第19页\"安全限值\"\"安全系数\"、第20页\"ADI/RfD/MAC\"",
           "basis": "\"安全限值和安全系数概念、意义\"\"safety limit value和safety factor\"反复出现，对应本小节定义及安全系数 100 的来源。",
-          "excerpt": "安全限值：对各种有害因素规定的接触限量要求，在低于此接触量时，根据现有的知识，不会观察到任何直接和/或间接的有害作用。通常通过最大未观察到有害作用剂量（NOAEL）除以安全系数计算得出。\n\n安全系数（safety factor）：是考虑到动物试验结果外推到人群时的不确定性及人群毒性资料本身所包含的不确定因素，确定的安全性界限范围。动物试验外推到人通常有三种基本的方法：利用不确定系数（安全系数）；利用药物动力学外推；利用数学模型。安全系数一般采用100，为物种间差异（10）和个体间差异（10）的积。\n\n每日容许摄入量（ADI）：以体重表达的每日容许摄入量，以此量终生摄入无可测量的健康危险性（标准人为60kg）。参考剂量（RfD）/参考浓度（RfC）：人群（包括敏感亚群）终身暴露于该水平时，预期在一生中发生非致癌（或非致突变）性有害效应的危险度很低。最高容许浓度（MAC）：指某一外源化学物可以在环境中存在而不致对人体造成任何损害作用的浓度。",
+          "excerpt": "安全限值：对各种有害因素规定的接触限量要求，在低于此接触量时，根据现有的知识，不会观察到任何直接和/或间接的有害作用。\n通常通过最大未观察到有害作用剂量（NOAEL）除以安全系数计算得出。\n\n安全系数（safety factor）：是考虑到动物试验结果外推到人群时的不确定性及人群毒性资料本身所包含的不确定因素，确定的安全性界限范围。\n动物试验外推到人通常有三种基本的方法：利用不确定系数（安全系数）；利用药物动力学外推；利用数学模型。\n安全系数一般采用100，为物种间差异（10）和个体间差异（10）的积。\n\n每日容许摄入量（ADI）：以体重表达的每日容许摄入量，以此量终生摄入无可测量的健康危险性（标准人为60kg）。\n参考剂量（RfD）/参考浓度（RfC）：人群（包括敏感亚群）终身暴露于该水平时，预期在一生中发生非致癌（或非致突变）性有害效应的危险度很低。\n最高容许浓度（MAC）：指某一外源化学物可以在环境中存在而不致对人体造成任何损害作用的浓度。",
           "questions": [
             {
               "n": 1,
@@ -291,7 +291,7 @@
           "freq": 9,
           "section": "四、Progress in Toxicology /《1 绪论》第39–42页",
           "basis": "\"毒理学替代实验的意义及方法\"\"替代法的概念和具体方法\"\"毒理学中替代法的概念及其应用（3R原则里的替代）\"反复出现，对应本小节。",
-          "excerpt": "3Rs Rules：在生物医学实验中减少（reduction）、替代（replacement）和优化（refinement）使用实验动物。\n\nToxicology alternatives：在毒理学研究中用组织学、胚胎学、细胞学或计算机等方法取代整体动物实验，以低等动物取代高等级动物等。替代法的基本方法：体外技术及人类模型的使用（培养的细胞、组织、器官）；低等物种的利用（如植物、细菌、真菌、昆虫、软体动物、早期发育阶段脊椎动物）；物理化学方法与计算机的使用（定量结构-活性关系 QSAR——毒性预测评价）。ECVAM验证并被OECD列入测试指南的急性毒性替代方法：固定剂量法、急性毒性分级法、上/下移动法。",
+          "excerpt": "3Rs Rules：在生物医学实验中减少（reduction）、替代（replacement）和优化（refinement）使用实验动物。\n\nToxicology alternatives：在毒理学研究中用组织学、胚胎学、细胞学或计算机等方法取代整体动物实验，以低等动物取代高等级动物等。\n替代法的基本方法：体外技术及人类模型的使用（培养的细胞、组织、器官）；低等物种的利用（如植物、细菌、真菌、昆虫、软体动物、早期发育阶段脊椎动物）；物理化学方法与计算机的使用（定量结构-活性关系 QSAR——毒性预测评价）。\nECVAM验证并被OECD列入测试指南的急性毒性替代方法：固定剂量法、急性毒性分级法、上/下移动法。",
           "questions": [
             {
               "n": 1,
@@ -323,7 +323,7 @@
           "freq": 8,
           "section": "四、Progress in Toxicology /《1 绪论》第31–43页、第46页",
           "basis": "\"毒理学发展的趋势和新领域\"\"现代毒理学的新领域及发展趋势\"\"替代毒理学的概念和主要方法\"等，对应本小节六个发展趋势。",
-          "excerpt": "毒理学发展趋势：毒理学研究规范化和标准化（GLP成为法规毒理学研究必备条件）；组学技术的应用和系统毒理学的发展；毒性测试策略的转变（Toxicity Testing in the 21st Century，将以整体动物试验为基础的传统毒性测试转变到主要以体外毒性试验为主）；3Rs在毒理学研究中的应用；计算/预测毒理学；转化毒理学。\n\n系统毒理学：通过生物信息学和计算毒理学技术整合机体暴露后在不同剂量、不同时间的基因表达谱、蛋白质表达谱和毒物代谢谱的改变等分子、细胞、组织等不同研究层次的高通量信息，结合传统毒理学的研究资料，系统研究外源性化学物和环境应激等与机体的交互作用。转化毒理学：研究如何将毒理学基础研究成果迅速有效地转化为可在公共卫生与预防医学实际工作中应用的理论、技术和方法。",
+          "excerpt": "毒理学发展趋势：毒理学研究规范化和标准化（GLP成为法规毒理学研究必备条件）；组学技术的应用和系统毒理学的发展；毒性测试策略的转变（Toxicity Testing in the 21st Century，将以整体动物试验为基础的传统毒性测试转变到主要以体外毒性试验为主）；3Rs在毒理学研究中的应用；计算/预测毒理学；转化毒理学。\n\n系统毒理学：通过生物信息学和计算毒理学技术整合机体暴露后在不同剂量、不同时间的基因表达谱、蛋白质表达谱和毒物代谢谱的改变等分子、细胞、组织等不同研究层次的高通量信息，结合传统毒理学的研究资料，系统研究外源性化学物和环境应激等与机体的交互作用。\n转化毒理学：研究如何将毒理学基础研究成果迅速有效地转化为可在公共卫生与预防医学实际工作中应用的理论、技术和方法。",
           "questions": [
             {
               "n": 1,
@@ -393,7 +393,7 @@
           "freq": 6,
           "section": "一、Definition of Toxicology /《1 绪论》第4–5页（并见《9 化学致癌作用》第4页）",
           "basis": "\"毒理学研究内容包括化学物质和生物机体的交互作用，其研究内容包括（指毒效学和毒动学）\"\"毒理学的主要研究内容（书上的内容）\"，对应毒理学定义与研究内容。",
-          "excerpt": "毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学。Toxicology is a scientific discipline involving in the study of adverse effects of environmental agents on living organisms and ecosystem and the mechanisms of its action. It is vitally important for the food safety, drug safety and environment safety.\n\n（《9 化学致癌作用》第4页：化学物质与生物机体的有害交互作用——外源化学物经暴露、吸收、分布、代谢、排泄形成终毒物，作用于靶器官；毒动学、毒效学；化学结构、毒性、交互作用、毒效应。）",
+          "excerpt": "毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学。\nToxicology is a scientific discipline involving in the study of adverse effects of environmental agents on living organisms and ecosystem and the mechanisms of its action. It is vitally important for the food safety, drug safety and environment safety.\n\n（《9 化学致癌作用》第4页：化学物质与生物机体的有害交互作用——外源化学物经暴露、吸收、分布、代谢、排泄形成终毒物，作用于靶器官；毒动学、毒效学；化学结构、毒性、交互作用、毒效应。）",
           "questions": [
             {
               "n": 1,
@@ -425,7 +425,7 @@
           "freq": 1,
           "section": "三、Basic Concepts of Toxicology /《1 绪论》第21页\"治疗指数\"",
           "basis": "07级口试关于 LD50 意义中含\"计算药物的治疗指数（LD50/ED50）\"，单列以备复习；本知识点在课件中明确。",
-          "excerpt": "治疗指数（The Therapeutic Index，TI）：T.I.=LD50/ED50。对于药物，常用治疗指数来计算其安全性，TI越大安全性越高。但治疗指数不够完善，没考虑药物最大有效量时的毒性和剂量—反应曲线斜率。故用安全界限来评价药物的安全性比治疗指数更佳。",
+          "excerpt": "治疗指数（The Therapeutic Index，TI）：T.I.=LD50/ED50。\n对于药物，常用治疗指数来计算其安全性，TI越大安全性越高。\n但治疗指数不够完善，没考虑药物最大有效量时的毒性和剂量—反应曲线斜率。\n故用安全界限来评价药物的安全性比治疗指数更佳。",
           "questions": [
             {
               "n": 1,
@@ -457,7 +457,7 @@
           "freq": 8,
           "section": "六、实验动物的选择和处理 /《2 毒理学实验基础》第29页\"实验动物物种的选择基本原则\"、第35页\"个体选择\"",
           "basis": "\"毒理学实验动物选择原则\"\"实验动物的选择\"\"动物实验，如何选动物（实验那一章）\"反复出现，对应本小节。",
-          "excerpt": "（一）实验动物物种的选择基本原则：①对受试物在代谢、生物化学和毒理学特征与人最接近的物种；②敏感的物种；③自然寿命不太长的物种；④易于饲养和实验操作的物种；经济并易于获得的物种。\n\n（二）实验动物品系的选择：近交系、杂交群动物、封闭群。（三）对实验动物微生物控制的选择：Ⅰ级普通动物、Ⅱ级清洁动物、Ⅲ级无特定病原体动物（SPF）、Ⅳ级无菌动物。（四）个体选择：①性别；②年龄和体重；③生理状态；④健康状况。",
+          "excerpt": "（一）实验动物物种的选择基本原则：①对受试物在代谢、生物化学和毒理学特征与人最接近的物种；②敏感的物种；③自然寿命不太长的物种；④易于饲养和实验操作的物种；经济并易于获得的物种。\n\n（二）实验动物品系的选择：近交系、杂交群动物、封闭群。\n（三）对实验动物微生物控制的选择：Ⅰ级普通动物、Ⅱ级清洁动物、Ⅲ级无特定病原体动物（SPF）、Ⅳ级无菌动物。\n（四）个体选择：①性别；②年龄和体重；③生理状态；④健康状况。",
           "questions": [
             {
               "n": 1,
@@ -513,7 +513,7 @@
           "freq": 7,
           "section": "八、毒作用的影响因素 /《2 毒理学实验基础》第51–67页（第53页化学结构、第56页理化性质、第60–67页综合）",
           "basis": "\"影响化学物毒效应的因素\"\"影响毒作用效应的因素\"\"毒作用的影响因素\"\"影响毒性作用的因素\"反复出现，对应本小节。",
-          "excerpt": "化学结构对其毒性的影响：同系物的碳原子数（碳原子数愈多毒性愈大，甲醇与甲醛除外，超过7～9个时毒性反而迅速下降）；取代基团；分子中不饱和键；构型异构（顺反异构和手性异构）。\n\n化学物的理化性质：溶解度（水溶性愈大毒性愈大；脂溶性物质易在脂肪中蓄积，易侵犯神经系统）；挥发度；分散度；纯度和杂质。其余影响因素综合包括：暴露（途径、时间/频率、溶剂、稀释度、交叉暴露、联合暴露）；机体个体因素（遗传因素、性别、年龄、生理状态、营养/习惯、疾病）；物种、品系；环境条件（气温、气湿等）。",
+          "excerpt": "化学结构对其毒性的影响：同系物的碳原子数（碳原子数愈多毒性愈大，甲醇与甲醛除外，超过7～9个时毒性反而迅速下降）；取代基团；分子中不饱和键；构型异构（顺反异构和手性异构）。\n\n化学物的理化性质：溶解度（水溶性愈大毒性愈大；脂溶性物质易在脂肪中蓄积，易侵犯神经系统）；挥发度；分散度；纯度和杂质。\n其余影响因素综合包括：暴露（途径、时间/频率、溶剂、稀释度、交叉暴露、联合暴露）；机体个体因素（遗传因素、性别、年龄、生理状态、营养/习惯、疾病）；物种、品系；环境条件（气温、气湿等）。",
           "questions": [
             {
               "n": 1,
@@ -551,7 +551,7 @@
           "freq": 7,
           "section": "七、实验动物处死及生物标本采集 /《2 毒理学实验基础》第47页（并见《6 亚慢性和慢性毒性试验》第23–25页\"脏器相对重量（脏器系数）\"）",
           "basis": "\"脏器系数的概念意义和影响因素\"\"脏器系数意义及影响因素\"反复出现，对应本小节大体解剖称重计算脏器系数及亚慢性章节脏器系数定义。",
-          "excerpt": "大体解剖在实验动物处死后半小时内进行，解剖方法采用胸腔、腹腔脏器联合取出法。应观察有关脏器的外形和表面情况、颜色、边界和大小、质地、切面。对指定的脏器称重，并计算脏器系数。\n\n（《6 亚慢性和慢性毒性试验》第23页）脏器相对重量（脏器系数）概念：脏器重与体重比值（脏体比），脏器重与脑重比值（脏脑比）。",
+          "excerpt": "大体解剖在实验动物处死后半小时内进行，解剖方法采用胸腔、腹腔脏器联合取出法。\n应观察有关脏器的外形和表面情况、颜色、边界和大小、质地、切面。\n对指定的脏器称重，并计算脏器系数。\n\n（《6 亚慢性和慢性毒性试验》第23页）脏器相对重量（脏器系数）概念：脏器重与体重比值（脏体比），脏器重与脑重比值（脏脑比）。",
           "questions": [
             {
               "n": 1,
@@ -639,7 +639,7 @@
           "freq": 6,
           "section": "四、毒理学试验设计 /《2 毒理学实验基础》第20页\"对照组问题\"",
           "basis": "\"对照的种类和意义\"\"毒理学试验的四种对照及意义\"\"对照组的类型和意义\"直接对应本小节；18级回忆文件给出了完整答案。",
-          "excerpt": "①未处理对照组（空白对照组）：确定本底值，进行质量控制（常用于遗传毒理学试验）；②阴性（溶剂）对照：是染毒组比较的基础；③阳性对照：检测试验体系的有效性；④历史性对照：检测试验体系的稳定性。毒理学实践的基本手段之一就是比较分析。",
+          "excerpt": "①未处理对照组（空白对照组）：确定本底值，进行质量控制（常用于遗传毒理学试验）；②阴性（溶剂）对照：是染毒组比较的基础；③阳性对照：检测试验体系的有效性；④历史性对照：检测试验体系的稳定性。\n毒理学实践的基本手段之一就是比较分析。",
           "questions": [
             {
               "n": 1,
@@ -721,7 +721,7 @@
           "freq": 6,
           "section": "二、毒理学实验的原则和局限性 /《2 毒理学实验基础》第8页（并见《1 绪论》第47页 Review Question 1）",
           "basis": "\"将动物实验结果外推到人有哪些不确定性，如何消除这些不确定性\"\"动物毒理试验外推的不确定性\"直接对应本小节及绪论复习题。",
-          "excerpt": "不确定性：用实验动物的毒理学试验资料外推到人群接触的安全性时，会有很大的不确定性。不确定性的产生：①实验动物和人对化学物的反应敏感性不同，有时甚至存在着质的差别；②试验中选用较大的染毒剂量，高剂量和低剂量的毒性作用规律并不一定一致；③试验所用动物数量有限，发生率很低的毒性反应在少量动物中难以发现；④实验动物一般为实验室培育品系，反应较单一。（《1 绪论》第47页 Review Question：用动物毒性测试的结果评定人体接触化学物安全性的不确定性有哪些？如何尽量避免？）",
+          "excerpt": "不确定性：用实验动物的毒理学试验资料外推到人群接触的安全性时，会有很大的不确定性。\n不确定性的产生：①实验动物和人对化学物的反应敏感性不同，有时甚至存在着质的差别；②试验中选用较大的染毒剂量，高剂量和低剂量的毒性作用规律并不一定一致；③试验所用动物数量有限，发生率很低的毒性反应在少量动物中难以发现；④实验动物一般为实验室培育品系，反应较单一。\n（《1 绪论》第47页 Review Question：用动物毒性测试的结果评定人体接触化学物安全性的不确定性有哪些？\n如何尽量避免？）",
           "questions": [
             {
               "n": 1,
@@ -753,7 +753,7 @@
           "freq": 6,
           "section": "五、受试物的准备 /《2 毒理学实验基础》第25页\"受试物的准备\"",
           "basis": "\"试验溶剂选择的原则\"\"毒理学试验溶剂的选择原则\"\"毒理实验设计中选择溶剂的原则\"直接对应本小节。",
-          "excerpt": "受试物的准备：剂型（水溶液、油溶液或混悬液）；对溶剂和助溶剂的要求——无毒，与受试物不起反应，稳定；制剂要点；染毒容积以受试的实验动物物种或制剂来确定。（受试样品准备：①纯度及杂质成分；②化学结构和理化性质；③相似化合物的毒性参考资料；④同种同一批号；⑤成分和配方必须固定；⑥稳定性受试物应一次备齐全部实验的用量。）",
+          "excerpt": "受试物的准备：剂型（水溶液、油溶液或混悬液）；对溶剂和助溶剂的要求——无毒，与受试物不起反应，稳定；制剂要点；染毒容积以受试的实验动物物种或制剂来确定。\n（受试样品准备：①纯度及杂质成分；②化学结构和理化性质；③相似化合物的毒性参考资料；④同种同一批号；⑤成分和配方必须固定；⑥稳定性受试物应一次备齐全部实验的用量。）",
           "questions": [
             {
               "n": 1,
@@ -835,7 +835,7 @@
           "freq": 4,
           "section": "九、毒理学实验结果的处理和分析 /《2 毒理学实验基础》第68–74页（并见《6 亚慢性和慢性毒性试验》第33–36页）",
           "basis": "\"毒性试验结果解释\"\"对毒理学实验结果的解释\"\"毒理学实验结果分析\"对应本小节统计学意义与生物学意义、结果判定原则。",
-          "excerpt": "认真贯彻实验设计的对照、随机和重复的原则。统计学意义和生物学意义：（1）纵向比较，此参数的改变有无剂量-反应关系；（2）横向比较，此参数的改变是否伴有其它相关参数的改变；（3）与历史性对照比较。\n\n（《6》第34页）差别是否是处理相关效应：1.明显的剂量反应关系；2.个别动物结果推测是离群值；3.测定方法有固定的不精确性；4.在正常的生物学变异范围内；5.缺乏生物学合理性。",
+          "excerpt": "认真贯彻实验设计的对照、随机和重复的原则。\n统计学意义和生物学意义：（1）纵向比较，此参数的改变有无剂量-反应关系；（2）横向比较，此参数的改变是否伴有其它相关参数的改变；（3）与历史性对照比较。\n\n（《6》第34页）差别是否是处理相关效应：1.明显的剂量反应关系；2.个别动物结果推测是离群值；3.测定方法有固定的不精确性；4.在正常的生物学变异范围内；5.缺乏生物学合理性。",
           "questions": [
             {
               "n": 1,
@@ -879,7 +879,7 @@
           "freq": 12,
           "section": "Disposition of xenobiotics: Biotransportation /《3 Biotransportation and Biotransformation_WXIAO》第7页\"Lipid-water partition coefficient\"",
           "basis": "\"脂水分配系数（英文）的概念和毒理学意义\"\"脂水分配系数在吸收、转运、排泄过程中的意义\"反复出现，与本小节完全对应；18级回忆文件给出完整答案。",
-          "excerpt": "Lipid-water partition coefficient（LWPC）：[lipid phase]/[water phase] at equilibrium（non-ionized form）。LWPC ↑ → Lipid solubility ↑ → Across biomembranes ↑ → Accumulation in lipids ↑；LWPC ↓ → Water solubility ↑ → Across biomembranes ↓ → Urinary secretion ↑。\n\n（18级回忆答案）脂/水分配系数是表示脂溶性（亲脂性）的一个重要参数，具体指当一种物质在脂相和水相中分配达到均衡时，其在脂相和水相中溶解度的比值。意义：脂/水分配系数高的化学物易于吸收，易于分布和蓄积，易经肝肠循环重吸收，不易排泄，而且多需要经历生物转化成水溶性代谢产物才能排泄。易在脂肪中蓄积，易侵犯神经系统。",
+          "excerpt": "Lipid-water partition coefficient（LWPC）：[lipid phase]/[water phase] at equilibrium（non-ionized form）。\nLWPC ↑ → Lipid solubility ↑ → Across biomembranes ↑ → Accumulation in lipids ↑；LWPC ↓ → Water solubility ↑ → Across biomembranes ↓ → Urinary secretion ↑。\n\n（18级回忆答案）脂/水分配系数是表示脂溶性（亲脂性）的一个重要参数，具体指当一种物质在脂相和水相中分配达到均衡时，其在脂相和水相中溶解度的比值。\n意义：脂/水分配系数高的化学物易于吸收，易于分布和蓄积，易经肝肠循环重吸收，不易排泄，而且多需要经历生物转化成水溶性代谢产物才能排泄。\n易在脂肪中蓄积，易侵犯神经系统。",
           "questions": [
             {
               "n": 1,
@@ -923,7 +923,7 @@
           "freq": 9,
           "section": "Barriers: protective against xenobiotics toxicity /《3 Biotransportation and Biotransformation_WXIAO》第23–24页",
           "basis": "\"简述生物屏障及毒理学意义\"\"重要的生物膜屏障举例及其毒理学意义\"\"血脑屏障和胎盘屏障的概念和毒理学意义\"反复出现，对应本小节五种屏障。",
-          "excerpt": "Barriers: protective against xenobiotics toxicity——Blood-brain barrier；Blood-cerebrospinal fluid barrier；Blood-testis barrier；Blood-placental barrier；Blood-eye barrier。\n\nBBB and BCSFB limit distribution to the brain；Active transporters determine the amount of xenobiotics in the brain；BBB is not fully developed at birth → more susceptible in newborns。Blood-placental barrier——The factors determine the permeability of the placenta: thickness, surface area, carrier systems, and lipid-protein concentration of the membranes；Active transport / Passive diffusion / Permeable size < 1 kDa / Biotransformation。",
+          "excerpt": "Barriers: protective against xenobiotics toxicity——Blood-brain barrier；Blood-cerebrospinal fluid barrier；Blood-testis barrier；Blood-placental barrier；Blood-eye barrier。\n\nBBB and BCSFB limit distribution to the brain；Active transporters determine the amount of xenobiotics in the brain；BBB is not fully developed at birth → more susceptible in newborns。\nBlood-placental barrier——The factors determine the permeability of the placenta: thickness, surface area, carrier systems, and lipid-protein concentration of the membranes；Active transport / Passive diffusion / Permeable size < 1 kDa / Biotransformation。",
           "questions": [
             {
               "n": 1,
@@ -979,7 +979,7 @@
           "freq": 9,
           "section": "Disposition of xenobiotics: Absorption /《3 Biotransportation and Biotransformation_WXIAO》第11页\"影响胃肠道对毒物吸收的因素\"",
           "basis": "\"影响消化道吸收的因素\"\"概述影响胃肠道吸收的因素\"反复出现，与本小节8项因素完全对应（往年答案另需补充环境因素气温气湿，见《2》第63页）。",
-          "excerpt": "影响胃肠道对毒物吸收的因素：1.毒物的理化性质（脂溶性等）；2.胃肠道存留食物的多少；3.毒物在胃肠道的停留时间；4.肠道的吸收面积和吸收能力；5.胃肠道局部的pH；6.胃肠道的分泌能力；7.肠道菌群；8.化学物间的相互作用（EDTA）。胃肠道经吸收的主要方式：Simple diffusion（the most common way）；Carrier transport；Cytosis（nanoparticles and particular matter）。",
+          "excerpt": "影响胃肠道对毒物吸收的因素：1.毒物的理化性质（脂溶性等）；2.胃肠道存留食物的多少；3.毒物在胃肠道的停留时间；4.肠道的吸收面积和吸收能力；5.胃肠道局部的pH；6.胃肠道的分泌能力；7.肠道菌群；8.化学物间的相互作用（EDTA）。\n胃肠道经吸收的主要方式：Simple diffusion（the most common way）；Carrier transport；Cytosis（nanoparticles and particular matter）。",
           "questions": [
             {
               "n": 1,
@@ -1017,7 +1017,7 @@
           "freq": 7,
           "section": "经呼吸道吸收（Inhalation）/《3 Biotransportation and Biotransformation_WXIAO》第14–16页",
           "basis": "\"呼吸道吸收的影响因素\"\"影响呼吸道对外源化学物吸收的因素\"反复出现，对应本小节气体/蒸气/气溶胶颗粒物吸收影响因素。",
-          "excerpt": "经呼吸道吸收（Inhalation）：Gases and vapors——Simple diffusion；Determining factors：1. Water solubility（高水溶性如SO2、Cl2在上呼吸道；低水溶性如NO2在支气管、细支气管和肺泡）；2. Reactivity（高反应性如Cl2在上呼吸道）；3. Vapor pressure；4. Blood-gas partition coefficient（BGPC，血中与肺泡中ΔC）。Aerosols and Particles（PM、SiO2、Asbestos）：Mainly via cytosis；Size决定靶位；Water solubility；Composition；Surface structure。",
+          "excerpt": "经呼吸道吸收（Inhalation）：Gases and vapors——Simple diffusion；Determining factors：1. Water solubility（高水溶性如SO2、Cl2在上呼吸道；低水溶性如NO2在支气管、细支气管和肺泡）；2. Reactivity（高反应性如Cl2在上呼吸道）；3. Vapor pressure；4. Blood-gas partition coefficient（BGPC，血中与肺泡中ΔC）。\nAerosols and Particles（PM、SiO2、Asbestos）：Mainly via cytosis；Size决定靶位；Water solubility；Composition；Surface structure。",
           "questions": [
             {
               "n": 1,
@@ -1055,7 +1055,7 @@
           "freq": 6,
           "section": "Disposition of xenobiotics（ADME）/《3 Biotransportation and Biotransformation_WXIAO》第3页、第34页（并见《4 生物转化》第2页）",
           "basis": "\"机体对外源化学物的处置过程、意义\"\"ADME过程概念及意义\"\"简述机体对外源化学物处置过程及意义\"直接对应本小节。",
-          "excerpt": "ADME: Absorption, Distribution, Metabolism, and Excretion。Biotransportation: Absorption, Distribution, and Excretion；Biotransformation: Metabolism；Elimination: Metabolism and Excretion；Toxicokinetics/Pharmacokinetics: The Quantitative characterization of xenobiotic disposition。Disposition of xenobiotics determines toxicity：External dose → Internal dose → Target dose → Toxicity。\n\n（《4 生物转化》第2页）机体对外源化学物的处置：吸收、分布、与排泄（ADE）过程为生物转运（biotransportation）；代谢（M）过程为生物转化（biotransformation）。",
+          "excerpt": "ADME: Absorption, Distribution, Metabolism, and Excretion。\nBiotransportation: Absorption, Distribution, and Excretion；Biotransformation: Metabolism；Elimination: Metabolism and Excretion；Toxicokinetics/Pharmacokinetics: The Quantitative characterization of xenobiotic disposition。\nDisposition of xenobiotics determines toxicity：External dose → Internal dose → Target dose → Toxicity。\n\n（《4 生物转化》第2页）机体对外源化学物的处置：吸收、分布、与排泄（ADE）过程为生物转运（biotransportation）；代谢（M）过程为生物转化（biotransformation）。",
           "questions": [
             {
               "n": 1,
@@ -1093,7 +1093,7 @@
           "freq": 6,
           "section": "Toxicokinetics / Kinetic models /《3 Biotransportation and Biotransformation_WXIAO》第63–69页",
           "basis": "\"经典毒动学模型与生理动力学模型的区别\"\"生理毒动学模型相较于经典毒动学的优势\"\"药物毒代动力学实验目的和实验设计\"直接对应本小节。",
-          "excerpt": "Toxicokinetics：the quantitative study of ADME of chemicals…研究内容——化学物在体内的ADME动态变化规律；毒理学研究方案的设计（剂量和染毒途径选择）；暴露-时间依赖的靶器官剂量，解释毒作用机制；将动物试验结果外推到人的安全性评价。Kinetic models：经典毒代动力学模型（Classical toxicokinetic model）与生理毒代动力学模型（PBTK）。经典模型：速率过程（零级消除、一级消除、非线性动力学）；房室模型（一/二/多房室）。构建PBTK模型所需参数：生理参数、理化参数（脂水分配系数、血气分配系数等）、热力学参数。",
+          "excerpt": "Toxicokinetics：the quantitative study of ADME of chemicals…研究内容——化学物在体内的ADME动态变化规律；毒理学研究方案的设计（剂量和染毒途径选择）；暴露-时间依赖的靶器官剂量，解释毒作用机制；将动物试验结果外推到人的安全性评价。\nKinetic models：经典毒代动力学模型（Classical toxicokinetic model）与生理毒代动力学模型（PBTK）。\n经典模型：速率过程（零级消除、一级消除、非线性动力学）；房室模型（一/二/多房室）。\n构建PBTK模型所需参数：生理参数、理化参数（脂水分配系数、血气分配系数等）、热力学参数。",
           "questions": [
             {
               "n": 1,
@@ -1131,7 +1131,7 @@
           "freq": 5,
           "section": "经皮肤吸收 /《3 Biotransportation and Biotransformation_WXIAO》第17–18页\"影响皮肤吸收的因素\"",
           "basis": "\"外源化学物经皮吸收的影响因素\"\"影响皮肤吸收的因素\"直接对应本小节（往年答案需补充环境因素气温气湿、染毒途径）。",
-          "excerpt": "影响皮肤吸收的因素：1.皮肤——角质层完整性、水份含量、厚度、面积和酸碱度；2.外源化学物——脂溶性、溶剂、分子量（<400 Da）和浓度；3.皮肤的解剖和生理特性——温度、血流量、年龄、种族和种属。大小鼠及兔的皮肤较人的皮肤更易通透；豚鼠、猪和猴子的皮肤通透性则与人相似。外源化学物通过皮肤吸收的途径：角质层吸收（大部分亲脂性毒物，简单扩散）；毛囊吸收；汗腺管吸收；破损皮肤部位吸收；真皮吸收（简单扩散）。",
+          "excerpt": "影响皮肤吸收的因素：1.皮肤——角质层完整性、水份含量、厚度、面积和酸碱度；2.外源化学物——脂溶性、溶剂、分子量（<400 Da）和浓度；3.皮肤的解剖和生理特性——温度、血流量、年龄、种族和种属。\n大小鼠及兔的皮肤较人的皮肤更易通透；豚鼠、猪和猴子的皮肤通透性则与人相似。\n外源化学物通过皮肤吸收的途径：角质层吸收（大部分亲脂性毒物，简单扩散）；毛囊吸收；汗腺管吸收；破损皮肤部位吸收；真皮吸收（简单扩散）。",
           "questions": [
             {
               "n": 1,
@@ -1157,7 +1157,7 @@
           "freq": 5,
           "section": "Target organ and storage/accumulation depot /《3 Biotransportation and Biotransformation_WXIAO》第21–23页",
           "basis": "\"storage depot的概念和毒理学意义，机体常见的storage depot有哪些\"\"贮存库概念意义\"直接对应本小节。",
-          "excerpt": "Storage depot：the site where a toxicant is accumulated but is NOT the major site of toxicity（e.g., Bone for lead and cadmium；Fat for insecticide DDT）。Toxicological significance: Friend vs. Foe——（1）buffer depot of acute toxicity；（2）releasing depot of chronic toxicity。Plasma proteins as storage depot（α1-acid glycoprotein、α/β-lipoproteins、β-globulin；Bound toxicants less toxic，Free toxicants more toxic）；Liver and Kidney as storage depots；Fat as storage depot（高亲脂性毒物，肥胖个体蓄积更多但毒性较轻，饥饿等扰动时可突然释放入血）；Bone as storage depot（F-、Pb，约90%铅存于骨）。",
+          "excerpt": "Storage depot：the site where a toxicant is accumulated but is NOT the major site of toxicity（e.g., Bone for lead and cadmium；Fat for insecticide DDT）。\nToxicological significance: Friend vs. Foe——（1）buffer depot of acute toxicity；（2）releasing depot of chronic toxicity。\nPlasma proteins as storage depot（α1-acid glycoprotein、α/β-lipoproteins、β-globulin；Bound toxicants less toxic，Free toxicants more toxic）；Liver and Kidney as storage depots；Fat as storage depot（高亲脂性毒物，肥胖个体蓄积更多但毒性较轻，饥饿等扰动时可突然释放入血）；Bone as storage depot（F-、Pb，约90%铅存于骨）。",
           "questions": [
             {
               "n": 1,
@@ -1201,7 +1201,7 @@
           "freq": 5,
           "section": "Bile acid excretion / Enterohepatic cycling /《3 Biotransportation and Biotransformation_WXIAO》第31页（并见经粪便排泄第30页）",
           "basis": "\"肠肝循环（英文）概念及意义\"\"entrohepatic recirculation的概念及毒理学意义\"直接对应本小节。",
-          "excerpt": "Enterohepatic cycling：Bile acid de novo synthesis 0.2-0.6 g/day = bile acid secretion by feces = 5% of total bile acid pool；The remaining 95% of bile acids in the pool（~3 g）are recycled 4 to 12 times/day。经粪便排泄：未吸收的化学物；胆汁排泄（大分子量化学物）；肠内排泄；肠道菌群（生物转化）。Bile acid excretion：High molecular weight conjugates（e.g. GSH-conjugated）；Rapidly excreted into bile acid（higher concentration in bile vs. plasma）。",
+          "excerpt": "Enterohepatic cycling：Bile acid de novo synthesis 0.2-0.6 g/day = bile acid secretion by feces = 5% of total bile acid pool；The remaining 95% of bile acids in the pool（~3 g）are recycled 4 to 12 times/day。\n经粪便排泄：未吸收的化学物；胆汁排泄（大分子量化学物）；肠内排泄；肠道菌群（生物转化）。\nBile acid excretion：High molecular weight conjugates（e.g. GSH-conjugated）；Rapidly excreted into bile acid（higher concentration in bile vs. plasma）。",
           "questions": [
             {
               "n": 1,
@@ -1227,7 +1227,7 @@
           "freq": 3,
           "section": "首过消除（First-pass elimination）/《3 Biotransportation and Biotransformation_WXIAO》第13页",
           "basis": "\"first-pass effect的概念和毒理学意义\"\"first pass effect概念和毒理学意义\"直接对应本小节。",
-          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。A high first-pass effect will limit exposure and minimize toxic potential。",
+          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。\nA high first-pass effect will limit exposure and minimize toxic potential。",
           "questions": [
             {
               "n": 1,
@@ -1253,7 +1253,7 @@
           "freq": 3,
           "section": "Disposition of xenobiotics: Biotransportation /《3 Biotransportation and Biotransformation_WXIAO》第5–6页、第9页\"主动转运的特点及意义\"",
           "basis": "\"跨膜转运有几种方式，主动转运的特点\"\"简述简单扩散和主动转运的特点\"直接对应本小节。",
-          "excerpt": "Passive transport（follow ΔC）：Simple diffusion（最常见，3 NOs：No ATP、No carrier、No competitive and saturability inhibition；3 Conditions：ΔC、high lipophilicity、non-ionization）、Filtration。Carrier transport：Active transport、Facilitated transport。Cytosis：Endocytosis、Exocytosis。\n\n主动转运的特点及意义：①媒介：需有载体参与；②逆浓度：外源化学物可以逆浓度梯度转运；③耗能：需消耗能量，代谢抑制剂可阻止转运；④选择性：载体对转运的外源化学物有特异选择性；⑤饱和性：转运量存在极限；⑥竞争性：同一载体转运的两种外源化学物竞争性抑制。主动转运对已吸收的外源化学物在体内的不均匀分布和排泄具有重要意义。",
+          "excerpt": "Passive transport（follow ΔC）：Simple diffusion（最常见，3 NOs：No ATP、No carrier、No competitive and saturability inhibition；3 Conditions：ΔC、high lipophilicity、non-ionization）、Filtration。\nCarrier transport：Active transport、Facilitated transport。\nCytosis：Endocytosis、Exocytosis。\n\n主动转运的特点及意义：①媒介：需有载体参与；②逆浓度：外源化学物可以逆浓度梯度转运；③耗能：需消耗能量，代谢抑制剂可阻止转运；④选择性：载体对转运的外源化学物有特异选择性；⑤饱和性：转运量存在极限；⑥竞争性：同一载体转运的两种外源化学物竞争性抑制。\n主动转运对已吸收的外源化学物在体内的不均匀分布和排泄具有重要意义。",
           "questions": [
             {
               "n": 1,
@@ -1297,7 +1297,7 @@
           "freq": 9,
           "section": "第一节 生物转化和代谢酶 /《4 生物转化》第4页\"生物转化\"、第5–6页\"生物转化的意义/结果\"、第17–18页\"代谢酶的基本特性\"",
           "basis": "\"生物转化的特点和毒理学意义\"\"生物转化概念、特点、毒理学意义\"\"生物转化特点意义化学反应类型\"反复出现，对应本小节。",
-          "excerpt": "生物转化（biotransformation）：外源化学物在机体内经多种酶催化的反应、发生化学结构改变的过程；机体对外源化学物处置的重要环节；机体维持稳态的主要机制；影响外源化学物的活性及其体内动力学。\n\n一、生物转化的意义：1、水溶性显著增加，易于从尿或粪便中排泄（也有例外，如挥发性化合物的呼出排泄）；2、改变其化学结构，引起生物效应改变——代谢灭活（metabolic inactivation，代谢产物活性降低）、代谢活化（metabolic activation，活性代谢产物发挥药效或毒效）。生物转化的结果（毒理角度）：代谢解毒（毒性降低）、代谢活化（毒性增强，生成中间产物/终毒物）。代谢酶的基本特性：底物特异性广泛；结构酶（持续少量表达）；诱导酶（外源化学物可诱导合成）；多态性；立体选择性。生物转化反应类型分Ⅰ相反应和Ⅱ相反应。",
+          "excerpt": "生物转化（biotransformation）：外源化学物在机体内经多种酶催化的反应、发生化学结构改变的过程；机体对外源化学物处置的重要环节；机体维持稳态的主要机制；影响外源化学物的活性及其体内动力学。\n\n一、生物转化的意义：1、水溶性显著增加，易于从尿或粪便中排泄（也有例外，如挥发性化合物的呼出排泄）；2、改变其化学结构，引起生物效应改变——代谢灭活（metabolic inactivation，代谢产物活性降低）、代谢活化（metabolic activation，活性代谢产物发挥药效或毒效）。\n生物转化的结果（毒理角度）：代谢解毒（毒性降低）、代谢活化（毒性增强，生成中间产物/终毒物）。\n代谢酶的基本特性：底物特异性广泛；结构酶（持续少量表达）；诱导酶（外源化学物可诱导合成）；多态性；立体选择性。\n生物转化反应类型分Ⅰ相反应和Ⅱ相反应。",
           "questions": [
             {
               "n": 1,
@@ -1353,7 +1353,7 @@
           "freq": 6,
           "section": "第三节 生物转化的影响因素 /《4 生物转化》第58页\"代谢酶的诱导、激活及抑制\"、第59–60页\"毒物代谢酶的诱导\"",
           "basis": "\"酶诱导（英文）作用的定义和意义\"\"enzyme induction（酶诱导）的概念和毒理学意义\"\"转化酶诱导的定义和毒理学意义\"直接对应本小节。",
-          "excerpt": "当代谢酶被诱导和激活：对经代谢活化的毒物，则表现出毒性增强；对经代谢转化减毒的毒物，则表现为毒性降低。当代谢酶被抑制和阻遏，则得到相反的结果。酶的诱导（induction）：有些毒物可使某些代谢酶系合成增加并伴活力增强的现象。诱导剂（inducer）：具有诱导效应的毒物（如长期饮酒，吸烟）。双功能诱导剂：苯并吡 诱导Ⅰ相和Ⅱ相代谢酶。",
+          "excerpt": "当代谢酶被诱导和激活：对经代谢活化的毒物，则表现出毒性增强；对经代谢转化减毒的毒物，则表现为毒性降低。\n当代谢酶被抑制和阻遏，则得到相反的结果。\n酶的诱导（induction）：有些毒物可使某些代谢酶系合成增加并伴活力增强的现象。\n诱导剂（inducer）：具有诱导效应的毒物（如长期饮酒，吸烟）。\n双功能诱导剂：苯并吡 诱导Ⅰ相和Ⅱ相代谢酶。",
           "questions": [
             {
               "n": 1,
@@ -1397,7 +1397,7 @@
           "freq": 5,
           "section": "第二节 生物转化反应 /《4 生物转化》第15页、第26页\"Ⅰ相反应\"、第41页\"Ⅱ相反应\"",
           "basis": "\"Ⅰ相反应和Ⅱ相反应的概念，意义\"\"一相二相反应的概念及其意义\"直接对应本小节。",
-          "excerpt": "生物转化酶催化的反应一般分为两大类：Ⅰ相反应和Ⅱ相反应。Ⅰ相反应：氧化反应、还原反应和水解反应。Ⅱ相反应（结合作用 conjugation）：毒物原有的官能团或由Ⅰ相反应引入/暴露的官能团，与内源性辅助因子反应；除甲基化和乙酰化结合反应外，Ⅱ相反应显著增加毒物的水溶性、促进其排泄；包括葡萄糖醛酸化、硫酸化、乙酰化、甲基化，与谷胱甘肽结合以及与氨基酸结合。",
+          "excerpt": "生物转化酶催化的反应一般分为两大类：Ⅰ相反应和Ⅱ相反应。\nⅠ相反应：氧化反应、还原反应和水解反应。\nⅡ相反应（结合作用 conjugation）：毒物原有的官能团或由Ⅰ相反应引入/暴露的官能团，与内源性辅助因子反应；除甲基化和乙酰化结合反应外，Ⅱ相反应显著增加毒物的水溶性、促进其排泄；包括葡萄糖醛酸化、硫酸化、乙酰化、甲基化，与谷胱甘肽结合以及与氨基酸结合。",
           "questions": [
             {
               "n": 1,
@@ -1441,7 +1441,7 @@
           "freq": 4,
           "section": "第一节 生物转化和代谢酶 /《4 生物转化》第5–6页\"生物转化的意义/结果\"、第20页\"代谢酶的种类及特点\"、第62页\"代谢酶的抑制（饱和/竞争）\"",
           "basis": "\"毒物代谢两重性和可饱和性的意义\"\"代谢的饱和性和两重性\"\"生物代谢的两重性和可饱和性，及其意义\"直接对应——两重性即代谢解毒/代谢活化双重结果，可饱和性即酶催化能力有限、可被竞争抑制。",
-          "excerpt": "生物转化的结果（毒理角度）：代谢解毒（metabolic detoxication，外源化学物经生物转化使其毒性降低）；代谢活化（metabolic activation，外源化学物经生物转化使其毒性增强，生成中间产物/终毒物）。非专一性酶（CYP450）特点：专一性低，活性有限，个体差异大，活性可受化学物影响。代谢酶的抑制可分：抑制物与酶的活性中心发生可逆或不可逆性结合；两种不同毒物在同一个酶的活性中心发生竞争性抑制；破坏酶；减少酶的合成；变构作用；缺乏辅因子。",
+          "excerpt": "生物转化的结果（毒理角度）：代谢解毒（metabolic detoxication，外源化学物经生物转化使其毒性降低）；代谢活化（metabolic activation，外源化学物经生物转化使其毒性增强，生成中间产物/终毒物）。\n非专一性酶（CYP450）特点：专一性低，活性有限，个体差异大，活性可受化学物影响。\n代谢酶的抑制可分：抑制物与酶的活性中心发生可逆或不可逆性结合；两种不同毒物在同一个酶的活性中心发生竞争性抑制；破坏酶；减少酶的合成；变构作用；缺乏辅因子。",
           "questions": [
             {
               "n": 1,
@@ -1479,7 +1479,7 @@
           "freq": 4,
           "section": "第一节 生物转化和代谢酶 /《4 生物转化》第10–12页\"终毒物\"\"外源化学物的活性形式和终毒物\"（并见《5 毒作用机制》、《3》第36页）",
           "basis": "\"终毒物的概念和分类\"\"终毒物的定义和类型\"直接对应本小节。",
-          "excerpt": "终毒物（ultimate toxicant）：直接与内源性靶分子（如受体、酶、DNA、微丝蛋白、脂质）反应并造成机体损害的化学形态。终毒物：①外源化学物本身，如尼古丁，氰化氢；②代谢活化产物；③代谢过程激发内源毒物产生，如活性氧。毒效应的强度主要取决于终毒物在其作用位点的浓度及持续时间。外源化学物生成终毒物的几种类型：①亲电子剂；②自由基；③亲核剂；④氧化还原反应物。",
+          "excerpt": "终毒物（ultimate toxicant）：直接与内源性靶分子（如受体、酶、DNA、微丝蛋白、脂质）反应并造成机体损害的化学形态。\n终毒物：①外源化学物本身，如尼古丁，氰化氢；②代谢活化产物；③代谢过程激发内源毒物产生，如活性氧。\n毒效应的强度主要取决于终毒物在其作用位点的浓度及持续时间。\n外源化学物生成终毒物的几种类型：①亲电子剂；②自由基；③亲核剂；④氧化还原反应物。",
           "questions": [
             {
               "n": 1,
@@ -1511,7 +1511,7 @@
           "freq": 3,
           "section": "第三节 生物转化的影响因素 /《4 生物转化》第54–57页",
           "basis": "\"生物转化的影响因素\"作为独立设问反复出现（常与酶诱导合并），对应本小节遗传生理、环境因素及代谢酶多态性。",
-          "excerpt": "生物转化是外源化学物毒作用的决定因素，受机体的遗传生理和环境两大类因素影响：遗传生理因素如物种、性别、遗传、年龄等，代谢酶种类、数量和活性差异（如代谢酶的多态性）；各种环境因素主要通过影响代谢酶和辅酶的合成及催化过程（如代谢酶的诱导和抑制）；其他因素如营养、疾病等。代谢酶基因多态性：外源化学物代谢酶的遗传差异是不同个体和种族间对外源化学物毒性和肿瘤易感性差异的原因之一；Ⅰ相和Ⅱ相代谢酶均存在多态性；代谢酶不同的表型——慢代谢型（PM）、中间代谢型（IM）、快代谢型（EM）、超快代谢型（UM）。",
+          "excerpt": "生物转化是外源化学物毒作用的决定因素，受机体的遗传生理和环境两大类因素影响：遗传生理因素如物种、性别、遗传、年龄等，代谢酶种类、数量和活性差异（如代谢酶的多态性）；各种环境因素主要通过影响代谢酶和辅酶的合成及催化过程（如代谢酶的诱导和抑制）；其他因素如营养、疾病等。\n代谢酶基因多态性：外源化学物代谢酶的遗传差异是不同个体和种族间对外源化学物毒性和肿瘤易感性差异的原因之一；Ⅰ相和Ⅱ相代谢酶均存在多态性；代谢酶不同的表型——慢代谢型（PM）、中间代谢型（IM）、快代谢型（EM）、超快代谢型（UM）。",
           "questions": [
             {
               "n": 1,
@@ -1555,7 +1555,7 @@
           "freq": 11,
           "section": "第二节 急性毒性作用 /《5 毒作用机制、急性毒性和局部毒性试验》第18页\"急性毒性实验及其设计要点\"（并见《1 绪论》第22–23页致死/非致死参数；18级回忆文件给出完整答案）",
           "basis": "\"急性毒性实验的参数有哪些及其意义\"\"列举急性毒性试验参数及其意义\"\"常见的急性毒性参数和意义\"反复出现，对应急性毒性上限指标与非致死性指标。",
-          "excerpt": "以死亡为终点的急性毒性实验：检测急性毒性上限指标 LD50/LC50 或近似LD50；非致死性急性毒性实验：可检测非致死性指标 LOAEL 和 NOAEL。（18级回忆答案）毒性参数可分为两类：一类为毒性上限参数（以死亡为终点）：LD100、LD50、LD01、LD0；一类为毒性下限参数（以非致死急性毒性为终点）：NOAEL、LOAEL。LD100绝对致死剂量、LD50半数致死剂量、LD01最小致死剂量、LD0/MTD最大耐受剂量；LOAEL观察到有害作用的最低水平、NOAEL未观察到有害作用水平；阈剂量为引起少数个体最轻微异常改变的最低剂量。",
+          "excerpt": "以死亡为终点的急性毒性实验：检测急性毒性上限指标 LD50/LC50 或近似LD50；非致死性急性毒性实验：可检测非致死性指标 LOAEL 和 NOAEL。\n（18级回忆答案）毒性参数可分为两类：一类为毒性上限参数（以死亡为终点）：LD100、LD50、LD01、LD0；一类为毒性下限参数（以非致死急性毒性为终点）：NOAEL、LOAEL。\nLD100绝对致死剂量、LD50半数致死剂量、LD01最小致死剂量、LD0/MTD最大耐受剂量；LOAEL观察到有害作用的最低水平、NOAEL未观察到有害作用水平；阈剂量为引起少数个体最轻微异常改变的最低剂量。",
           "questions": [
             {
               "n": 1,
@@ -1711,7 +1711,7 @@
           "freq": 7,
           "section": "第一节 毒作用机制 一、细胞应激与细胞损伤 /《5 毒作用机制、急性毒性和局部毒性试验》第9–10页",
           "basis": "\"机体和细胞遭受损伤时，最初的防御机制是什么？毒理学意义\"\"细胞和机体应对有害因素的早期防御反应有哪些？毒理学意义\"\"应激反应的内容，毒理学意义\"直接对应本小节适应性应激反应。",
-          "excerpt": "外源化学物作用于细胞后，细胞具有一定的抗损害能力，即首先发生适应性应激反应，当外源化学物的作用强度超过细胞的抗损害能力后，就会引起细胞功能障碍（细胞损伤），最后还可导致死亡。细胞应激（Cell Stress）：指细胞处于不利环境和遇到有害刺激时所产生的防御和适应性反应。包括热应激、氧化应激、缺氧应激、遗传损伤应激、内质网应激、线粒体应激。",
+          "excerpt": "外源化学物作用于细胞后，细胞具有一定的抗损害能力，即首先发生适应性应激反应，当外源化学物的作用强度超过细胞的抗损害能力后，就会引起细胞功能障碍（细胞损伤），最后还可导致死亡。\n细胞应激（Cell Stress）：指细胞处于不利环境和遇到有害刺激时所产生的防御和适应性反应。\n包括热应激、氧化应激、缺氧应激、遗传损伤应激、内质网应激、线粒体应激。",
           "questions": [
             {
               "n": 1,
@@ -1737,7 +1737,7 @@
           "freq": 6,
           "section": "四、LD50的毒理学意义和局限性 /《5 毒作用机制、急性毒性和局部毒性试验》第30–31页（并见《1 绪论》第22页 LD50定义）",
           "basis": "\"LD50的概念优缺点\"\"经典急性毒性实验（LD50）的优点和局限性\"\"ld50优缺点\"反复出现，对应本小节。",
-          "excerpt": "（一）意义：比较毒物急性毒性的大小；计算药物的治疗指数（LD50/ED50），了解药效学剂量和毒性剂量的距离；为后续重复给药毒理试验剂量选择提供参考；比较不同途径的LD50值，获得生物利用度的信息；试验结果可用来推测人类的致死剂量以及中毒后的体征。（二）局限性：LD50值给予的有效信息少，作用有限；LD50的波动性很大，无稳定的数值；物种差异对LD50的影响大，对于人急性中毒的诊疗意义很小；对于开发新药，无需得到精确的LD50值；消耗的动物数量大，经典法一次需30~70只动物。",
+          "excerpt": "（一）意义：比较毒物急性毒性的大小；计算药物的治疗指数（LD50/ED50），了解药效学剂量和毒性剂量的距离；为后续重复给药毒理试验剂量选择提供参考；比较不同途径的LD50值，获得生物利用度的信息；试验结果可用来推测人类的致死剂量以及中毒后的体征。\n（二）局限性：LD50值给予的有效信息少，作用有限；LD50的波动性很大，无稳定的数值；物种差异对LD50的影响大，对于人急性中毒的诊疗意义很小；对于开发新药，无需得到精确的LD50值；消耗的动物数量大，经典法一次需30~70只动物。",
           "questions": [
             {
               "n": 1,
@@ -1781,7 +1781,7 @@
           "freq": 6,
           "section": "第四节 局部毒性作用 /《5 毒作用机制、急性毒性和局部毒性试验》第45–53页",
           "basis": "\"简述局部毒性试验的概念并例举一种评价方法\"\"描述局部毒性实验的概念并列举1种常见评价方法\"直接对应本小节。",
-          "excerpt": "局部毒性为外源化学物对机体接触部位的毒效应，不包括经接触部位的吸收而引起的系统毒性。局部毒性又称短程毒性试验。一、皮肤原发性刺激试验（包括单次和多次皮肤刺激试验、完整皮肤和破损皮肤刺激试验等，观察终点为皮肤刺激和皮肤腐蚀；Draize试验：白色家兔或豚鼠，脱毛、染毒、观察红斑水肿评分）。二、眼原发性刺激试验（Draize试验：白色家兔，0.1ml受试物滴入一眼，观察结膜、角膜和虹膜反应）。皮肤刺激/腐蚀试验替代方法：皮肤组织培养、重组人体皮肤模型（EpiSkin™、EpiDerm™）；眼刺激替代方法：离体牛眼角膜浑浊度和通透性试验（BCOP）、离体鸡眼试验（ICE）、重组人角膜上皮细胞模型试验（RhCE）。",
+          "excerpt": "局部毒性为外源化学物对机体接触部位的毒效应，不包括经接触部位的吸收而引起的系统毒性。\n局部毒性又称短程毒性试验。\n一、皮肤原发性刺激试验（包括单次和多次皮肤刺激试验、完整皮肤和破损皮肤刺激试验等，观察终点为皮肤刺激和皮肤腐蚀；Draize试验：白色家兔或豚鼠，脱毛、染毒、观察红斑水肿评分）。\n二、眼原发性刺激试验（Draize试验：白色家兔，0.1ml受试物滴入一眼，观察结膜、角膜和虹膜反应）。\n皮肤刺激/腐蚀试验替代方法：皮肤组织培养、重组人体皮肤模型（EpiSkin™、EpiDerm™）；眼刺激替代方法：离体牛眼角膜浑浊度和通透性试验（BCOP）、离体鸡眼试验（ICE）、重组人角膜上皮细胞模型试验（RhCE）。",
           "questions": [
             {
               "n": 1,
@@ -1813,7 +1813,7 @@
           "freq": 5,
           "section": "第一节 毒作用机制 一、新概念 /《5 毒作用机制、急性毒性和局部毒性试验》第2–3页",
           "basis": "\"AOP,MIE.MOA,TP名解\"\"MOA，AOP，MIE，TP相关概念云云\"\"tp moa等四个概念\"直接对应本小节新概念。",
-          "excerpt": "毒作用模式（Mode of Action，MOA）：指从化学物与生物分子相互作用开始的、证据权重支持的、可能导致毒性有关终点的一组事件或过程。分子起始事件（Molecular Initiating Event，MIE）：在机体内化学物-生物分子相互作用，启动通路扰动的初始点，沿被扰动通路引起进一步的关键事件，并与有害结局相关联。有害结局通路（Adverse Outcome Pathway，AOP）：是在个人或群体的水平，关于分子起始事件和有害结局之间相互联系的已有的知识汇总。毒性通路（Toxicity Pathway）：在受到一定程度的干扰时会导致有害效应的细胞应答通路。",
+          "excerpt": "毒作用模式（Mode of Action，MOA）：指从化学物与生物分子相互作用开始的、证据权重支持的、可能导致毒性有关终点的一组事件或过程。\n分子起始事件（Molecular Initiating Event，MIE）：在机体内化学物-生物分子相互作用，启动通路扰动的初始点，沿被扰动通路引起进一步的关键事件，并与有害结局相关联。\n有害结局通路（Adverse Outcome Pathway，AOP）：是在个人或群体的水平，关于分子起始事件和有害结局之间相互联系的已有的知识汇总。\n毒性通路（Toxicity Pathway）：在受到一定程度的干扰时会导致有害效应的细胞应答通路。",
           "questions": [
             {
               "n": 1,
@@ -1839,7 +1839,7 @@
           "freq": 4,
           "section": "第一节 毒作用机制 /《5 毒作用机制、急性毒性和局部毒性试验》第4页\"化学物引起毒作用的4个阶段、3种途径\"",
           "basis": "\"简述外源化学物对机体毒性作用的几个过程\"\"外源化学物对机体毒效应机制主要作用于哪几个阶段\"\"外源性化合物毒性作用阶段\"直接对应本小节。",
-          "excerpt": "化学物引起毒作用的4个阶段、3种途径：暴露 → 处置 → 与靶分子相互作用/生物环境的改变 → 细胞功能障碍 → 修复失调 → 毒作用。（1）化学物不与靶分子发生作用而直接作用于接触的部位；（2）毒物与靶分子发生作用，造成细胞功能障碍或损伤；（3）毒物造成细胞损伤后，机体出现异常修复（包括分子水平、细胞水平和组织水平的修复）。毒理学上常见的靶分子：膜脂质、核酸（特别是DNA）、蛋白质。",
+          "excerpt": "化学物引起毒作用的4个阶段、3种途径：暴露 → 处置 → 与靶分子相互作用/生物环境的改变 → 细胞功能障碍 → 修复失调 → 毒作用。\n（1）化学物不与靶分子发生作用而直接作用于接触的部位；（2）毒物与靶分子发生作用，造成细胞功能障碍或损伤；（3）毒物造成细胞损伤后，机体出现异常修复（包括分子水平、细胞水平和组织水平的修复）。\n毒理学上常见的靶分子：膜脂质、核酸（特别是DNA）、蛋白质。",
           "questions": [
             {
               "n": 1,
@@ -1877,7 +1877,7 @@
           "freq": 10,
           "section": "（一）Concept；The purpose；六、观察指标 /《6 亚慢性和慢性毒性试验》第8–9页、第20页",
           "basis": "\"亚慢性和慢性毒理学试验的定义、目的和参考指标\"\"subchronic toxicity和chronic toxicity的概念和研究目的\"\"慢性亚慢性毒性定义与研究目的\"反复出现，对应本小节。",
-          "excerpt": "Subchronic toxicity：The toxicity induced by xenobiotics under repeated exposure（1-3 months）in experimental animals. Chronic toxicity：The toxicity induced by xenobiotics under repeated exposure（long time or life long）in experimental animals. The purpose of sub-chronic and chronic toxicity experiment：1. New toxic effect；2. Target organ；3. Dose-response；4. Reversibility；5. Reference to chronic；6. Extrapolate。观察指标：1.一般性指标（动物外观、生长发育、行为功能、体征；动物体重；食物利用率）；2.实验室检查（血液学、血液生化、尿液）；3.眼科学检查；4.心脏血管检查；5.病理学检查（大体解剖脏器系数、组织病理学）；6.特异性指标（反映损伤机制、效应生物学标志）。",
+          "excerpt": "Subchronic toxicity：The toxicity induced by xenobiotics under repeated exposure（1-3 months）in experimental animals. Chronic toxicity：The toxicity induced by xenobiotics under repeated exposure（long time or life long）in experimental animals. The purpose of sub-chronic and chronic toxicity experiment：1. New toxic effect；2. Target organ；3. Dose-response；4. Reversibility；5. Reference to chronic；6. Extrapolate。\n观察指标：1.一般性指标（动物外观、生长发育、行为功能、体征；动物体重；食物利用率）；2.实验室检查（血液学、血液生化、尿液）；3.眼科学检查；4.心脏血管检查；5.病理学检查（大体解剖脏器系数、组织病理学）；6.特异性指标（反映损伤机制、效应生物学标志）。",
           "questions": [
             {
               "n": 1,
@@ -1921,7 +1921,7 @@
           "freq": 8,
           "section": "实验设计（动物种属、剂量设计、结果分析）/《6 亚慢性和慢性毒性试验》第14–20页、第33–36页",
           "basis": "\"慢性毒性试验动物选择、剂量分组、结果评价原则\"\"慢性毒性实验动物选择，剂量设计及结果评价的原则\"反复出现，对应本小节。",
-          "excerpt": "动物种属选择：啮齿类常用大鼠，非啮齿类狗。年龄：大鼠50-70g（慢性）。动物数量：大鼠至少40只（慢性），狗至少8只（慢性）。染毒期限：慢性毒性研究——工业毒理6个月，环境、食品毒理1年以上，OECD要求至少一年。剂量设计：急性毒性阈剂量、LD50的1/5~1/20，组距3-10倍；高剂量出现较明显毒性、无死亡或个别死亡，中剂量出现有害作用（LOAEL），低剂量未观察到有害作用（NOAEL），并设对照（溶剂对照）。结果分析：数据特征、统计学分析、综合分析，需要同时考虑生物学意义。",
+          "excerpt": "动物种属选择：啮齿类常用大鼠，非啮齿类狗。\n年龄：大鼠50-70g（慢性）。\n动物数量：大鼠至少40只（慢性），狗至少8只（慢性）。\n染毒期限：慢性毒性研究——工业毒理6个月，环境、食品毒理1年以上，OECD要求至少一年。\n剂量设计：急性毒性阈剂量、LD50的1/5~1/20，组距3-10倍；高剂量出现较明显毒性、无死亡或个别死亡，中剂量出现有害作用（LOAEL），低剂量未观察到有害作用（NOAEL），并设对照（溶剂对照）。\n结果分析：数据特征、统计学分析、综合分析，需要同时考虑生物学意义。",
           "questions": [
             {
               "n": 1,
@@ -1965,7 +1965,7 @@
           "freq": 7,
           "section": "Single/Repeated exposure；The tendency for toxicity experiment /《6 亚慢性和慢性毒性试验》第5–12页",
           "basis": "\"重复暴露毒性试验的类型、目的、必要性\"\"重复毒性分类目的必要性\"反复出现，对应本小节单次/重复暴露、急性毒性不能预测重复暴露毒性、试验趋势。",
-          "excerpt": "Acute toxicity can not predict the repeated exposure toxicity。Single exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。The tendency for toxicity experiment：01 Acute toxicity；02 Sub-chronic toxicity；03 Chronic toxicity will be studied only when necessary；04 Chronic toxicity experiment tends to be carried out combined with carcinogenesis experiment。（112 chemicals，Rats，97.5% of chemicals could present their toxic effects within 90 days。）",
+          "excerpt": "Acute toxicity can not predict the repeated exposure toxicity。\nSingle exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\nThe tendency for toxicity experiment：01 Acute toxicity；02 Sub-chronic toxicity；03 Chronic toxicity will be studied only when necessary；04 Chronic toxicity experiment tends to be carried out combined with carcinogenesis experiment。\n（112 chemicals，Rats，97.5% of chemicals could present their toxic effects within 90 days。）",
           "questions": [
             {
               "n": 1,
@@ -1997,7 +1997,7 @@
           "freq": 6,
           "section": "四、实验分组；五、剂量设计 /《6 亚慢性和慢性毒性试验》第13–26页（第18页实验分组）",
           "basis": "\"亚慢性和慢性毒性试验设置不同剂量组的目的\"\"亚慢性毒性实验设计\"\"亚慢性试验全要素（实验设计）\"反复出现，对应本小节。",
-          "excerpt": "四、实验分组：高剂量——较为明显的毒性，无死亡或个别动物死亡；中剂量——出现有害作用（LOAEL）；低剂量——未观察到有害作用（NOAEL）；对照——溶剂对照。整体动物实验设计的要素：一个伦理审查；二个暴露因素（途径、期限）；三个剂量组（低、中、高）；四个动物相关要素（物种、性别、年龄、数量）；五类观察指标（一般性指标、实验室检查、仪器检查、病理学检查、特异性指标）。",
+          "excerpt": "四、实验分组：高剂量——较为明显的毒性，无死亡或个别动物死亡；中剂量——出现有害作用（LOAEL）；低剂量——未观察到有害作用（NOAEL）；对照——溶剂对照。\n整体动物实验设计的要素：一个伦理审查；二个暴露因素（途径、期限）；三个剂量组（低、中、高）；四个动物相关要素（物种、性别、年龄、数量）；五类观察指标（一般性指标、实验室检查、仪器检查、病理学检查、特异性指标）。",
           "questions": [
             {
               "n": 1,
@@ -2035,7 +2035,7 @@
           "freq": 4,
           "section": "受试物A/B/C；接触化学物的方式；剂量设计 /《6 亚慢性和慢性毒性试验》第16–17页、第37–39页（并见《13 安全性评价》第7–8页）",
           "basis": "\"不同化学物质在重复暴露实验研究中区别\"\"不同物质重复暴露实验设计步骤中的区别\"\"不同物质重复毒性试验的注意事项\"对应本小节按化学物/药品/保健品差异设计的内容（与安全性评价分类原则相关）。",
-          "excerpt": "三、接触化学物的方式：1.模拟人的实际接触方式；2.亚慢性与慢性毒性研究接触方式一致。消化道染毒、呼吸道染毒（工业污染物6小时，环境污染物6小时/22-24小时）、皮肤染毒4-6小时。五、剂量设计按药效学或功能学资料：临床治疗或拟用量的倍数（保健食品100、化学药品30、中药50）。受试物A（化学物，LD50为100mg/kg，脂溶性好挥发度小）、受试物B（药品，LD50为1000mg/kg，临床推荐用量每日一次每次两片，每片含300mg）、受试物C（保健品，液体，LD50大于15000mg/kg，推荐使用量10ml/天）。",
+          "excerpt": "三、接触化学物的方式：1.模拟人的实际接触方式；2.亚慢性与慢性毒性研究接触方式一致。\n消化道染毒、呼吸道染毒（工业污染物6小时，环境污染物6小时/22-24小时）、皮肤染毒4-6小时。\n五、剂量设计按药效学或功能学资料：临床治疗或拟用量的倍数（保健食品100、化学药品30、中药50）。\n受试物A（化学物，LD50为100mg/kg，脂溶性好挥发度小）、受试物B（药品，LD50为1000mg/kg，临床推荐用量每日一次每次两片，每片含300mg）、受试物C（保健品，液体，LD50大于15000mg/kg，推荐使用量10ml/天）。",
           "questions": [
             {
               "n": 1,
@@ -2079,7 +2079,7 @@
           "freq": 11,
           "section": "DNA损伤修复途径；DNA损伤耐受机制；DNA损伤修复与突变 /《7 遗传毒理学（一）》第32–35页",
           "basis": "\"DNA损伤修复的类型以及DNA损伤修复与突变之间的关系\"\"基因修复和突变的关系（无误修复/有误修复，DNA修复酶的多态性）\"\"损伤修复与突变关系\"反复出现，对应本小节。",
-          "excerpt": "DNA损伤修复途径：直接修复（光复活；O6-甲基鸟嘌呤-DNA甲基转移酶修复O6-甲基鸟嘌呤）；切除修复（碱基切除修复——嘧啶二聚体、氧化损伤、辐射、烷化剂引起的损伤；核苷切除修复——底物范围宽；错配碱基修复——错配碱基）；双链断裂修复（同源重组；非同源末端连接）；交联修复——DNA链内交联。DNA损伤耐受机制：易误修复（error-prone repair，SOS repair，常为易误修复）；复制后修复（避免了致死性后果，但DNA损伤并未移除）。DNA损伤修复与突变：DNA损伤—DNA损伤修复—突变；DNA损伤修复能力与突变；DNA损伤修复保真性与突变；DNA损伤修复酶的多态性。",
+          "excerpt": "DNA损伤修复途径：直接修复（光复活；O6-甲基鸟嘌呤-DNA甲基转移酶修复O6-甲基鸟嘌呤）；切除修复（碱基切除修复——嘧啶二聚体、氧化损伤、辐射、烷化剂引起的损伤；核苷切除修复——底物范围宽；错配碱基修复——错配碱基）；双链断裂修复（同源重组；非同源末端连接）；交联修复——DNA链内交联。\nDNA损伤耐受机制：易误修复（error-prone repair，SOS repair，常为易误修复）；复制后修复（避免了致死性后果，但DNA损伤并未移除）。\nDNA损伤修复与突变：DNA损伤—DNA损伤修复—突变；DNA损伤修复能力与突变；DNA损伤修复保真性与突变；DNA损伤修复酶的多态性。",
           "questions": [
             {
               "n": 1,
@@ -2191,7 +2191,7 @@
           "freq": 6,
           "section": "染色体畸变主要类型 /《7 遗传毒理学（一）》第19页",
           "basis": "\"染色体结构畸变的类型和毒理学意义\"\"染色体畸变的类型及意义\"反复出现，对应本小节裂隙、断裂、断片、缺失、环、易位、倒位等。",
-          "excerpt": "染色体畸变主要类型：裂隙（gap，在一条或两条染色单体上出现无染色质的区域，但分割的两段染色体仍保持线性）；断裂（break，无染色质区域分割的两段不再保持线性）；断片（fragment，无着丝粒部分与有着丝粒部分分开）；缺失（deletion，有末端缺失和中间缺失）；环（ring，断裂后带着丝粒部分两端连接成环）；易位（translocation，两个非同源染色体断裂后互相交换片段）；倒位（inversion，两处断裂中间节段旋转180°后再连接，有臂间倒位和臂内倒位）。各畸变分染色体型和染色单体型。",
+          "excerpt": "染色体畸变主要类型：裂隙（gap，在一条或两条染色单体上出现无染色质的区域，但分割的两段染色体仍保持线性）；断裂（break，无染色质区域分割的两段不再保持线性）；断片（fragment，无着丝粒部分与有着丝粒部分分开）；缺失（deletion，有末端缺失和中间缺失）；环（ring，断裂后带着丝粒部分两端连接成环）；易位（translocation，两个非同源染色体断裂后互相交换片段）；倒位（inversion，两处断裂中间节段旋转180°后再连接，有臂间倒位和臂内倒位）。\n各畸变分染色体型和染色单体型。",
           "questions": [
             {
               "n": 1,
@@ -2229,7 +2229,7 @@
           "freq": 3,
           "section": "致突变作用的分类；DNA损伤类型；致突变作用机制 /《7 遗传毒理学（一）》第11–30页",
           "basis": "20级选择题考碱基取代/移码突变的命名；07级口试\"基因突变实验不能用Ames实验时用什么检测\"涉及突变分类；对应本小节。",
-          "excerpt": "致突变作用的分类：基因突变（gene mutation——base-pair substitution mutation、frame shift mutation、codon mutation、fragment mutation）；染色体突变（chromosome mutation——chromosome aberration、chromatid aberration）；基因组突变（genomic mutation——aneuploid、euploid）。整码突变又称密码子的插入或缺失。片段突变：基因中小片段核苷酸序列发生改变。致突变作用机制：基因突变、染色体畸变——DNA损伤（碱基类似物取代、共价结合形成加合物、改变碱基结构、大分子嵌入DNA链、DNA-蛋白交联等）；非整倍体、整倍体——有丝分裂或减数分裂器损伤（如对纺锤体的毒作用）。",
+          "excerpt": "致突变作用的分类：基因突变（gene mutation——base-pair substitution mutation、frame shift mutation、codon mutation、fragment mutation）；染色体突变（chromosome mutation——chromosome aberration、chromatid aberration）；基因组突变（genomic mutation——aneuploid、euploid）。\n整码突变又称密码子的插入或缺失。\n片段突变：基因中小片段核苷酸序列发生改变。\n致突变作用机制：基因突变、染色体畸变——DNA损伤（碱基类似物取代、共价结合形成加合物、改变碱基结构、大分子嵌入DNA链、DNA-蛋白交联等）；非整倍体、整倍体——有丝分裂或减数分裂器损伤（如对纺锤体的毒作用）。",
           "questions": [
             {
               "n": 1,
@@ -2261,7 +2261,7 @@
           "freq": 1,
           "section": "遗传性疾病发生率 /《7 遗传毒理学（一）》第41页",
           "basis": "部分\"突变的危害\"答题需扩展到人群遗传性疾病发生率，单列以备复习；本知识点在课件中明确。",
-          "excerpt": "遗传性疾病发生率：在新生儿中，1%患有染色体显性突变的疾病；0.25%患常染色体隐性突变的疾病；0.5%患性连锁的疾病；0.4%患与易位及非整倍体等染色体异常有关的疾病；3%~6%的新生儿患先天畸形。如果包括晚些时候才发生的和遗传有关的多病因疾病（如心脏病、高血压和糖尿病），受影响的人群比例可达60%以上。",
+          "excerpt": "遗传性疾病发生率：在新生儿中，1%患有染色体显性突变的疾病；0.25%患常染色体隐性突变的疾病；0.5%患性连锁的疾病；0.4%患与易位及非整倍体等染色体异常有关的疾病；3%~6%的新生儿患先天畸形。\n如果包括晚些时候才发生的和遗传有关的多病因疾病（如心脏病、高血压和糖尿病），受影响的人群比例可达60%以上。",
           "questions": [
             {
               "n": 1,
@@ -2293,7 +2293,7 @@
           "freq": 30,
           "section": "细菌回复突变试验—Ames Test；Ames试验原理；标准试验菌株的基因型；菌株鉴定；方法学评价 /《8 遗传毒理学（二）》第5–16页",
           "basis": "\"Ames结果\"\"ames实验结果判读\"\"叠氮钠Ames平皿掺入试验结果评定\"\"Ames试验原理及优缺点，菌株鉴定的方法及意义\"在 07/09/14/15/17/19/21/20 各文件大量重复出现，对应本小节。判定要点（结果阳性需满足剂量反应关系、回复突变数达自发回变 2 倍及以上、结果具有可重复性，且说明有无 S9 代谢活化、直接/间接致突变物、突变类型）来自历届回忆与课件原理。",
-          "excerpt": "Ames试验原理：鼠伤寒沙门氏菌原养型（his+）经正向突变成组氨酸营养缺陷型突变株（his-），受试物±代谢活化系统作用下发生回复突变。Ames测试菌株的遗传特性：rfa改变（细菌荚膜脂多糖屏障，使致突变物有更大的通透性）；ΔuvrB（切除修复系统缺失，增加对很多致突变物的敏感性）；pKM101（增强对依赖SOS系统的致突变物的敏感性）；pAQ1（pAQ1上hisG428的回复性可被测试）。S9混合液（S9mix）：S9、MgCl2、KCl、磷酸盐缓冲液、葡萄糖-6-磷酸溶液、辅酶Ⅱ。菌株鉴定：组氨酸缺陷型（加组氨酸溶液）、自发回复（在标准范围内）、阳性物反应（有/无代谢活化条件下）、rfa改变（结晶紫溶液毒性）、ΔuvrB（紫外线照射）、pKM101（青霉素抗性）、pAQ1（四环素抗性）。方法学评价：优点——致突变检测首选方法、积累资料多、简单快速；缺点——指示生物为原核生物、假阳性和假阴性、不适用某些化学物。",
+          "excerpt": "Ames试验原理：鼠伤寒沙门氏菌原养型（his+）经正向突变成组氨酸营养缺陷型突变株（his-），受试物±代谢活化系统作用下发生回复突变。\nAmes测试菌株的遗传特性：rfa改变（细菌荚膜脂多糖屏障，使致突变物有更大的通透性）；ΔuvrB（切除修复系统缺失，增加对很多致突变物的敏感性）；pKM101（增强对依赖SOS系统的致突变物的敏感性）；pAQ1（pAQ1上hisG428的回复性可被测试）。\nS9混合液（S9mix）：S9、MgCl2、KCl、磷酸盐缓冲液、葡萄糖-6-磷酸溶液、辅酶Ⅱ。\n菌株鉴定：组氨酸缺陷型（加组氨酸溶液）、自发回复（在标准范围内）、阳性物反应（有/无代谢活化条件下）、rfa改变（结晶紫溶液毒性）、ΔuvrB（紫外线照射）、pKM101（青霉素抗性）、pAQ1（四环素抗性）。\n方法学评价：优点——致突变检测首选方法、积累资料多、简单快速；缺点——指示生物为原核生物、假阳性和假阴性、不适用某些化学物。",
           "questions": [
             {
               "n": 1,
@@ -2355,7 +2355,7 @@
           "freq": 30,
           "section": "微核试验；小鼠骨髓多染红细胞微核试验 /《8 遗传毒理学（二）》第21–24页",
           "basis": "\"微核制片\"\"微核阅片，找PCE，NCE，MN\"\"镜下找出PCE、NCE和微核细胞\"为多届固定实验题，对应本小节微核定义与骨髓多染红细胞微核试验。",
-          "excerpt": "微核：在有丝分裂（减数分裂）末期迟滞的染色体断片或整条染色体生成的，分离于细胞主核之外的小核。小鼠骨髓多染红细胞微核试验（Micronucleus assay in bone marrow polychromatic erythrocytes）。微核试验遗传学终点为染色体畸变、非整倍体。（历届补充：微核的大小为细胞大小的1/20~1/5；微核制片为推片不是拉片，往钝角方向推；阅片需掌握PCE、NCE、MN三种细胞的判别标准。）",
+          "excerpt": "微核：在有丝分裂（减数分裂）末期迟滞的染色体断片或整条染色体生成的，分离于细胞主核之外的小核。\n小鼠骨髓多染红细胞微核试验（Micronucleus assay in bone marrow polychromatic erythrocytes）。\n微核试验遗传学终点为染色体畸变、非整倍体。\n（历届补充：微核的大小为细胞大小的1/20~1/5；微核制片为推片不是拉片，往钝角方向推；阅片需掌握PCE、NCE、MN三种细胞的判别标准。）",
           "questions": [
             {
               "n": 1,
@@ -2417,7 +2417,7 @@
           "freq": 12,
           "section": "遗传毒理学试验的组合应用；灵敏性/特异性 /《8 遗传毒理学（二）》第39–47页",
           "basis": "\"遗传毒理学对致癌性预测的试验的组成原则以及不确定的原因\"\"遗传毒性试验预测致癌性的作用和局限性\"\"遗传毒理学实验预测致癌性的不确定性\"反复出现，对应本小节成组原则与灵敏性/特异性局限。",
-          "excerpt": "灵敏性（sensitivity）：受试致癌物中，在遗传毒理学试验中呈致突变性阳性结果的比例。特异性（specificity）：受试非致癌物中，在遗传毒理学试验中呈阴性结果的比例。遗传毒性试验成组应用组合原则：①应包括多个遗传学终点；②试验指示生物包括若干进化阶段的物种；③应包括体外试验和体内试验；④在预测可遗传的危害时，应包括体细胞及性细胞的试验。Battery concept：每个短期试验都有其固有的优势和局限，联合使用时可相互重叠和补偿。（预测不确定的原因：不能预测遗传非致癌物及非遗传致癌物，只能预测非遗传非致癌物及遗传致癌物，故不准确。）",
+          "excerpt": "灵敏性（sensitivity）：受试致癌物中，在遗传毒理学试验中呈致突变性阳性结果的比例。\n特异性（specificity）：受试非致癌物中，在遗传毒理学试验中呈阴性结果的比例。\n遗传毒性试验成组应用组合原则：①应包括多个遗传学终点；②试验指示生物包括若干进化阶段的物种；③应包括体外试验和体内试验；④在预测可遗传的危害时，应包括体细胞及性细胞的试验。\nBattery concept：每个短期试验都有其固有的优势和局限，联合使用时可相互重叠和补偿。\n（预测不确定的原因：不能预测遗传非致癌物及非遗传致癌物，只能预测非遗传非致癌物及遗传致癌物，故不准确。）",
           "questions": [
             {
               "n": 1,
@@ -2473,7 +2473,7 @@
           "freq": 9,
           "section": "常用致突变试验小结 /《8 遗传毒理学（二）》第38页（并见《7》第42页 遗传毒理学试验分类）",
           "basis": "\"突变的遗传学终点及举例\"\"遗传毒性检测的终点并举例\"\"四个遗传学终点并举例\"反复出现，对应本小节各试验对应的遗传学终点。",
-          "excerpt": "常用致突变试验小结：Ames Test（细菌，体外，基因突变）；哺乳动物细胞基因突变试验（哺乳动物，体外，基因突变）；染色体畸变试验（哺乳动物，体内或体外，染色体畸变）；显性致死试验（哺乳动物，体内，染色体畸变）；微核试验（哺乳动物，体内或体外，染色体畸变、非整倍体）；姐妹染色单体交换试验（哺乳动物，体内或体外，DNA损伤）；单细胞凝胶电泳试验（哺乳动物，体内或体外，DNA损伤）；程序外DNA合成试验（哺乳动物，体内或体外，DNA损伤）；转基因动物致突变试验（哺乳动物，体内，基因突变）。遗传毒理学试验分类：基因突变试验、染色体损伤试验、非整倍体试验、DNA损伤的试验。",
+          "excerpt": "常用致突变试验小结：Ames Test（细菌，体外，基因突变）；哺乳动物细胞基因突变试验（哺乳动物，体外，基因突变）；染色体畸变试验（哺乳动物，体内或体外，染色体畸变）；显性致死试验（哺乳动物，体内，染色体畸变）；微核试验（哺乳动物，体内或体外，染色体畸变、非整倍体）；姐妹染色单体交换试验（哺乳动物，体内或体外，DNA损伤）；单细胞凝胶电泳试验（哺乳动物，体内或体外，DNA损伤）；程序外DNA合成试验（哺乳动物，体内或体外，DNA损伤）；转基因动物致突变试验（哺乳动物，体内，基因突变）。\n遗传毒理学试验分类：基因突变试验、染色体损伤试验、非整倍体试验、DNA损伤的试验。",
           "questions": [
             {
               "n": 1,
@@ -2523,7 +2523,7 @@
           "freq": 8,
           "section": "细菌回复突变试验—Ames Test；微核试验；常用致突变试验小结 /《8 遗传毒理学（二）》第6页、第21页、第38页",
           "basis": "\"Ames试验和微核试验的原理和检测终点\"\"ames实验和微核试验的原理和遗传学终点\"作为合并设问反复出现，对应两试验原理与遗传学终点。",
-          "excerpt": "Ames试验原理：鼠伤寒沙门氏菌组氨酸营养缺陷型（his-）在受试物±代谢活化系统作用下发生回复突变（his- → HIS+），遗传学终点为基因突变。微核：在有丝分裂（减数分裂）末期迟滞的染色体断片或整条染色体生成的、分离于细胞主核之外的小核；微核试验遗传学终点为染色体畸变、非整倍体。",
+          "excerpt": "Ames试验原理：鼠伤寒沙门氏菌组氨酸营养缺陷型（his-）在受试物±代谢活化系统作用下发生回复突变（his- → HIS+），遗传学终点为基因突变。\n微核：在有丝分裂（减数分裂）末期迟滞的染色体断片或整条染色体生成的、分离于细胞主核之外的小核；微核试验遗传学终点为染色体畸变、非整倍体。",
           "questions": [
             {
               "n": 1,
@@ -2555,7 +2555,7 @@
           "freq": 5,
           "section": "遗传毒性试验成组应用组合原则；我国推荐的标准试验组合 /《8 遗传毒理学（二）》第48页、第49页、第53页",
           "basis": "\"遗传毒性试验预测致癌性时的试验组成原则？我国药物遗传毒性研究技术指导原则推荐的标准试验组合\"\"我国推荐的实验组合\"直接对应本小节。",
-          "excerpt": "我国《药物遗传毒性研究技术指导原则》推荐的标准试验组合：①一项体外细菌基因突变试验；②一项采用哺乳动物细胞进行的体外染色体损伤评估试验，或体外小鼠淋巴瘤tk试验；③一项采用啮齿类动物造血细胞进行的体内染色体损伤试验。对于结果为阴性的受试物，完成上述三项试验组合通常可提示其无遗传毒性。《食品安全性毒理学评价程序》（2014）组合1：细菌回复突变试验，哺乳动物红细胞微核试验或哺乳动物骨髓细胞染色体畸变试验；小鼠精原细胞或精母细胞染色体畸变试验或啮齿类动物显性致死试验。",
+          "excerpt": "我国《药物遗传毒性研究技术指导原则》推荐的标准试验组合：①一项体外细菌基因突变试验；②一项采用哺乳动物细胞进行的体外染色体损伤评估试验，或体外小鼠淋巴瘤tk试验；③一项采用啮齿类动物造血细胞进行的体内染色体损伤试验。\n对于结果为阴性的受试物，完成上述三项试验组合通常可提示其无遗传毒性。\n《食品安全性毒理学评价程序》（2014）组合1：细菌回复突变试验，哺乳动物红细胞微核试验或哺乳动物骨髓细胞染色体畸变试验；小鼠精原细胞或精母细胞染色体畸变试验或啮齿类动物显性致死试验。",
           "questions": [
             {
               "n": 1,
@@ -2599,7 +2599,7 @@
           "freq": 3,
           "section": "显性致死试验 /《8 遗传毒理学（二）》第25–26页",
           "basis": "\"简述dominal lethal 的概念和评价方法\"\"显性致死概念 试验\"直接对应本小节。",
-          "excerpt": "显性致死：引起胚胎或胎儿死亡的相应。显性致死突变：发生于生殖细胞的突变，它不引起受精障碍，但能引起受精卵或发育中的胚胎死亡。引起显性致死的突变主要是染色体断裂。小鼠、大鼠精子分化阶段与交配周次的关系：与受试物时精子所处的分化阶段（输精管及睾丸中的精子、精细胞、精母细胞、精原细胞）对应不同交配周次。",
+          "excerpt": "显性致死：引起胚胎或胎儿死亡的相应。\n显性致死突变：发生于生殖细胞的突变，它不引起受精障碍，但能引起受精卵或发育中的胚胎死亡。\n引起显性致死的突变主要是染色体断裂。\n小鼠、大鼠精子分化阶段与交配周次的关系：与受试物时精子所处的分化阶段（输精管及睾丸中的精子、精细胞、精母细胞、精原细胞）对应不同交配周次。",
           "questions": [
             {
               "n": 1,
@@ -2631,7 +2631,7 @@
           "freq": 1,
           "section": "单细胞凝胶电泳试验（Comet Assay）；常用致突变试验小结 /《8 遗传毒理学（二）》第30–31页、第38页",
           "basis": "YYS 题库补充明确给出\"彗星实验检验的突变类型\"选择题，对应本小节单细胞凝胶电泳检测 DNA 损伤（DNA 链断裂）。",
-          "excerpt": "单细胞凝胶电泳试验（SCGE，Comet Assay）：在单细胞水平上定量检测DNA损伤；在电泳槽中，DNA断片在电场作用下由细胞核中移出向阳极游动，经荧光染色后形成如同彗星一样的彗头和彗尾，DNA迁移的程度与单链DNA断裂的水平有关；技术简单、快速、价廉、检测DNA损伤的敏感性高。常用致突变试验小结：单细胞凝胶电泳试验遗传学终点为DNA损伤。",
+          "excerpt": "单细胞凝胶电泳试验（SCGE，Comet Assay）：在单细胞水平上定量检测DNA损伤；在电泳槽中，DNA断片在电场作用下由细胞核中移出向阳极游动，经荧光染色后形成如同彗星一样的彗头和彗尾，DNA迁移的程度与单链DNA断裂的水平有关；技术简单、快速、价廉、检测DNA损伤的敏感性高。\n常用致突变试验小结：单细胞凝胶电泳试验遗传学终点为DNA损伤。",
           "questions": [
             {
               "n": 1,
@@ -2663,7 +2663,7 @@
           "freq": 14,
           "section": "化学致癌的多阶段学说；引发剂、促长剂、进展剂；多阶段致癌的形态学和生物学特征 /《9 化学致癌作用》第54–68页",
           "basis": "\"癌症发生的多阶段学说\"\"致癌三阶段学说介绍\"\"多阶段致癌的形态学和生物学特征\"反复出现，对应本小节。",
-          "excerpt": "化学致癌的多阶段学说：正常细胞经过遗传学改变的积累，才能转变为癌细胞，癌症的发生是多阶段过程，至少包括引发、促长和进展阶段。引发阶段（Initiation）：化学物或其活性代谢产物与DNA作用，导致体细胞突变成引发细胞的阶段，是一个遗传毒性事件；引发剂本身有致癌性，大多数是致突变物，没有可检测的阈剂量，靶主要是原癌基因和肿瘤抑制基因；引发阶段很短，引发细胞不是肿瘤细胞，引发作用不可逆并且是累积性的。促长阶段（Promotion）：引发细胞增殖成为癌前病变或良性肿瘤的过程，主要是非遗传机制；历时较长，持续给以促长剂是必需的，早期有可逆性、晚期不可逆；促长剂本身不能诱发肿瘤，常是非致突变物，通常具有阈剂量，其剂量反应关系呈S形曲线。进展阶段（Progression）：从引发细胞群（癌前病变、良性肿瘤）转变成恶性肿瘤的过程，不可逆，主要表现为核型不稳定及表型的异质性；兼有引发剂、促长剂和进展剂作用的化学致癌物称为完全致癌物。",
+          "excerpt": "化学致癌的多阶段学说：正常细胞经过遗传学改变的积累，才能转变为癌细胞，癌症的发生是多阶段过程，至少包括引发、促长和进展阶段。\n引发阶段（Initiation）：化学物或其活性代谢产物与DNA作用，导致体细胞突变成引发细胞的阶段，是一个遗传毒性事件；引发剂本身有致癌性，大多数是致突变物，没有可检测的阈剂量，靶主要是原癌基因和肿瘤抑制基因；引发阶段很短，引发细胞不是肿瘤细胞，引发作用不可逆并且是累积性的。\n促长阶段（Promotion）：引发细胞增殖成为癌前病变或良性肿瘤的过程，主要是非遗传机制；历时较长，持续给以促长剂是必需的，早期有可逆性、晚期不可逆；促长剂本身不能诱发肿瘤，常是非致突变物，通常具有阈剂量，其剂量反应关系呈S形曲线。\n进展阶段（Progression）：从引发细胞群（癌前病变、良性肿瘤）转变成恶性肿瘤的过程，不可逆，主要表现为核型不稳定及表型的异质性；兼有引发剂、促长剂和进展剂作用的化学致癌物称为完全致癌物。",
           "questions": [
             {
               "n": 1,
@@ -2713,7 +2713,7 @@
           "freq": 10,
           "section": "引发剂、促长剂、进展剂；引发阶段/促长阶段/进展阶段特点 /《9 化学致癌作用》第55–65页",
           "basis": "\"促长剂和引发剂的作用特点\"\"引发剂、促长剂的特点\"反复出现，对应本小节各阶段化学物特点。",
-          "excerpt": "引发剂（initiator）：本身或其代谢产物能与DNA作用，导致体细胞突变为引发细胞的化学物；引发剂本身有致癌性，大多数是致突变物，没有可检测的阈剂量，其作用的靶主要是原癌基因和肿瘤抑制基因；引发作用不可逆，并且是累积性的。促长剂（promoter）：作用于引发细胞增殖成为癌前病变或良性肿瘤的化学物；促长剂本身不能诱发肿瘤，常是非致突变物，通常具有阈剂量，其剂量反应关系呈S形曲线；持续给以促长剂是必需的，早期可逆、晚期不可逆，对生理因素（衰老、饮食和激素）调节敏感。进展剂（progressor）：作用于促长阶段的细胞转变成进展期的化学物。",
+          "excerpt": "引发剂（initiator）：本身或其代谢产物能与DNA作用，导致体细胞突变为引发细胞的化学物；引发剂本身有致癌性，大多数是致突变物，没有可检测的阈剂量，其作用的靶主要是原癌基因和肿瘤抑制基因；引发作用不可逆，并且是累积性的。\n促长剂（promoter）：作用于引发细胞增殖成为癌前病变或良性肿瘤的化学物；促长剂本身不能诱发肿瘤，常是非致突变物，通常具有阈剂量，其剂量反应关系呈S形曲线；持续给以促长剂是必需的，早期可逆、晚期不可逆，对生理因素（衰老、饮食和激素）调节敏感。\n进展剂（progressor）：作用于促长阶段的细胞转变成进展期的化学物。",
           "questions": [
             {
               "n": 1,
@@ -2757,7 +2757,7 @@
           "freq": 9,
           "section": "化学物致癌性的鉴定—Long-term carcinogenicity study；致癌试验阳性的判断标准（WHO）/《9 化学致癌作用》第22–30页、第73页",
           "basis": "\"哺乳动物致癌试验目的，动物要求，剂量设计原则，观察指标，结果判断\"\"致癌实验目的剂量动物选择结果判读\"反复出现，对应本小节。",
-          "excerpt": "Long-term carcinogenicity study 目的：确定受试化学物对实验动物的致癌性；剂量-反应关系；诱发肿瘤的靶器官。实验动物：常规选用大鼠和小鼠，也可用仓鼠；品系应选较敏感、自发肿瘤率低、生活力强及寿命较长的（NCI推荐Fischer344大鼠和B6C3F1小鼠）；同等数量雌雄两种性别；使用刚离乳的动物。剂量选择和动物数量：3个剂量组和1个对照组，每组至少雌雄各50只，希望出现第1例肿瘤时每组还有不少于25只；美国NCI推荐以最大耐受剂量（MTD）为高剂量。染毒途径：尽可能模拟人体可能的接触途径。试验期限：小鼠和仓鼠18个月、大鼠24个月等。肿瘤发生率（%）=（实验结束时患肿瘤动物数/有效动物总数）×100%。致癌试验阳性的判断标准（WHO）：对照组也出现的肿瘤试验组发生率增加；试验组发生对照组没有的肿瘤类型；试验组肿瘤发生早于对照组；与对照组比较试验组每只动物的平均肿瘤数增加。",
+          "excerpt": "Long-term carcinogenicity study 目的：确定受试化学物对实验动物的致癌性；剂量-反应关系；诱发肿瘤的靶器官。\n实验动物：常规选用大鼠和小鼠，也可用仓鼠；品系应选较敏感、自发肿瘤率低、生活力强及寿命较长的（NCI推荐Fischer344大鼠和B6C3F1小鼠）；同等数量雌雄两种性别；使用刚离乳的动物。\n剂量选择和动物数量：3个剂量组和1个对照组，每组至少雌雄各50只，希望出现第1例肿瘤时每组还有不少于25只；美国NCI推荐以最大耐受剂量（MTD）为高剂量。\n染毒途径：尽可能模拟人体可能的接触途径。\n试验期限：小鼠和仓鼠18个月、大鼠24个月等。\n肿瘤发生率（%）=（实验结束时患肿瘤动物数/有效动物总数）×100%。\n致癌试验阳性的判断标准（WHO）：对照组也出现的肿瘤试验组发生率增加；试验组发生对照组没有的肿瘤类型；试验组肿瘤发生早于对照组；与对照组比较试验组每只动物的平均肿瘤数增加。",
           "questions": [
             {
               "n": 1,
@@ -2807,7 +2807,7 @@
           "freq": 8,
           "section": "化学致癌物的分类—IARC基于证据权重的化学致癌物分类 /《9 化学致癌作用》第16–20页",
           "basis": "\"IARC化学致癌物分类\"\"基于IARC的化学致癌物分类\"\"IARC基于证据权重对化学致癌物的分类\"反复出现，对应本小节。",
-          "excerpt": "IARC根据对人类和实验动物致癌性资料，以及在实验系统和人类其它有关的资料进行综合评价，将环境因子和类别、混合物及暴露环境与人类癌症的关系分为：组1，对人类是致癌物（对人类致癌性证据充分者）；组2，对人类是很可能或可能致癌物，分为组2A（对人类很可能 probably 致癌，对人类致癌性证据有限、对实验动物致癌性证据充分）和组2B（对人类是可能 possible 致癌，对人类致癌性证据有限、对实验动物致癌性证据并不充分；或对人类证据不足、对实验动物证据充分）；组3，现有的证据不能对人类致癌性进行分类；组4，人类可能非致癌物。IARC CLASSIFICATION依据：人群流行病学证据、动物实验证据、生物学机制的证据。",
+          "excerpt": "IARC根据对人类和实验动物致癌性资料，以及在实验系统和人类其它有关的资料进行综合评价，将环境因子和类别、混合物及暴露环境与人类癌症的关系分为：组1，对人类是致癌物（对人类致癌性证据充分者）；组2，对人类是很可能或可能致癌物，分为组2A（对人类很可能 probably 致癌，对人类致癌性证据有限、对实验动物致癌性证据充分）和组2B（对人类是可能 possible 致癌，对人类致癌性证据有限、对实验动物致癌性证据并不充分；或对人类证据不足、对实验动物证据充分）；组3，现有的证据不能对人类致癌性进行分类；组4，人类可能非致癌物。\nIARC CLASSIFICATION依据：人群流行病学证据、动物实验证据、生物学机制的证据。",
           "questions": [
             {
               "n": 1,
@@ -2857,7 +2857,7 @@
           "freq": 5,
           "section": "化学致癌机制—癌基因学说；癌基因；抑癌基因；TP53；致癌过程中涉及的两类基因比较 /《9 化学致癌作用》第43–48页",
           "basis": "\"癌基因和抑癌基因概念\"\"癌基因和抑癌基因举例\"反复出现，对应本小节。",
-          "excerpt": "癌基因（Oncogene）：一类能引起细胞恶性转化及癌变的基因，是化学致癌物作用的主要靶分子。原癌基因（proto-oncogene）：本身是正常的细胞基因，是一类调控细胞生长分化的基因，在进化过程中高度保守，通常处于静止状态，在化学致癌物等作用下被激活而表达，促进细胞分裂增殖，引起细胞转化，最终形成肿瘤；活化的原癌基因才被称为癌基因。抑癌基因（Tumor suppressor gene）：作用方式与癌基因相反，在正常细胞中起抑制细胞增殖和促进分化的作用；在环境致癌因素作用下，抑癌基因发生纯合缺失或失活会引起细胞的恶性转化而致癌；抑癌基因必须一对等位基因丢失或突变后失活才能起作用，故又称隐性癌基因。野生型TP53为肿瘤抑制基因，参与G1/S关卡检查；突变型P53起癌基因作用。",
+          "excerpt": "癌基因（Oncogene）：一类能引起细胞恶性转化及癌变的基因，是化学致癌物作用的主要靶分子。\n原癌基因（proto-oncogene）：本身是正常的细胞基因，是一类调控细胞生长分化的基因，在进化过程中高度保守，通常处于静止状态，在化学致癌物等作用下被激活而表达，促进细胞分裂增殖，引起细胞转化，最终形成肿瘤；活化的原癌基因才被称为癌基因。\n抑癌基因（Tumor suppressor gene）：作用方式与癌基因相反，在正常细胞中起抑制细胞增殖和促进分化的作用；在环境致癌因素作用下，抑癌基因发生纯合缺失或失活会引起细胞的恶性转化而致癌；抑癌基因必须一对等位基因丢失或突变后失活才能起作用，故又称隐性癌基因。\n野生型TP53为肿瘤抑制基因，参与G1/S关卡检查；突变型P53起癌基因作用。",
           "questions": [
             {
               "n": 1,
@@ -2889,7 +2889,7 @@
           "freq": 3,
           "section": "根据致癌作用模式/机制分类；Part 3 化学致癌机制 /《9 化学致癌作用》第15页、第21页、第42页",
           "basis": "致癌物分类及\"遗传机制学派/非遗传机制学派\"为致癌作用机制题的组成部分，对应本小节。",
-          "excerpt": "化学致癌物的分类：根据致癌作用模式/机制分类——遗传毒性致癌物（直接致癌物、间接致癌物、无机致癌物）；非遗传毒性致癌物（促长剂、激素调节剂、细胞毒剂、过氧化物酶体增殖剂、免疫抑制剂、固态物质如石棉等）；未分类（二噁烷、美沙吡林等）。化学致癌机制：遗传机制学派（亲电子剂学说，体细胞突变学说，癌基因学说，多阶段学说）；非遗传机制学派（细胞异常增生，免疫抑制，内分泌激素失衡，表观遗传改变等）。",
+          "excerpt": "化学致癌物的分类：根据致癌作用模式/机制分类——遗传毒性致癌物（直接致癌物、间接致癌物、无机致癌物）；非遗传毒性致癌物（促长剂、激素调节剂、细胞毒剂、过氧化物酶体增殖剂、免疫抑制剂、固态物质如石棉等）；未分类（二噁烷、美沙吡林等）。\n化学致癌机制：遗传机制学派（亲电子剂学说，体细胞突变学说，癌基因学说，多阶段学说）；非遗传机制学派（细胞异常增生，免疫抑制，内分泌激素失衡，表观遗传改变等）。",
           "questions": [
             {
               "n": 1,
@@ -2933,7 +2933,7 @@
           "freq": 10,
           "section": "外源化学物对免疫系统作用的特点 /《10 免疫毒理学》第10–15页",
           "basis": "\"外源化学物对免疫系统作用的表现和特点\"\"毒作用对免疫系统的影响和特点（特点指灵敏、复杂、选择、双向）\"反复出现，对应本小节四个特点。",
-          "excerpt": "外源化学物对免疫系统作用的特点：反应的灵敏性；反应的复杂性；反应的选择性；反应的双向性（功能抑制、功能亢进）。化学物引起的免疫损伤的类型：免疫抑制；超敏反应（过敏反应、变态反应）；自身免疫反应。（灵敏性：硝酸锰土 2 mg/kg 抑制PFC，而其它毒性效应 NOAEL 为 20、200 mg/kg；选择性、复杂性、双向性见相应案例。）",
+          "excerpt": "外源化学物对免疫系统作用的特点：反应的灵敏性；反应的复杂性；反应的选择性；反应的双向性（功能抑制、功能亢进）。\n化学物引起的免疫损伤的类型：免疫抑制；超敏反应（过敏反应、变态反应）；自身免疫反应。\n（灵敏性：硝酸锰土 2 mg/kg 抑制PFC，而其它毒性效应 NOAEL 为 20、200 mg/kg；选择性、复杂性、双向性见相应案例。）",
           "questions": [
             {
               "n": 1,
@@ -2983,7 +2983,7 @@
           "freq": 9,
           "section": "免疫抑制的定义/机制；免疫抑制评价方法 /《10 免疫毒理学》第18–30页、第55–57页",
           "basis": "\"免疫抑制的机制\"\"免疫抑制的评价方法\"\"不同免疫损伤的检测方法\"反复出现，对应本小节。",
-          "excerpt": "免疫抑制的定义：外源性的化学因素或者物理因素引起免疫系统的不同亚型细胞数量下降，细胞功能降低，导致机体免疫应答减弱或者消失。免疫抑制的机制：直接作用（功能改变——影响细胞成熟发育、增殖分化、干扰抗原递呈、干扰免疫细胞功能；结构改变；组成成分改变；直接的细胞毒作用）；间接作用（代谢活化、其它器官损伤的继发效应、对神经内分泌的影响、对营养和代谢的影响）。免疫抑制评价方法：免疫病理；免疫功能评价——体液免疫（PFC，血清溶血素）、细胞免疫（DTH，淋巴细胞增殖）、非特异免疫（巨噬细胞吞噬，NK细胞活性）；宿主抵抗力。",
+          "excerpt": "免疫抑制的定义：外源性的化学因素或者物理因素引起免疫系统的不同亚型细胞数量下降，细胞功能降低，导致机体免疫应答减弱或者消失。\n免疫抑制的机制：直接作用（功能改变——影响细胞成熟发育、增殖分化、干扰抗原递呈、干扰免疫细胞功能；结构改变；组成成分改变；直接的细胞毒作用）；间接作用（代谢活化、其它器官损伤的继发效应、对神经内分泌的影响、对营养和代谢的影响）。\n免疫抑制评价方法：免疫病理；免疫功能评价——体液免疫（PFC，血清溶血素）、细胞免疫（DTH，淋巴细胞增殖）、非特异免疫（巨噬细胞吞噬，NK细胞活性）；宿主抵抗力。",
           "questions": [
             {
               "n": 1,
@@ -3045,7 +3045,7 @@
           "freq": 8,
           "section": "概念—免疫毒理学；研究内容 /《10 免疫毒理学》第7页、第9页",
           "basis": "\"免疫毒理学（英文）的定义及研究内容\"\"immunotoxicology的定义及研究内容\"反复出现，对应本小节。",
-          "excerpt": "免疫毒理学（immunotoxicology）：研究外源性的因素对人体和实验动物免疫系统产生的有害作用及其机制以及危害性风险评估的科学。研究内容：免疫毒性损伤识别（特征，剂量）；阐明免疫毒性及其机制（AOP，作用靶点）；免疫毒性风险评估（根据特定的损伤类型建立不同的模型）；完善和发展免疫毒性评价方法。",
+          "excerpt": "免疫毒理学（immunotoxicology）：研究外源性的因素对人体和实验动物免疫系统产生的有害作用及其机制以及危害性风险评估的科学。\n研究内容：免疫毒性损伤识别（特征，剂量）；阐明免疫毒性及其机制（AOP，作用靶点）；免疫毒性风险评估（根据特定的损伤类型建立不同的模型）；完善和发展免疫毒性评价方法。",
           "questions": [
             {
               "n": 1,
@@ -3083,7 +3083,7 @@
           "freq": 6,
           "section": "超敏反应（过敏反应、变态反应）；外源化学物引起超敏反应的类型和特点 /《10 免疫毒理学》第33–44页",
           "basis": "\"超敏反应的类型及特点\"\"过敏反应的类型、特点\"\"化学物致敏的类型和机制\"反复出现，对应本小节四型超敏反应。",
-          "excerpt": "外源化学物引起超敏反应的类型和特点：I型（速发型）——IgE、肥大细胞、嗜碱性粒细胞，被变应原激活的肥大细胞脱颗粒释放组胺等介质，临床表现为过敏性休克、支气管哮喘、荨麻疹、鼻炎等；II型（细胞毒型）——IgG或IgM、补体、NK、K细胞，临床表现为溶血性贫血、粒细胞减少、血小板减少性紫癜、输血反应等；III型（免疫复合物型）——IgG、IgM、IgA、补体、中性粒细胞，抗原抗体复合物在组织中沉积激活补体导致组织损伤；IV型（迟发型）——T细胞和巨噬细胞，致敏T细胞激活后分泌淋巴因子介导细胞免疫反应，临床表现为接触性皮炎、湿疹、移植排斥反应等。超敏反应定义：机体针对无害抗原产生的无意义的强烈免疫应答；特点：特异质，难预测。",
+          "excerpt": "外源化学物引起超敏反应的类型和特点：I型（速发型）——IgE、肥大细胞、嗜碱性粒细胞，被变应原激活的肥大细胞脱颗粒释放组胺等介质，临床表现为过敏性休克、支气管哮喘、荨麻疹、鼻炎等；II型（细胞毒型）——IgG或IgM、补体、NK、K细胞，临床表现为溶血性贫血、粒细胞减少、血小板减少性紫癜、输血反应等；III型（免疫复合物型）——IgG、IgM、IgA、补体、中性粒细胞，抗原抗体复合物在组织中沉积激活补体导致组织损伤；IV型（迟发型）——T细胞和巨噬细胞，致敏T细胞激活后分泌淋巴因子介导细胞免疫反应，临床表现为接触性皮炎、湿疹、移植排斥反应等。\n超敏反应定义：机体针对无害抗原产生的无意义的强烈免疫应答；特点：特异质，难预测。",
           "questions": [
             {
               "n": 1,
@@ -3133,7 +3133,7 @@
           "freq": 3,
           "section": "自身免疫反应；自身免疫产生的机制 /《10 免疫毒理学》第47–50页",
           "basis": "\"自身免疫损伤的定义及后果\"\"化学物引起自身免疫损伤的机制\"对应本小节（多并入\"免疫损伤类型/机制\"题）。",
-          "excerpt": "自身免疫反应：化学物接触后，诱导机体对自身抗原产生免疫应答，由于自身识别障碍，免疫球蛋白及T细胞受体与自身抗原发生反应，导致组织损伤。后果：出现局部或者全身性组织损伤，表现为器官的炎症或者全身性的炎症损伤（系统性红斑狼疮）。自身免疫产生的机制：干扰中枢耐受；改变外围耐受（IL-10, TGF-β；组织损伤、细胞应激）；改变抗原结构（化学物氧化自身蛋白的巯基）；遗传易感性；交叉反应（化学物抗原与自身抗原具有相同的抗原决定簇）。",
+          "excerpt": "自身免疫反应：化学物接触后，诱导机体对自身抗原产生免疫应答，由于自身识别障碍，免疫球蛋白及T细胞受体与自身抗原发生反应，导致组织损伤。\n后果：出现局部或者全身性组织损伤，表现为器官的炎症或者全身性的炎症损伤（系统性红斑狼疮）。\n自身免疫产生的机制：干扰中枢耐受；改变外围耐受（IL-10, TGF-β；组织损伤、细胞应激）；改变抗原结构（化学物氧化自身蛋白的巯基）；遗传易感性；交叉反应（化学物抗原与自身抗原具有相同的抗原决定簇）。",
           "questions": [
             {
               "n": 1,
@@ -3177,7 +3177,7 @@
           "freq": 12,
           "section": "生殖毒性与发育毒性；发育毒性的主要表现 /《11 化学致畸作用、生殖毒性、发育毒性2021》第10–13页（并见《11 化学致畸作用和发育毒性2022》第4–5页 发育毒性观察终点）",
           "basis": "\"生殖毒性和发育毒性的定义与主要表现\"\"development toxicity的概念及主要表现\"\"发育毒性的概念+表现\"反复出现，对应本小节。",
-          "excerpt": "生殖毒性（Reproductive Toxicity）：外源化学物对生殖过程的不良影响，主要指对生殖细胞的发生、卵细胞受精、胚胎形成、妊娠、分娩和哺乳过程的损害作用；着重研究外源化学物对亲代的生殖功能的有害作用。发育毒性（Developmental Toxicity）：外源化学物对发育过程的不良影响，包括对胚胎发育、胎仔发育及出生幼仔发育的损害作用；指出生前后接触有害因素，子代个体发育为成体之前诱发的任何有害影响；着重研究外源化学物对子代的发育过程的有害作用。发育毒性的主要表现：发育生物体死亡（death of the developing organism）；生长改变（altered growth，生长迟缓）；结构异常（structural abnormality，外观、内脏、骨骼畸形）；功能缺陷（functional deficiency，生理、生化、免疫、行为、智力）。",
+          "excerpt": "生殖毒性（Reproductive Toxicity）：外源化学物对生殖过程的不良影响，主要指对生殖细胞的发生、卵细胞受精、胚胎形成、妊娠、分娩和哺乳过程的损害作用；着重研究外源化学物对亲代的生殖功能的有害作用。\n发育毒性（Developmental Toxicity）：外源化学物对发育过程的不良影响，包括对胚胎发育、胎仔发育及出生幼仔发育的损害作用；指出生前后接触有害因素，子代个体发育为成体之前诱发的任何有害影响；着重研究外源化学物对子代的发育过程的有害作用。\n发育毒性的主要表现：发育生物体死亡（death of the developing organism）；生长改变（altered growth，生长迟缓）；结构异常（structural abnormality，外观、内脏、骨骼畸形）；功能缺陷（functional deficiency，生理、生化、免疫、行为、智力）。",
           "questions": [
             {
               "n": 1,
@@ -3239,7 +3239,7 @@
           "freq": 12,
           "section": "生殖与发育毒性试验—三段生殖毒性试验 /《11 化学致畸作用、生殖毒性、发育毒性2021》第56–62页（并见《11 化学致畸作用和发育毒性2022》第15页）",
           "basis": "\"三段生殖毒性试验的要点\"\"三段致畸试验的要点\"\"三段生殖试验的异同点（试验设计课上ppt的表格）\"反复出现，对应本小节三段试验目的/动物/染毒期/处死时间/观察项目。",
-          "excerpt": "三段生殖毒性试验：生育力和早期胚胎发育毒性试验（一般生殖毒性试验）；胚体-胎体毒性试验（致畸试验）；出生前和出生后发育毒性试验（围生期毒性试验）。主要为发育毒性检测，属于化学物毒理学安全性评价试验四个阶段中的第二阶段。一般生殖毒性试验：评价配子发育及着床前期接触化学物对生育力及早期胚胎发育的影响，雄鼠交配前28天、雌鼠交配前14天到着床染毒。致畸试验（胚体-胎体毒性试验）：评价致畸敏感期接触化学物对妊娠、胎体死亡、生长及结构异常的影响，通常两种动物（大鼠和家兔），胎鼠器官形成期（大鼠孕6-15天，家兔孕6-18天）染毒，分娩前一天处死。围生期毒性试验：评价母体自着床至断乳期间接触化学物对母鼠妊娠、仔鼠生长发育、形态结构及神经行为功能的影响。",
+          "excerpt": "三段生殖毒性试验：生育力和早期胚胎发育毒性试验（一般生殖毒性试验）；胚体-胎体毒性试验（致畸试验）；出生前和出生后发育毒性试验（围生期毒性试验）。\n主要为发育毒性检测，属于化学物毒理学安全性评价试验四个阶段中的第二阶段。\n一般生殖毒性试验：评价配子发育及着床前期接触化学物对生育力及早期胚胎发育的影响，雄鼠交配前28天、雌鼠交配前14天到着床染毒。\n致畸试验（胚体-胎体毒性试验）：评价致畸敏感期接触化学物对妊娠、胎体死亡、生长及结构异常的影响，通常两种动物（大鼠和家兔），胎鼠器官形成期（大鼠孕6-15天，家兔孕6-18天）染毒，分娩前一天处死。\n围生期毒性试验：评价母体自着床至断乳期间接触化学物对母鼠妊娠、仔鼠生长发育、形态结构及神经行为功能的影响。",
           "questions": [
             {
               "n": 1,
@@ -3345,7 +3345,7 @@
           "freq": 10,
           "section": "致畸试验 /《11 化学致畸作用、生殖毒性、发育毒性2021》第36–37页（并见《11 化学致畸作用和发育毒性2022》第14页）",
           "basis": "\"致畸试验设计要点\"\"致畸试验的要点\"\"畸形试验要点\"反复出现，对应本小节\"一个关键期、两个物种、三个对照组、四个剂量、五个结果观察\"。",
-          "excerpt": "致畸试验：试验动物——大鼠、小鼠、家兔；剂量——高剂量应在母体中产生轻度的毒性（LD50的1/5-1/3），中剂量应引起最小的毒作用（LOAEL），低剂量NOAEL或LD50的1/100-1/30；暴露途径与染毒时机——应与人的暴露途径相同，器官形成期；对照组——阴性对照（溶剂或赋形剂）、阳性对照（乙酰水杨酸、Vit-A等）；结果观察——母体观察、胎仔检查（一般检查、外观检查、内脏检查、骨骼检查）。试验设计概括：一个关键期（致畸作用关键期）；两个物种（啮齿类、非啮齿类哺乳动物）；三个对照组（阴性、空白、阳性）；四个剂量（零、低、中、高）；五个结果观察（胎仔一般、外观、内脏、骨骼，母体）。",
+          "excerpt": "致畸试验：试验动物——大鼠、小鼠、家兔；剂量——高剂量应在母体中产生轻度的毒性（LD50的1/5-1/3），中剂量应引起最小的毒作用（LOAEL），低剂量NOAEL或LD50的1/100-1/30；暴露途径与染毒时机——应与人的暴露途径相同，器官形成期；对照组——阴性对照（溶剂或赋形剂）、阳性对照（乙酰水杨酸、Vit-A等）；结果观察——母体观察、胎仔检查（一般检查、外观检查、内脏检查、骨骼检查）。\n试验设计概括：一个关键期（致畸作用关键期）；两个物种（啮齿类、非啮齿类哺乳动物）；三个对照组（阴性、空白、阳性）；四个剂量（零、低、中、高）；五个结果观察（胎仔一般、外观、内脏、骨骼，母体）。",
           "questions": [
             {
               "n": 1,
@@ -3395,7 +3395,7 @@
           "freq": 6,
           "section": "接触致畸原的时间—关键期/靶窗 /《11 化学致畸作用、生殖毒性、发育毒性2021》第20–23页（并见《11 化学致畸作用和发育毒性2022》第7页）",
           "basis": "\"致畸作用的critical period的概念、毒理学意义\"\"关键期定义，毒理学的意义\"反复出现，对应本小节。",
-          "excerpt": "关键期（critical period）：胚胎发育过程中，易于发生形态结构异常的整个时期。通常略长于胚胎的器官形成期（organogenesis period）。靶窗（Target window）：不同器官对致畸作用的特殊敏感期。致畸试验的染毒时间必须安排在器官形成期，即致畸作用关键期。不同动物胚胎发育时间（妊娠天数）：人着床8-13、器官形成21-56；大鼠器官形成6-15；小鼠器官形成6-15。",
+          "excerpt": "关键期（critical period）：胚胎发育过程中，易于发生形态结构异常的整个时期。\n通常略长于胚胎的器官形成期（organogenesis period）。\n靶窗（Target window）：不同器官对致畸作用的特殊敏感期。\n致畸试验的染毒时间必须安排在器官形成期，即致畸作用关键期。\n不同动物胚胎发育时间（妊娠天数）：人着床8-13、器官形成21-56；大鼠器官形成6-15；小鼠器官形成6-15。",
           "questions": [
             {
               "n": 1,
@@ -3427,7 +3427,7 @@
           "freq": 6,
           "section": "接触致畸原的剂量；致畸作用的剂量反应关系 /《11 化学致畸作用、生殖毒性、发育毒性2021》第25–26页、第35页",
           "basis": "\"外源化学物致畸作用的剂量反应关系特点及意义\"\"简述致畸曲线及其毒理学意义\"\"致畸效应的剂量反应关系和毒理学意义\"反复出现，对应本小节。",
-          "excerpt": "接触致畸原的剂量：剂量增加与毒作用表现的关系——随剂量增加依次出现无作用带、致畸带、胚胎死亡带、母体死亡带；致畸作用具有阈剂量。致畸试验剂量设计应适中：过低不足以显示致畸性；过高引起大量胚胎死亡、畸胎率反而降低，或母体毒性过强不能判断。致畸作用的剂量反应关系三种模式（一次染毒，剂量水平不导致母体严重毒性）：不引起胚胎死亡导致整窝胚胎畸形（高度致畸性）；一窝中正常胎、结构畸形、生长迟缓、死亡共存（常见）；只有胚胎死亡和生长迟缓没有畸形（具有胚胎毒性但非致畸性）。意义：了解机制。",
+          "excerpt": "接触致畸原的剂量：剂量增加与毒作用表现的关系——随剂量增加依次出现无作用带、致畸带、胚胎死亡带、母体死亡带；致畸作用具有阈剂量。\n致畸试验剂量设计应适中：过低不足以显示致畸性；过高引起大量胚胎死亡、畸胎率反而降低，或母体毒性过强不能判断。\n致畸作用的剂量反应关系三种模式（一次染毒，剂量水平不导致母体严重毒性）：不引起胚胎死亡导致整窝胚胎畸形（高度致畸性）；一窝中正常胎、结构畸形、生长迟缓、死亡共存（常见）；只有胚胎死亡和生长迟缓没有畸形（具有胚胎毒性但非致畸性）。\n意义：了解机制。",
           "questions": [
             {
               "n": 1,
@@ -3465,7 +3465,7 @@
           "freq": 5,
           "section": "致畸作用—致畸物/致畸性；致畸试验结果评定—致畸指数；生殖与发育毒性的特点；雄/雌性生殖毒性的作用靶点 /《11 化学致畸作用、生殖毒性、发育毒性2021》第14、16、46页（并见《11 化学致畸作用和发育毒性2022》第10、13、14页）",
           "basis": "\"致畸指数的概念及毒理学意义\"\"雄性生殖毒性的主要靶点\"\"生殖与发育毒性的特点\"对应本小节。",
-          "excerpt": "致畸物（Teratogen）：在出生前暴露可诱发永久性结构异常的物质；能引起畸形的环境因子。致畸性（Teratogenicity）：外源化学物作用于妊娠母体，干扰胚胎及胎儿的正常发育过程，使胎儿出现形态结构及功能异常的性质。致畸指数=化合物对雌性动物LD50/最小致畸剂量；<10不具致畸作用，10-100有致畸作用，>100强致畸作用。生殖与发育毒性的特点：生殖过程对某些化学物的毒作用更为敏感（在成体系统毒性的NOAEL，胚胎即可受到影响）；损害作用不仅表现在暴露化学物质的机体本身，还可影响其后代。雄性生殖毒性作用靶点：Leydig细胞、Sertoli细胞、生精上皮、附睾上皮；雌性生殖毒性作用靶点：卵巢、输卵管、子宫、激素分泌。",
+          "excerpt": "致畸物（Teratogen）：在出生前暴露可诱发永久性结构异常的物质；能引起畸形的环境因子。\n致畸性（Teratogenicity）：外源化学物作用于妊娠母体，干扰胚胎及胎儿的正常发育过程，使胎儿出现形态结构及功能异常的性质。\n致畸指数=化合物对雌性动物LD50/最小致畸剂量；<10不具致畸作用，10-100有致畸作用，>100强致畸作用。\n生殖与发育毒性的特点：生殖过程对某些化学物的毒作用更为敏感（在成体系统毒性的NOAEL，胚胎即可受到影响）；损害作用不仅表现在暴露化学物质的机体本身，还可影响其后代。\n雄性生殖毒性作用靶点：Leydig细胞、Sertoli细胞、生精上皮、附睾上皮；雌性生殖毒性作用靶点：卵巢、输卵管、子宫、激素分泌。",
           "questions": [
             {
               "n": 1,
@@ -3509,7 +3509,7 @@
           "freq": 2,
           "section": "致畸试验替代方法（EST、MM、WEC）/《11 化学致畸作用、生殖毒性、发育毒性2021》第49–54页（并见《11 化学致畸作用和发育毒性2022》第17–19页）",
           "basis": "课件思考题与往年\"体外替代方法能否取代传统致畸试验\"对应本小节胚胎干细胞试验、细胞微团试验、全胚胎培养。",
-          "excerpt": "致畸试验替代方法：胚胎干细胞试验（embryonic stem cell test, EST，使用小鼠胚胎干细胞D3和成纤维细胞3T3，比较受试物抑制干细胞分化的浓度和抑制细胞生长的浓度评价胚胎毒性）；细胞微团（micromass, MM）培养试验（高密度胚胎原代细胞共培养，评价对细胞增殖和分化的影响）；哺乳动物全胚胎培养（whole embryo culture, WEC）试验（9.5日龄大鼠胚胎体外培养，对器官形成期胚胎器官分化和生长发育的影响判定胚胎毒性和致畸性）。发育毒物体外预筛试验：小鼠胚体干细胞培养、肢芽培养、中脑微团培养、全胚胎培养。",
+          "excerpt": "致畸试验替代方法：胚胎干细胞试验（embryonic stem cell test, EST，使用小鼠胚胎干细胞D3和成纤维细胞3T3，比较受试物抑制干细胞分化的浓度和抑制细胞生长的浓度评价胚胎毒性）；细胞微团（micromass, MM）培养试验（高密度胚胎原代细胞共培养，评价对细胞增殖和分化的影响）；哺乳动物全胚胎培养（whole embryo culture, WEC）试验（9.5日龄大鼠胚胎体外培养，对器官形成期胚胎器官分化和生长发育的影响判定胚胎毒性和致畸性）。\n发育毒物体外预筛试验：小鼠胚体干细胞培养、肢芽培养、中脑微团培养、全胚胎培养。",
           "questions": [
             {
               "n": 1,
@@ -3547,7 +3547,7 @@
           "freq": 8,
           "section": "三、迟发性神经毒性 /《12 神经和神经行为毒理学》第30–33页",
           "basis": "\"迟发性神经毒性的定义和表现\"\"迟发性神经毒性的概念和表现\"反复出现，对应本小节定义、机理及试验动物。",
-          "excerpt": "迟发性神经毒性（delayed toxicity）定义：在中毒反应发生后8～14天，再次出现的较持久的神经中毒反应，主要表现为迟缓性麻痹或轻瘫，而后出现脊髓损伤体征，如共济失调或强直。多见于有机磷农药、CO中毒。中毒作用机理（OPIDN）：第一步神经毒靶酯老化；第二步钙稳态的失衡，引起依赖钙激活蛋白酶（CANP）的活化；第三步CANP引起远端轴突的降解。常见引起迟发性神经毒性的有机磷农药：TOCP（三磷甲苯磷酸酯）、丙胺氟磷、敌敌畏和敌百虫等。有机磷农药的毒性试验中应该有迟发性神经毒性试验，实验动物：母鸡；剂量：LD50；试验期限：21天。",
+          "excerpt": "迟发性神经毒性（delayed toxicity）定义：在中毒反应发生后8～14天，再次出现的较持久的神经中毒反应，主要表现为迟缓性麻痹或轻瘫，而后出现脊髓损伤体征，如共济失调或强直。\n多见于有机磷农药、CO中毒。\n中毒作用机理（OPIDN）：第一步神经毒靶酯老化；第二步钙稳态的失衡，引起依赖钙激活蛋白酶（CANP）的活化；第三步CANP引起远端轴突的降解。\n常见引起迟发性神经毒性的有机磷农药：TOCP（三磷甲苯磷酸酯）、丙胺氟磷、敌敌畏和敌百虫等。\n有机磷农药的毒性试验中应该有迟发性神经毒性试验，实验动物：母鸡；剂量：LD50；试验期限：21天。",
           "questions": [
             {
               "n": 1,
@@ -3597,7 +3597,7 @@
           "freq": 6,
           "section": "二、神经毒性类型及机制；外源化学物对神经系统毒作用的表现 /《12 神经和神经行为毒理学》第17–27页",
           "basis": "\"按机制和部位的神经毒性分类\"\"神经毒效应按照作用部位和机制可分为哪几类\"\"神经中毒的临床表现分类\"反复出现，对应本小节。",
-          "excerpt": "二、神经毒性类型及机制：1.血－脑及血－神经屏障与神经毒性损伤；2.神经元损伤（neuronopathy，有关化学物如氨基糖甙类抗生素、铅、汞、锰、铊等）；3.轴病（axonopathy，如丙烯酰胺、二硫化碳、有机磷、正己烷等）；4.微管相关的神经毒作用—周围神经病（如秋水仙素、紫杉醇）；5.髓鞘病（myelinopathies）；6.神经传递与神经毒性（transmission toxicity，如苯丙胺、阿托品、可卡因、烟碱等）。外源化学物对神经系统毒作用的表现：1.中毒性神经官能症（以脑功能失调和精神障碍为主，可逆）；2.中毒性脑病（中枢神经系统器质性病变，急性/慢性）；3.中毒性神经炎（损害周围神经导致单神经炎或多神经炎）。",
+          "excerpt": "二、神经毒性类型及机制：1.血－脑及血－神经屏障与神经毒性损伤；2.神经元损伤（neuronopathy，有关化学物如氨基糖甙类抗生素、铅、汞、锰、铊等）；3.轴病（axonopathy，如丙烯酰胺、二硫化碳、有机磷、正己烷等）；4.微管相关的神经毒作用—周围神经病（如秋水仙素、紫杉醇）；5.髓鞘病（myelinopathies）；6.神经传递与神经毒性（transmission toxicity，如苯丙胺、阿托品、可卡因、烟碱等）。\n外源化学物对神经系统毒作用的表现：1.中毒性神经官能症（以脑功能失调和精神障碍为主，可逆）；2.中毒性脑病（中枢神经系统器质性病变，急性/慢性）；3.中毒性神经炎（损害周围神经导致单神经炎或多神经炎）。",
           "questions": [
             {
               "n": 1,
@@ -3661,7 +3661,7 @@
           "freq": 1,
           "section": "神经行为毒理学 /《12 神经和神经行为毒理学》第45–53页",
           "basis": "课件单列神经行为毒理学定义与研究方法，往年神经毒性研究方法题常需扩展至神经行为学方法，单列以备复习。",
-          "excerpt": "神经行为毒理学（neurobehavioral toxicology）定义：主要是研究外源性化学物特别是低剂量长期接触对人神经行为的毒性效应，亦即人的心理功能的毒性效应。特点：敏感、能定量、可早期检出亚临床表现、是整体试验。研究方法：（1）动物试验——主要检测学习记忆，空间辨别试验（Y迷宫、Morris水迷宫）、厌恶学习（穿梭箱、避暗、跳台）、自主活动度测定、焦虑测定（高架十字迷宫）、药物成瘾性（条件位置偏好）；（2）人的观察——心理功能测试量表（韦氏智力/记忆量表），NCTB（WHO 1983），计算机化神经行为评价系统（NES）。",
+          "excerpt": "神经行为毒理学（neurobehavioral toxicology）定义：主要是研究外源性化学物特别是低剂量长期接触对人神经行为的毒性效应，亦即人的心理功能的毒性效应。\n特点：敏感、能定量、可早期检出亚临床表现、是整体试验。\n研究方法：（1）动物试验——主要检测学习记忆，空间辨别试验（Y迷宫、Morris水迷宫）、厌恶学习（穿梭箱、避暗、跳台）、自主活动度测定、焦虑测定（高架十字迷宫）、药物成瘾性（条件位置偏好）；（2）人的观察——心理功能测试量表（韦氏智力/记忆量表），NCTB（WHO 1983），计算机化神经行为评价系统（NES）。",
           "questions": [
             {
               "n": 1,
@@ -3693,7 +3693,7 @@
           "freq": 14,
           "section": "化学物对生物体健康风险的安全性评价；四阶段毒理学安全性评价；实验结果判定原则 /《13 安全性评价》第4–8页",
           "basis": "\"毒理学安全性评价的概念和基本内容\"\"安全性评价为什么要分阶段进行？各阶段的具体内容\"\"化学品安全性评价的概念和内容\"反复出现，对应本小节四阶段及分阶段原因（含历届备注：经济成本因素，非食入化学物只需前三阶段，食品和药品须完整四阶段）。",
-          "excerpt": "安全性评价（safety evaluation）：按照一定的程序要求对外源化学物的毒作用进行检测，以评价化学物的毒作用特点、毒作用的剂量－反应关系，经足够的试验之后，提出NOAEL和LOAEL，再除以一定的安全系数，制订出安全限值。开展安全性评价必备的几个基本要素：GLP（good laboratory practice，实验室认证认可）、SOP（standard operation procedures）、QAU（quality assurance unit）。四阶段毒理学安全性评价：第一阶段——急性毒性试验，局部毒性试验；第二阶段——蓄积试验、遗传毒理学试验和致畸试验；第三阶段——亚慢性毒性试验、生殖试验和代谢试验；第四阶段——慢性毒性试验和致癌试验。实验结果判定原则：急性毒性小于人摄入量100倍放弃；遗传毒性两项阳性弃用，一项阳性再选两个备选试验（其中一个为体内试验）；90天经口毒性100、300倍；生殖毒性100、300倍；慢性毒性和致癌试验50、100倍。",
+          "excerpt": "安全性评价（safety evaluation）：按照一定的程序要求对外源化学物的毒作用进行检测，以评价化学物的毒作用特点、毒作用的剂量－反应关系，经足够的试验之后，提出NOAEL和LOAEL，再除以一定的安全系数，制订出安全限值。\n开展安全性评价必备的几个基本要素：GLP（good laboratory practice，实验室认证认可）、SOP（standard operation procedures）、QAU（quality assurance unit）。\n四阶段毒理学安全性评价：第一阶段——急性毒性试验，局部毒性试验；第二阶段——蓄积试验、遗传毒理学试验和致畸试验；第三阶段——亚慢性毒性试验、生殖试验和代谢试验；第四阶段——慢性毒性试验和致癌试验。\n实验结果判定原则：急性毒性小于人摄入量100倍放弃；遗传毒性两项阳性弃用，一项阳性再选两个备选试验（其中一个为体内试验）；90天经口毒性100、300倍；生殖毒性100、300倍；慢性毒性和致癌试验50、100倍。",
           "questions": [
             {
               "n": 1,
@@ -3743,7 +3743,7 @@
           "freq": 9,
           "section": "生物药物的特点；生物药物的安全性评价特殊性；安全评估试验-生物药物与化学药物 /《13 安全性评价》第14–36页",
           "basis": "\"生物药物和化学药物的安全性评价的异同点\"\"生药和化药安全性评价异同\"\"生物药安全性评价的关注点\"反复出现，对应本小节对照表与特别关注点。",
-          "excerpt": "生物药物的特点（区别于化药）：（1）空间结构很复杂致使结构确定存在不完整性；（2）生理结构差异导致生物活性差异；（3）生物药物受体广泛决定其具有多功能性；（4）生物药物是异源性大分子，具有免疫原性。安全评估试验-生物药物（ICH S6）与化学药物（ICH M3）：普通毒理学（生物药物啮齿和非啮齿动物通常6个月，可只用一种相关动物；化药啮齿至多6个月、非啮齿9-12个月，需2种动物）；组织交叉反应（生物药物单克隆抗体及衍生物需要，化药不需要）；遗传毒理学（生物药物通常不需要，化药需要）；安全药理学（生物药物通常不需要，可与普通毒理学合并）；生殖毒理学；致癌性试验（生物药物个案考虑；化药需大鼠和小鼠致癌试验）；光毒性试验；代谢特征鉴定（生物药物不做，化药通常需要）。生物药物特别关注点：生殖毒性、致癌性、安全药理学、组织交叉反应性、细胞因子释放、免疫原性。",
+          "excerpt": "生物药物的特点（区别于化药）：（1）空间结构很复杂致使结构确定存在不完整性；（2）生理结构差异导致生物活性差异；（3）生物药物受体广泛决定其具有多功能性；（4）生物药物是异源性大分子，具有免疫原性。\n安全评估试验-生物药物（ICH S6）与化学药物（ICH M3）：普通毒理学（生物药物啮齿和非啮齿动物通常6个月，可只用一种相关动物；化药啮齿至多6个月、非啮齿9-12个月，需2种动物）；组织交叉反应（生物药物单克隆抗体及衍生物需要，化药不需要）；遗传毒理学（生物药物通常不需要，化药需要）；安全药理学（生物药物通常不需要，可与普通毒理学合并）；生殖毒理学；致癌性试验（生物药物个案考虑；化药需大鼠和小鼠致癌试验）；光毒性试验；代谢特征鉴定（生物药物不做，化药通常需要）。\n生物药物特别关注点：生殖毒性、致癌性、安全药理学、组织交叉反应性、细胞因子释放、免疫原性。",
           "questions": [
             {
               "n": 1,
@@ -3787,7 +3787,7 @@
           "freq": 6,
           "section": "不同受试物选择开展试验的原则；化学品A/药物B/转基因水稻案例 /《13 安全性评价》第7页、第9–11页",
           "basis": "\"不同物质安全性评价需要注意哪些内容\"\"不同化学物安全性评价的特点\"\"不同物质安全性评价的不同要点\"反复出现，对应本小节按受试物类型选择试验的原则。",
-          "excerpt": "不同受试物选择开展试验的原则：首创物质，构效分析（潜在毒性），使用范围广，摄入量大——急性至致癌（完整程序）；已知食品中相关物质的类似物，或者部分地区有食用历史——急毒、遗传毒性、28天经口毒性，根据具体情况确定是否继续。案例：化学品A（硫酸盐，溶于水，具有作为食品添加剂的特性）；药物B（单克隆抗体，用于癌症治疗）；转cry-1Ab蛋白水稻（抗虫，用于常规粮食）——请设计安全性评价方案。",
+          "excerpt": "不同受试物选择开展试验的原则：首创物质，构效分析（潜在毒性），使用范围广，摄入量大——急性至致癌（完整程序）；已知食品中相关物质的类似物，或者部分地区有食用历史——急毒、遗传毒性、28天经口毒性，根据具体情况确定是否继续。\n案例：化学品A（硫酸盐，溶于水，具有作为食品添加剂的特性）；药物B（单克隆抗体，用于癌症治疗）；转cry-1Ab蛋白水稻（抗虫，用于常规粮食）——请设计安全性评价方案。",
           "questions": [
             {
               "n": 1,
@@ -3819,7 +3819,7 @@
           "freq": 4,
           "section": "四阶段毒理学安全性评价（结合《2 毒理学实验基础》第24页 受试样品的准备）/《13 安全性评价》第6–8页",
           "basis": "\"对化学物进行毒理学试验的程序和项目\"\"化学物质毒理学实验的程序、项目\"\"化学物毒理实验的程序和项目\"反复出现，对应安全性评价程序（含前期准备阶段对理化性质/结构类似物毒性的了解，再进入分阶段试验）。",
-          "excerpt": "四阶段毒理学安全性评价：第一阶段急性毒性试验、局部毒性试验；第二阶段蓄积试验、遗传毒理学试验和致畸试验；第三阶段亚慢性毒性试验、生殖试验和代谢试验；第四阶段慢性毒性试验和致癌试验。（《2 毒理学实验基础》第24页 受试样品的准备：①纯度及杂质成分；②化学结构和理化性质；③相似化合物的毒性参考资料；④同种同一批号；⑤成分和配方必须固定；⑥稳定性受试物应一次备齐全部实验的用量——即试验程序前的前期准备阶段。）",
+          "excerpt": "四阶段毒理学安全性评价：第一阶段急性毒性试验、局部毒性试验；第二阶段蓄积试验、遗传毒理学试验和致畸试验；第三阶段亚慢性毒性试验、生殖试验和代谢试验；第四阶段慢性毒性试验和致癌试验。\n（《2 毒理学实验基础》第24页 受试样品的准备：①纯度及杂质成分；②化学结构和理化性质；③相似化合物的毒性参考资料；④同种同一批号；⑤成分和配方必须固定；⑥稳定性受试物应一次备齐全部实验的用量——即试验程序前的前期准备阶段。）",
           "questions": [
             {
               "n": 1,
@@ -3857,7 +3857,7 @@
           "freq": 9,
           "section": "风险评估；风险评估的步骤；危害鉴定/危害表征/暴露评定/风险表征 /《14 风险评估、管理毒理学》第2–16页",
           "basis": "\"risk assessment的定义和步骤\"\"Health risk assessment 的概念及主要步骤\"\"健康风险评估的步骤和内容\"反复出现，对应本小节四步骤。",
-          "excerpt": "风险评估（risk assessment）：对不良结果发生的机率进行描述和定量，包括环境风险评估和健康风险评估。健康风险评估：基于人群流行病学资料、毒理学试验资料、环境化学物的接触资料等科学数据的分析，确定接触外源化学物后对公众健康危害的可能性，包括对有害作用性质、强度的定性描述，接触水平与可能出现损害的危险性水平的定量评定及对评价结论和评定的不确定性的分析和描述。风险评估的步骤：危害识别（hazard identification）；危害表征（hazard characterization）；暴露评定（exposure assessment）；风险表征（risk characterization）。危害鉴定：分析确定化学物与机体接触后产生不良作用的性质和特点。暴露评定是风险评估中最为不确定的部分。风险表征：将前三步分析和结论综合，对人体危害的性质及危险度的大小做出估计，为危险度管理提供依据。",
+          "excerpt": "风险评估（risk assessment）：对不良结果发生的机率进行描述和定量，包括环境风险评估和健康风险评估。\n健康风险评估：基于人群流行病学资料、毒理学试验资料、环境化学物的接触资料等科学数据的分析，确定接触外源化学物后对公众健康危害的可能性，包括对有害作用性质、强度的定性描述，接触水平与可能出现损害的危险性水平的定量评定及对评价结论和评定的不确定性的分析和描述。\n风险评估的步骤：危害识别（hazard identification）；危害表征（hazard characterization）；暴露评定（exposure assessment）；风险表征（risk characterization）。\n危害鉴定：分析确定化学物与机体接触后产生不良作用的性质和特点。\n暴露评定是风险评估中最为不确定的部分。\n风险表征：将前三步分析和结论综合，对人体危害的性质及危险度的大小做出估计，为危险度管理提供依据。",
           "questions": [
             {
               "n": 1,
@@ -3907,7 +3907,7 @@
           "freq": 8,
           "section": "危害表征；有阈化学物的剂量—反应关系评定（RfD、BMD）；无阈化学物的剂量—反应关系评定 /《14 风险评估、管理毒理学》第6–12页",
           "basis": "\"危害表征的阈值法和非阈值法\"\"阈值法与非阈值法\"\"健康风险评估中，阈值法和非阈值法的应用\"反复出现，对应本小节（致癌、致突变用非阈值法，致畸是有阈值，见历届备注）。",
-          "excerpt": "危害表征（hazard characterization）：确定外源化学物接触水平与有害效应发生频率之间的关系。有阈化学物的剂量—反应关系评定：参考剂量（RfD）——日平均接触剂量的估计值，RfD=NOAEL或LOAEL/(UFs×MF)；关键效应——一般为具有最低NOAEL的有害效应；基准剂量（BMD）——依据动物试验剂量-反应关系结果，用统计学模式求得引起一定比例（通常1-10%）动物出现阳性反应剂量的95%可信限区间的下限值。无阈化学物的剂量—反应关系评定：概率分布模型；机制模型（一次打击、多次打击、多阶段、线性多阶段、随机两阶段模型）；PBPK模型；BBDR模型。（致癌、致突变用非阈值法，致畸是有阈值法。）",
+          "excerpt": "危害表征（hazard characterization）：确定外源化学物接触水平与有害效应发生频率之间的关系。\n有阈化学物的剂量—反应关系评定：参考剂量（RfD）——日平均接触剂量的估计值，RfD=NOAEL或LOAEL/(UFs×MF)；关键效应——一般为具有最低NOAEL的有害效应；基准剂量（BMD）——依据动物试验剂量-反应关系结果，用统计学模式求得引起一定比例（通常1-10%）动物出现阳性反应剂量的95%可信限区间的下限值。\n无阈化学物的剂量—反应关系评定：概率分布模型；机制模型（一次打击、多次打击、多阶段、线性多阶段、随机两阶段模型）；PBPK模型；BBDR模型。\n（致癌、致突变用非阈值法，致畸是有阈值法。）",
           "questions": [
             {
               "n": 1,
@@ -3963,7 +3963,7 @@
           "freq": 5,
           "section": "管理毒理学；毒理学研究和化学物质管理的相互关系；化学品管理过程中毒理学家的作用 /《14 风险评估、管理毒理学》第21–30页",
           "basis": "\"毒理学家在安全性管理方面的工作\"\"作为毒理学家，能在安全性管理中做什么\"\"在化学品管理中毒理学家的作用\"反复出现，对应本小节。",
-          "excerpt": "管理毒理学（Regulatory Toxicology）：依据描述和机制毒理学对毒作用规律的研究成果，协助政府部门制订相关法规条例和管理措施并付诸实施，以确保对化学品、药品、食品等进行有效的管理，保障接触人群的健康和环境安全。化学品管理过程中毒理学家的作用：（1）参与有关法律、法规的制订；（2）对化学品分类、分级、标签管理；（3）提供技术咨询和技术支持；（4）卫生标准和环境标准制订；（5）对新化学物质进行毒理学安全性评价，并参与其专业技术评审；（6）对重要的环境污染物和化学品进行健康危险度评价；（7）参与化学事故的应急救援。毒理学研究和化学物质管理的相互关系：总体目标一致；化学品的管理是以行政法规为依据采取行政措施，而不是直接依据毒理学的科研结论。",
+          "excerpt": "管理毒理学（Regulatory Toxicology）：依据描述和机制毒理学对毒作用规律的研究成果，协助政府部门制订相关法规条例和管理措施并付诸实施，以确保对化学品、药品、食品等进行有效的管理，保障接触人群的健康和环境安全。\n化学品管理过程中毒理学家的作用：（1）参与有关法律、法规的制订；（2）对化学品分类、分级、标签管理；（3）提供技术咨询和技术支持；（4）卫生标准和环境标准制订；（5）对新化学物质进行毒理学安全性评价，并参与其专业技术评审；（6）对重要的环境污染物和化学品进行健康危险度评价；（7）参与化学事故的应急救援。\n毒理学研究和化学物质管理的相互关系：总体目标一致；化学品的管理是以行政法规为依据采取行政措施，而不是直接依据毒理学的科研结论。",
           "questions": [
             {
               "n": 1,
@@ -3995,7 +3995,7 @@
           "freq": 5,
           "section": "GHS；GHS危险性分类；GHS健康危害性分类 /《14 风险评估、管理毒理学》第37–43页（并见《5 毒作用机制、急性毒性和局部毒性试验》第33–36页 急性毒性分级 GHS）",
           "basis": "\"GHS的概念解释；健康危害10类\"\"GHS健康危害的分类\"\"GHS健康危害主要内容（10项那个）\"反复出现，对应本小节；YYS题库补充亦明确 GHS+10大健康危害。",
-          "excerpt": "GHS：《全球化学品统一分类和标签制度》（Globally Harmonized System of Classification and Labelling of Chemicals）是在联合国有关机构的协调下，以世界各国现行的主要化学品分类制度为基础，创建的一套科学的、统一标准化的化学品分类和标签制度。GHS分类适用于所有化学品（含农药），既适用于纯化学物质，也适用于混合物；但不适用于医药品、食品添加剂、食品中农药残留物或消费者使用的化妆品。GHS危险性分类：理化危害16类、健康危害10类、环境危害2类。GHS健康危害性分类（10类）：急性毒性；皮肤腐蚀/刺激性；严重眼损伤/眼刺激性；呼吸或皮肤致敏性；生殖细胞致突变性；致癌性；生殖毒性；特定靶器官毒性（单次接触）；特定靶器官毒性（反复接触）；吸入危害性。",
+          "excerpt": "GHS：《全球化学品统一分类和标签制度》（Globally Harmonized System of Classification and Labelling of Chemicals）是在联合国有关机构的协调下，以世界各国现行的主要化学品分类制度为基础，创建的一套科学的、统一标准化的化学品分类和标签制度。\nGHS分类适用于所有化学品（含农药），既适用于纯化学物质，也适用于混合物；但不适用于医药品、食品添加剂、食品中农药残留物或消费者使用的化妆品。\nGHS危险性分类：理化危害16类、健康危害10类、环境危害2类。\nGHS健康危害性分类（10类）：急性毒性；皮肤腐蚀/刺激性；严重眼损伤/眼刺激性；呼吸或皮肤致敏性；生殖细胞致突变性；致癌性；生殖毒性；特定靶器官毒性（单次接触）；特定靶器官毒性（反复接触）；吸入危害性。",
           "questions": [
             {
               "n": 1,
@@ -4039,7 +4039,7 @@
           "freq": 4,
           "section": "GLP（Good Laboratory Practice）；GLP的主要内容 /《14 风险评估、管理毒理学》第31–32页（并见《13 安全性评价》第5页、《1 绪论》第32页）",
           "basis": "\"GLP、SOP和QA的概念和意义\"\"GLP SOP QA概念 意义\"反复出现，对应本小节。",
-          "excerpt": "GLP（Good Laboratory Practice）：为保证试验数据的准确、可靠，对于非临床的实验室研究在研究计划制定、实施、监督、记录及报告等各项工作的过程和条件提出的要求和指导。GLP的主要内容：关键-人员素质；基础-实验设施；手段-SOP（Standard Operation Procedure）；保证-QAU（Quality Assurance Unit）。",
+          "excerpt": "GLP（Good Laboratory Practice）：为保证试验数据的准确、可靠，对于非临床的实验室研究在研究计划制定、实施、监督、记录及报告等各项工作的过程和条件提出的要求和指导。\nGLP的主要内容：关键-人员素质；基础-实验设施；手段-SOP（Standard Operation Procedure）；保证-QAU（Quality Assurance Unit）。",
           "questions": [
             {
               "n": 1,
@@ -4109,7 +4109,7 @@
           "freq": 2,
           "section": "风险管理；风险交流；可接受风险/实用安全剂量；推导慢性RfD时不确定性系数和修正系数 /《14 风险评估、管理毒理学》第4页、第10页、第17–18页",
           "basis": "历届\"健康风险评价的步骤和内容\"被追问\"还有危险管理和危险交流\"\"不确定性的来源\"，对应本小节风险管理/交流及不确定性系数。",
-          "excerpt": "风险管理（risk management）：管理部门依据危险度评价的结果，综合技术、社会、经济及政治等其他因素，确定可接受的危险度，制订容许限量标准。风险交流（risk communication）：在风险评估者、风险管理者、消费者和其他有关各方之间进行有关风险和风险相关因素的信息和观点的交流过程，应贯穿风险分析的各个阶段。可接受风险（acceptable risk）：公众及社会在精神及心理等方面可以接受的风险。实用安全剂量（VSD）：相近于可接受风险水平的化学物接触剂量。推导慢性RfD时的不确定性系数：B（人群个体敏感性的变异）、A（使用动物资料外推到人）、S（亚慢性研究外推到慢性研究）、L（由LOAEL代替NOAEL）、D（数据库不完整的不确定性）、MF（修正系数）。",
+          "excerpt": "风险管理（risk management）：管理部门依据危险度评价的结果，综合技术、社会、经济及政治等其他因素，确定可接受的危险度，制订容许限量标准。\n风险交流（risk communication）：在风险评估者、风险管理者、消费者和其他有关各方之间进行有关风险和风险相关因素的信息和观点的交流过程，应贯穿风险分析的各个阶段。\n可接受风险（acceptable risk）：公众及社会在精神及心理等方面可以接受的风险。\n实用安全剂量（VSD）：相近于可接受风险水平的化学物接触剂量。\n推导慢性RfD时的不确定性系数：B（人群个体敏感性的变异）、A（使用动物资料外推到人）、S（亚慢性研究外推到慢性研究）、L（由LOAEL代替NOAEL）、D（数据库不完整的不确定性）、MF（修正系数）。",
           "questions": [
             {
               "n": 1,
@@ -4147,7 +4147,7 @@
           "freq": 30,
           "section": "未完全匹配到课件知识点正文；根据题意暂归入：第二章 /《2 毒理学实验基础》（七、实验动物的染毒和处置——经口（胃肠道）染毒：灌胃）",
           "basis": "该题为实验操作技能（灌胃手法、回抽看负压、落空感，及\"1%原液配制50mg/kg剂量\"的配液计算 c=d/v、倍比稀释），在课件中仅有\"经口（胃肠道）染毒：灌胃、喂饲和吞咽胶囊\"的简略表述，未给出操作细节与计算方法，故标记为未完全匹配到，归入实验基础章节。",
-          "excerpt": "（《2 毒理学实验基础》第41–42页）（二）染毒途径：1.经口（胃肠道）染毒：灌胃、喂饲和吞咽胶囊。其余操作细节（称重、计算 ml 数、抽、灌、回抽看负压、落空感、染毒后继续禁食2~4小时）及配液计算未完全匹配到课件原文。",
+          "excerpt": "（《2 毒理学实验基础》第41–42页）（二）染毒途径：1.经口（胃肠道）染毒：灌胃、喂饲和吞咽胶囊。\n其余操作细节（称重、计算 ml 数、抽、灌、回抽看负压、落空感、染毒后继续禁食2~4小时）及配液计算未完全匹配到课件原文。",
           "questions": [
             {
               "n": 1,
@@ -4277,7 +4277,7 @@
           "freq": 6,
           "section": "未完全匹配到课件知识点正文；根据题意暂归入：第六章 /《6 亚慢性和慢性毒性试验》第6页（并见《13 安全性评价》第6页 蓄积试验）",
           "basis": "该题在课件原文中未找到完整对应内容，课件仅在《6》第6页以英文列出\"Accumulation——materials accumulation、effect accumulation\"，《13》第6页第二阶段含\"蓄积试验\"；根据题干关键词和知识逻辑（物质蓄积/功能蓄积及其在重复暴露毒性、安全性评价中的意义），推测属于亚慢性和慢性毒性章节内容。",
-          "excerpt": "（《6 亚慢性和慢性毒性试验》第6页）Single exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。（《13 安全性评价》第6页）四阶段毒理学安全性评价 第二阶段：蓄积试验、遗传毒理学试验和致畸试验。蓄积作用的完整分类（物质蓄积、功能蓄积）及其毒理学意义未完全匹配到课件原文。",
+          "excerpt": "（《6 亚慢性和慢性毒性试验》第6页）Single exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\n（《13 安全性评价》第6页）四阶段毒理学安全性评价 第二阶段：蓄积试验、遗传毒理学试验和致畸试验。\n蓄积作用的完整分类（物质蓄积、功能蓄积）及其毒理学意义未完全匹配到课件原文。",
           "questions": [
             {
               "n": 1,
@@ -4321,7 +4321,7 @@
           "freq": 3,
           "section": "部分匹配：第九章《9 化学致癌作用》第3页\"毒性-毒效应\"、第一章《1 绪论》第18页\"毒性\"、第29–30页\"生物学标志\"",
           "basis": "20级选择题\"关于毒性的说法错误的是\"、\"生物学标志包括\"、\"3Rs原则是指\"等零散选择题，知识点已分别在第一章/第九章相关考点收录，此处归并保留题干原文，确保不遗漏。",
-          "excerpt": "（《9 化学致癌作用》第3页）毒性（toxicity）：化学物引起有害作用的固有的能力。毒性是物质一种内在的、不变的分子性质，取决于其化学结构；毒效应（toxic effect）：化学物对机体健康引起的有害作用。（《1 绪论》第29–30页 生物学标志含接触、效应、易感性三类；第39页 3Rs：减少、替代、优化。）",
+          "excerpt": "（《9 化学致癌作用》第3页）毒性（toxicity）：化学物引起有害作用的固有的能力。\n毒性是物质一种内在的、不变的分子性质，取决于其化学结构；毒效应（toxic effect）：化学物对机体健康引起的有害作用。\n（《1 绪论》第29–30页 生物学标志含接触、效应、易感性三类；第39页 3Rs：减少、替代、优化。）",
           "questions": [
             {
               "n": 1,
@@ -4353,7 +4353,7 @@
           "freq": 1,
           "section": "未完全匹配到课件原文；根据题意暂归入：第一章 /《1 绪论》（毒理学定义及范畴）",
           "basis": "该题在课件原文中未找到\"卫生毒理学\"专门定义；课件《1 绪论》给出的是\"毒理学\"的定义与范畴（描述/机制/管理）。根据题干关键词（卫生毒理学属预防医学范畴、是毒理学分支学科、研究生活和生产活动中外来化合物对机体损害及机制），推测属于绪论章节内容。",
-          "excerpt": "未完全匹配到课件原文。（最接近的课件表述：《1 绪论》第4页\"毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学\"；第10页基础毒理学与环境和职业毒理学、食品毒理学、药物毒理学等分支的关系。）",
+          "excerpt": "未完全匹配到课件原文。\n（最接近的课件表述：《1 绪论》第4页\"毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学\"；第10页基础毒理学与环境和职业毒理学、食品毒理学、药物毒理学等分支的关系。）",
           "questions": [
             {
               "n": 1,
@@ -4373,7 +4373,7 @@
           "freq": 0,
           "section": "未完全匹配到课件操作细节；知识点对应：第八章 /《8 遗传毒理学（二）》第22页\"小鼠骨髓多染红细胞微核试验\"",
           "basis": "微核试验的原理与遗传学终点已在第八章考点5中收录；本条专指\"小鼠骨髓取法/制片\"实验操作细节（取股骨、股骨头和膝关节处操作、抽多少 ml 小牛血清、推片方向、评价片子好坏），课件无操作步骤原文，故标记为未完全匹配到。",
-          "excerpt": "（《8 遗传毒理学（二）》第22页）小鼠骨髓多染红细胞微核试验（Micronucleus assay in bone marrow polychromatic erythrocytes）。具体骨髓取样、制片操作（小牛血清用量、取股骨方法、推片方向、片子优劣评价）未完全匹配到课件原文。",
+          "excerpt": "（《8 遗传毒理学（二）》第22页）小鼠骨髓多染红细胞微核试验（Micronucleus assay in bone marrow polychromatic erythrocytes）。\n具体骨髓取样、制片操作（小牛血清用量、取股骨方法、推片方向、片子优劣评价）未完全匹配到课件原文。",
           "questions": [
             {
               "n": 1,
