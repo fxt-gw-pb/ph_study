@@ -354,7 +354,7 @@
         <div class="hub-head">
           <div class="page-eyebrow">SUBJECTS · 学科选择</div>
           <h1 class="page-title">选择一个学科开始复习</h1>
-          <p class="page-sub">本站为预防医学方向往年题考点的复习工具。当前已接入 <strong>职业卫生学</strong> 的完整数据，其它学科提供清晰占位结构，便于后续接入真实内容。</p>
+          <p style="margin:14px 0 0;font-size:18px;font-weight:600;line-height:1.65;color:var(--primary);">如果你觉得有帮助,请在阅读时顺手点点勘误按钮,修正补充知识点与题目解答,或是记忆技巧~</p>
         </div>
         <div class="subj-grid">
           ${SUBJECTS.map((s, i) => {
@@ -385,9 +385,6 @@
                 </div>
               </a>`;
           }).join('')}
-        </div>
-        <div class="hub-foot">
-          <p class="muted">提示：每个学科都保持相同的导航、章节、题库、搜索体验。要为占位学科填入真实数据，请编辑 <code>subjects-data.js</code> 中对应的 <code>build()</code> 调用，或直接替换为与 <code>OH_SITE_DATA</code> 同结构的对象。</p>
         </div>
       </div>
     `;
