@@ -155,8 +155,8 @@
           </button>
           <div class="brand" id="brand">
             <span class="brand-dot" id="brand-dot">职</span>
-            <span class="brand-text" id="brand-text">职业卫生学复习</span>
-            <span class="brand-sub" id="brand-sub">· 往年题考点</span>
+            <span class="brand-text" id="brand-text">大四下学期往年题整理</span>
+            <span class="brand-sub" id="brand-sub"></span>
           </div>
           <div class="search-box" id="search-box">
             <span aria-hidden="true">⌕</span>
@@ -1125,9 +1125,9 @@
     const dot = document.getElementById('brand-dot');
     if (dot) dot.textContent = '医';
     const txt = document.getElementById('brand-text');
-    if (txt) txt.textContent = '复习站 · 学科选择';
+    if (txt) txt.textContent = '大四下学期往年题整理';
     const sub = document.getElementById('brand-sub');
-    if (sub) sub.textContent = '· 预防医学';
+    if (sub) sub.textContent = '';
   }
 
   // Boot
