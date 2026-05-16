@@ -123,7 +123,7 @@
   function freqLabel(n) { return n >= 4 ? '高频' : (n >= 2 ? '中频' : '低频'); }
   function pad2(n) { return String(n).padStart(2, '0'); }
 
-  const REPO = 'fxt-gw-pb/occupational-health-review-test';
+  const REPO = 'fxt-gw-pb/ph_study';
   function errataUrl(p) {
     const ch = chById.get(p.chapterId);
     const subjTitle = currentSubject ? currentSubject.title : '';
