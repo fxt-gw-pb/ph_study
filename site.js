@@ -421,8 +421,7 @@
           <span class="placeholder-pill">占位数据</span>
           <span>该学科的章节与知识点为占位结构，便于后续把真实考题/教材内容直接对位填入。</span>
         </div>` : `
-        <p class="page-sub">基于《职业卫生学知识点总结》PDF 与 04 / 09 / 10 / 11 / 14 / 21 / 24 级往年题整理。同章节内按考频从高到低排序，仅纳入往年题中确实出现过的知识点。</p>
-        <p class="page-sub">所有章节结构和知识点匹配均基于《职业卫生学知识点总结by17级ybn.pdf》，部分往年题匹配到的知识点有缺失，欢迎勘误和补充。</p>
+        ${(currentSubject.intro || []).map(t => `<p class="page-sub">${escapeHTML(t)}</p>`).join('')}
         <p class="page-sub">每个知识点卡片和详情页右上角已加入"勘误"按钮，点击会在新标签页打开预填好的 GitHub Issue。提交需要 GitHub 账号并登录后才能完成。</p>
       `}
 
