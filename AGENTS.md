@@ -52,4 +52,4 @@ For GitHub REST or GraphQL API tasks, SSH keys do not replace API authentication
 
 Do not publish `.claude/`, local memory, or other assistant session state. Preserve the legacy occupational-health bridge: `site-data.js` assigns `window.SITE_DATA`, while `subjects.js` maps it to `OH_SITE_DATA` on first access.
 
-When the user provides a web-content correction or supplement for a specific subject and knowledge-point ID, add it to that point using this exact visible format: `【勘误补充】`, one blank line, then the supplied correction/supplement text. Update the source markdown in `知识仓库/`, regenerate data artifacts with `node build-data.js`, verify the target point, then commit and push.
+When the user provides a web-content correction or supplement for a specific subject and knowledge-point ID, add it to that point using this exact visible format: `【勘误补充】`, then the supplied correction/supplement text on the next line with no blank line between them. Update the source markdown in `知识仓库/`, regenerate data artifacts with `node build-data.js`, verify the target point, then commit and push.
