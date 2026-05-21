@@ -393,7 +393,7 @@
           "freq": 6,
           "section": "一、Definition of Toxicology /《1 绪论》第4–5页（并见《9 化学致癌作用》第4页）",
           "basis": "\"毒理学研究内容包括化学物质和生物机体的交互作用，其研究内容包括（指毒效学和毒动学）\"\"毒理学的主要研究内容（书上的内容）\"，对应毒理学定义与研究内容。",
-          "excerpt": "毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学。\nToxicology is a scientific discipline involving in the study of adverse effects of environmental agents on living organisms and ecosystem and the mechanisms of its action. It is vitally important for the food safety, drug safety and environment safety.\n\n（《9 化学致癌作用》第4页：化学物质与生物机体的有害交互作用——外源化学物经暴露、吸收、分布、代谢、排泄形成终毒物，作用于靶器官；毒动学、毒效学；化学结构、毒性、交互作用、毒效应。）",
+          "excerpt": "毒理学：从生物学角度研究外源因素和内源因素对生物体和生态系统的损害作用与机制，并进行安全性评价、危险度评定/风险评估、危险性管理与交流的科学。\nToxicology is a scientific discipline involving in the study of adverse effects of environmental agents on living organisms and ecosystem and the mechanisms of its action. It is vitally important for the food safety, drug safety and environment safety.\n\n【翻译】毒理学是一门研究环境因素对生物体和生态系统的不良影响及其作用机制的科学学科。\n它对于食品安全、药品安全和环境安全都非常重要。\n\n（《9 化学致癌作用》第4页：化学物质与生物机体的有害交互作用——外源化学物经暴露、吸收、分布、代谢、排泄形成终毒物，作用于靶器官；毒动学、毒效学；化学结构、毒性、交互作用、毒效应。）",
           "questions": [
             {
               "n": 1,
@@ -595,7 +595,7 @@
           "freq": 6,
           "section": "八、毒作用的影响因素 /《2 毒理学实验基础》第64页\"化学物的联合作用\"、第65页\"类型\"",
           "basis": "\"化学物联合作用的概念、分类及毒理学意义\"\"联合作用的概念、生物学意义\"直接对应本小节。",
-          "excerpt": "化学物的联合作用：一种化学物对机体的毒性作用，可以由于同时或先后接触另一种化学物而使其所表现的联合毒性比任一单一化学物的毒性增强或减弱，毒理学将两种或两种以上的化学物对机体的交互作用称为联合作用（joint action）。\n\n类型：相加作用（additional joint action）、协同作用（synergistic effect）、加强作用（potentiation joint action）、拮抗作用（antagonistic joint action）、独立作用（independent effect）。",
+          "excerpt": "化学物的联合作用：一种化学物对机体的毒性作用，可以由于同时或先后接触另一种化学物而使其所表现的联合毒性比任一单一化学物的毒性增强或减弱，毒理学将两种或两种以上的化学物对机体的交互作用称为联合作用（joint action）。\n\n类型：相加作用（additional joint action）、协同作用（synergistic effect）、加强作用（potentiation joint action）、拮抗作用（antagonistic joint action）、独立作用（independent effect）。\n\n【翻译】联合作用的类型包括：相加作用、协同作用、加强作用、拮抗作用和独立作用。",
           "questions": [
             {
               "n": 1,
@@ -879,7 +879,7 @@
           "freq": 12,
           "section": "Disposition of xenobiotics: Biotransportation /《3 Biotransportation and Biotransformation_WXIAO》第7页\"Lipid-water partition coefficient\"",
           "basis": "\"脂水分配系数（英文）的概念和毒理学意义\"\"脂水分配系数在吸收、转运、排泄过程中的意义\"反复出现，与本小节完全对应；18级回忆文件给出完整答案。",
-          "excerpt": "Lipid-water partition coefficient（LWPC）：[lipid phase]/[water phase] at equilibrium（non-ionized form）。\nLWPC ↑ → Lipid solubility ↑ → Across biomembranes ↑ → Accumulation in lipids ↑；LWPC ↓ → Water solubility ↑ → Across biomembranes ↓ → Urinary secretion ↑。\n\n（18级回忆答案）脂/水分配系数是表示脂溶性（亲脂性）的一个重要参数，具体指当一种物质在脂相和水相中分配达到均衡时，其在脂相和水相中溶解度的比值。\n意义：脂/水分配系数高的化学物易于吸收，易于分布和蓄积，易经肝肠循环重吸收，不易排泄，而且多需要经历生物转化成水溶性代谢产物才能排泄。\n易在脂肪中蓄积，易侵犯神经系统。",
+          "excerpt": "Lipid-water partition coefficient（LWPC）：[lipid phase]/[water phase] at equilibrium（non-ionized form）。\nLWPC ↑ → Lipid solubility ↑ → Across biomembranes ↑ → Accumulation in lipids ↑；LWPC ↓ → Water solubility ↑ → Across biomembranes ↓ → Urinary secretion ↑。\n\n【翻译】脂/水分配系数是指非离子形式化学物在平衡状态下脂相浓度与水相浓度的比值。\n脂/水分配系数升高时，脂溶性增强，越容易通过生物膜，也越容易在脂质中蓄积；脂/水分配系数降低时，水溶性增强，通过生物膜能力下降，尿排泄倾向增加。\n\n（18级回忆答案）脂/水分配系数是表示脂溶性（亲脂性）的一个重要参数，具体指当一种物质在脂相和水相中分配达到均衡时，其在脂相和水相中溶解度的比值。\n意义：脂/水分配系数高的化学物易于吸收，易于分布和蓄积，易经肝肠循环重吸收，不易排泄，而且多需要经历生物转化成水溶性代谢产物才能排泄。\n易在脂肪中蓄积，易侵犯神经系统。",
           "questions": [
             {
               "n": 1,
@@ -923,7 +923,7 @@
           "freq": 9,
           "section": "Barriers: protective against xenobiotics toxicity /《3 Biotransportation and Biotransformation_WXIAO》第23–24页",
           "basis": "\"简述生物屏障及毒理学意义\"\"重要的生物膜屏障举例及其毒理学意义\"\"血脑屏障和胎盘屏障的概念和毒理学意义\"反复出现，对应本小节五种屏障。",
-          "excerpt": "Barriers: protective against xenobiotics toxicity——Blood-brain barrier；Blood-cerebrospinal fluid barrier；Blood-testis barrier；Blood-placental barrier；Blood-eye barrier。\n\nBBB and BCSFB limit distribution to the brain；Active transporters determine the amount of xenobiotics in the brain；BBB is not fully developed at birth → more susceptible in newborns。\nBlood-placental barrier——The factors determine the permeability of the placenta: thickness, surface area, carrier systems, and lipid-protein concentration of the membranes；Active transport / Passive diffusion / Permeable size < 1 kDa / Biotransformation。",
+          "excerpt": "Barriers: protective against xenobiotics toxicity——Blood-brain barrier；Blood-cerebrospinal fluid barrier；Blood-testis barrier；Blood-placental barrier；Blood-eye barrier。\n\n【翻译】生物屏障可保护机体免受外源化学物毒性影响，包括血脑屏障、血-脑脊液屏障、血睾屏障、血胎盘屏障和血眼屏障。\n\nBBB and BCSFB limit distribution to the brain；Active transporters determine the amount of xenobiotics in the brain；BBB is not fully developed at birth → more susceptible in newborns。\nBlood-placental barrier——The factors determine the permeability of the placenta: thickness, surface area, carrier systems, and lipid-protein concentration of the membranes；Active transport / Passive diffusion / Permeable size < 1 kDa / Biotransformation。\n\n【翻译】血脑屏障和血-脑脊液屏障限制外源化学物向脑内分布；主动转运体决定脑内外源化学物的数量；出生时血脑屏障尚未完全发育，因此新生儿更易受影响。\n血胎盘屏障的通透性受胎盘厚度、表面积、载体系统以及膜中脂质和蛋白浓度等因素影响；相关过程包括主动转运、被动扩散、小于 1 kDa 的分子通过以及生物转化。",
           "questions": [
             {
               "n": 1,
@@ -979,7 +979,7 @@
           "freq": 9,
           "section": "Disposition of xenobiotics: Absorption /《3 Biotransportation and Biotransformation_WXIAO》第11页\"影响胃肠道对毒物吸收的因素\"",
           "basis": "\"影响消化道吸收的因素\"\"概述影响胃肠道吸收的因素\"反复出现，与本小节8项因素完全对应（往年答案另需补充环境因素气温气湿，见《2》第63页）。",
-          "excerpt": "影响胃肠道对毒物吸收的因素：1.毒物的理化性质（脂溶性等）；2.胃肠道存留食物的多少；3.毒物在胃肠道的停留时间；4.肠道的吸收面积和吸收能力；5.胃肠道局部的pH；6.胃肠道的分泌能力；7.肠道菌群；8.化学物间的相互作用（EDTA）。\n胃肠道经吸收的主要方式：Simple diffusion（the most common way）；Carrier transport；Cytosis（nanoparticles and particular matter）。",
+          "excerpt": "影响胃肠道对毒物吸收的因素：1.毒物的理化性质（脂溶性等）；2.胃肠道存留食物的多少；3.毒物在胃肠道的停留时间；4.肠道的吸收面积和吸收能力；5.胃肠道局部的pH；6.胃肠道的分泌能力；7.肠道菌群；8.化学物间的相互作用（EDTA）。\n胃肠道经吸收的主要方式：Simple diffusion（the most common way）；Carrier transport；Cytosis（nanoparticles and particular matter）。\n\n【翻译】胃肠道吸收的主要方式包括：简单扩散，这是最常见方式；载体转运；以及胞吞/胞吐，主要见于纳米颗粒和颗粒性物质。",
           "questions": [
             {
               "n": 1,
@@ -1017,7 +1017,7 @@
           "freq": 7,
           "section": "经呼吸道吸收（Inhalation）/《3 Biotransportation and Biotransformation_WXIAO》第14–16页",
           "basis": "\"呼吸道吸收的影响因素\"\"影响呼吸道对外源化学物吸收的因素\"反复出现，对应本小节气体/蒸气/气溶胶颗粒物吸收影响因素。",
-          "excerpt": "经呼吸道吸收（Inhalation）：Gases and vapors——Simple diffusion；Determining factors：1. Water solubility（高水溶性如SO2、Cl2在上呼吸道；低水溶性如NO2在支气管、细支气管和肺泡）；2. Reactivity（高反应性如Cl2在上呼吸道）；3. Vapor pressure；4. Blood-gas partition coefficient（BGPC，血中与肺泡中ΔC）。\nAerosols and Particles（PM、SiO2、Asbestos）：Mainly via cytosis；Size决定靶位；Water solubility；Composition；Surface structure。",
+          "excerpt": "经呼吸道吸收（Inhalation）：Gases and vapors——Simple diffusion；Determining factors：1. Water solubility（高水溶性如SO2、Cl2在上呼吸道；低水溶性如NO2在支气管、细支气管和肺泡）；2. Reactivity（高反应性如Cl2在上呼吸道）；3. Vapor pressure；4. Blood-gas partition coefficient（BGPC，血中与肺泡中ΔC）。\nAerosols and Particles（PM、SiO2、Asbestos）：Mainly via cytosis；Size决定靶位；Water solubility；Composition；Surface structure。\n\n【翻译】经呼吸道吸收中，气体和蒸气主要通过简单扩散吸收，决定因素包括水溶性、反应性、蒸气压和血气分配系数。\n气溶胶和颗粒物主要通过胞吞/胞吐吸收，其靶部位受粒径、水溶性、组成和表面结构影响。",
           "questions": [
             {
               "n": 1,
@@ -1055,7 +1055,7 @@
           "freq": 6,
           "section": "Disposition of xenobiotics（ADME）/《3 Biotransportation and Biotransformation_WXIAO》第3页、第34页（并见《4 生物转化》第2页）",
           "basis": "\"机体对外源化学物的处置过程、意义\"\"ADME过程概念及意义\"\"简述机体对外源化学物处置过程及意义\"直接对应本小节。",
-          "excerpt": "ADME: Absorption, Distribution, Metabolism, and Excretion。\nBiotransportation: Absorption, Distribution, and Excretion；Biotransformation: Metabolism；Elimination: Metabolism and Excretion；Toxicokinetics/Pharmacokinetics: The Quantitative characterization of xenobiotic disposition。\nDisposition of xenobiotics determines toxicity：External dose → Internal dose → Target dose → Toxicity。\n\n（《4 生物转化》第2页）机体对外源化学物的处置：吸收、分布、与排泄（ADE）过程为生物转运（biotransportation）；代谢（M）过程为生物转化（biotransformation）。",
+          "excerpt": "ADME: Absorption, Distribution, Metabolism, and Excretion。\nBiotransportation: Absorption, Distribution, and Excretion；Biotransformation: Metabolism；Elimination: Metabolism and Excretion；Toxicokinetics/Pharmacokinetics: The Quantitative characterization of xenobiotic disposition。\nDisposition of xenobiotics determines toxicity：External dose → Internal dose → Target dose → Toxicity。\n\n【翻译】ADME 指吸收、分布、代谢和排泄。\n生物转运包括吸收、分布和排泄；生物转化即代谢；消除包括代谢和排泄；毒代动力学/药代动力学是对外源化学物体内处置过程的定量描述。\n外源化学物的体内处置决定其毒性，即外暴露剂量影响内剂量，内剂量影响靶剂量，最终导致毒性。\n\n（《4 生物转化》第2页）机体对外源化学物的处置：吸收、分布、与排泄（ADE）过程为生物转运（biotransportation）；代谢（M）过程为生物转化（biotransformation）。",
           "questions": [
             {
               "n": 1,
@@ -1093,7 +1093,7 @@
           "freq": 6,
           "section": "Toxicokinetics / Kinetic models /《3 Biotransportation and Biotransformation_WXIAO》第63–69页",
           "basis": "\"经典毒动学模型与生理动力学模型的区别\"\"生理毒动学模型相较于经典毒动学的优势\"\"药物毒代动力学实验目的和实验设计\"直接对应本小节。",
-          "excerpt": "Toxicokinetics：the quantitative study of ADME of chemicals…研究内容——化学物在体内的ADME动态变化规律；毒理学研究方案的设计（剂量和染毒途径选择）；暴露-时间依赖的靶器官剂量，解释毒作用机制；将动物试验结果外推到人的安全性评价。\nKinetic models：经典毒代动力学模型（Classical toxicokinetic model）与生理毒代动力学模型（PBTK）。\n经典模型：速率过程（零级消除、一级消除、非线性动力学）；房室模型（一/二/多房室）。\n构建PBTK模型所需参数：生理参数、理化参数（脂水分配系数、血气分配系数等）、热力学参数。",
+          "excerpt": "Toxicokinetics：the quantitative study of ADME of chemicals…研究内容——化学物在体内的ADME动态变化规律；毒理学研究方案的设计（剂量和染毒途径选择）；暴露-时间依赖的靶器官剂量，解释毒作用机制；将动物试验结果外推到人的安全性评价。\nKinetic models：经典毒代动力学模型（Classical toxicokinetic model）与生理毒代动力学模型（PBTK）。\n经典模型：速率过程（零级消除、一级消除、非线性动力学）；房室模型（一/二/多房室）。\n构建PBTK模型所需参数：生理参数、理化参数（脂水分配系数、血气分配系数等）、热力学参数。\n\n【翻译】毒代动力学是对化学物 ADME 过程进行定量研究的学科。\n动力学模型包括经典毒代动力学模型和生理毒代动力学模型。\n经典模型关注速率过程和房室模型；PBTK 模型的构建需要生理参数、理化参数和热力学参数。",
           "questions": [
             {
               "n": 1,
@@ -1157,7 +1157,7 @@
           "freq": 5,
           "section": "Target organ and storage/accumulation depot /《3 Biotransportation and Biotransformation_WXIAO》第21–23页",
           "basis": "\"storage depot的概念和毒理学意义，机体常见的storage depot有哪些\"\"贮存库概念意义\"直接对应本小节。",
-          "excerpt": "Storage depot：the site where a toxicant is accumulated but is NOT the major site of toxicity（e.g., Bone for lead and cadmium；Fat for insecticide DDT）。\nToxicological significance: Friend vs. Foe——（1）buffer depot of acute toxicity；（2）releasing depot of chronic toxicity。\nPlasma proteins as storage depot（α1-acid glycoprotein、α/β-lipoproteins、β-globulin；Bound toxicants less toxic，Free toxicants more toxic）；Liver and Kidney as storage depots；Fat as storage depot（高亲脂性毒物，肥胖个体蓄积更多但毒性较轻，饥饿等扰动时可突然释放入血）；Bone as storage depot（F-、Pb，约90%铅存于骨）。",
+          "excerpt": "Storage depot：the site where a toxicant is accumulated but is NOT the major site of toxicity（e.g., Bone for lead and cadmium；Fat for insecticide DDT）。\nToxicological significance: Friend vs. Foe——（1）buffer depot of acute toxicity；（2）releasing depot of chronic toxicity。\nPlasma proteins as storage depot（α1-acid glycoprotein、α/β-lipoproteins、β-globulin；Bound toxicants less toxic，Free toxicants more toxic）；Liver and Kidney as storage depots；Fat as storage depot（高亲脂性毒物，肥胖个体蓄积更多但毒性较轻，饥饿等扰动时可突然释放入血）；Bone as storage depot（F-、Pb，约90%铅存于骨）。\n\n【翻译】贮存库是毒物蓄积但并非主要毒作用发生的部位，例如铅和镉可蓄积于骨，杀虫剂 DDT 可蓄积于脂肪。\n其毒理学意义具有双重性：一方面可缓冲急性毒性，另一方面也可作为慢性毒性的释放库。\n血浆蛋白也可作为贮存库，结合状态的毒物毒性较低，游离状态的毒物毒性较高；肝、肾、脂肪和骨也可作为不同毒物的贮存库。",
           "questions": [
             {
               "n": 1,
@@ -1201,7 +1201,7 @@
           "freq": 5,
           "section": "Bile acid excretion / Enterohepatic cycling /《3 Biotransportation and Biotransformation_WXIAO》第31页（并见经粪便排泄第30页）",
           "basis": "\"肠肝循环（英文）概念及意义\"\"entrohepatic recirculation的概念及毒理学意义\"直接对应本小节。",
-          "excerpt": "Enterohepatic cycling：Bile acid de novo synthesis 0.2-0.6 g/day = bile acid secretion by feces = 5% of total bile acid pool；The remaining 95% of bile acids in the pool（~3 g）are recycled 4 to 12 times/day。\n经粪便排泄：未吸收的化学物；胆汁排泄（大分子量化学物）；肠内排泄；肠道菌群（生物转化）。\nBile acid excretion：High molecular weight conjugates（e.g. GSH-conjugated）；Rapidly excreted into bile acid（higher concentration in bile vs. plasma）。",
+          "excerpt": "Enterohepatic cycling：Bile acid de novo synthesis 0.2-0.6 g/day = bile acid secretion by feces = 5% of total bile acid pool；The remaining 95% of bile acids in the pool（~3 g）are recycled 4 to 12 times/day。\n经粪便排泄：未吸收的化学物；胆汁排泄（大分子量化学物）；肠内排泄；肠道菌群（生物转化）。\nBile acid excretion：High molecular weight conjugates（e.g. GSH-conjugated）；Rapidly excreted into bile acid（higher concentration in bile vs. plasma）。\n\n【翻译】肠肝循环中，胆汁酸每日新合成量约 0.2-0.6 g，与经粪便排出的胆汁酸量相当，约占胆汁酸总池的 5%；其余约 95% 的胆汁酸（约 3 g）每天可循环 4-12 次。\n胆汁酸排泄主要涉及高分子量结合物，例如谷胱甘肽结合物，这些物质可快速排入胆汁，且胆汁中浓度高于血浆。",
           "questions": [
             {
               "n": 1,
@@ -1227,7 +1227,7 @@
           "freq": 3,
           "section": "首过消除（First-pass elimination）/《3 Biotransportation and Biotransformation_WXIAO》第13页",
           "basis": "\"first-pass effect的概念和毒理学意义\"\"first pass effect概念和毒理学意义\"直接对应本小节。",
-          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。\nA high first-pass effect will limit exposure and minimize toxic potential。",
+          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。\nA high first-pass effect will limit exposure and minimize toxic potential。\n\n【翻译】较强的首过效应会限制机体暴露水平，并降低潜在毒性。",
           "questions": [
             {
               "n": 1,
@@ -1253,7 +1253,7 @@
           "freq": 3,
           "section": "Disposition of xenobiotics: Biotransportation /《3 Biotransportation and Biotransformation_WXIAO》第5–6页、第9页\"主动转运的特点及意义\"",
           "basis": "\"跨膜转运有几种方式，主动转运的特点\"\"简述简单扩散和主动转运的特点\"直接对应本小节。",
-          "excerpt": "Passive transport（follow ΔC）：Simple diffusion（最常见，3 NOs：No ATP、No carrier、No competitive and saturability inhibition；3 Conditions：ΔC、high lipophilicity、non-ionization）、Filtration。\nCarrier transport：Active transport、Facilitated transport。\nCytosis：Endocytosis、Exocytosis。\n\n主动转运的特点及意义：①媒介：需有载体参与；②逆浓度：外源化学物可以逆浓度梯度转运；③耗能：需消耗能量，代谢抑制剂可阻止转运；④选择性：载体对转运的外源化学物有特异选择性；⑤饱和性：转运量存在极限；⑥竞争性：同一载体转运的两种外源化学物竞争性抑制。\n主动转运对已吸收的外源化学物在体内的不均匀分布和排泄具有重要意义。",
+          "excerpt": "Passive transport（follow ΔC）：Simple diffusion（最常见，3 NOs：No ATP、No carrier、No competitive and saturability inhibition；3 Conditions：ΔC、high lipophilicity、non-ionization）、Filtration。\nCarrier transport：Active transport、Facilitated transport。\nCytosis：Endocytosis、Exocytosis。\n\n【翻译】被动转运顺浓度差进行，包括简单扩散和滤过。\n简单扩散最常见，其特点是不需要 ATP、不需要载体、无竞争性和饱和性抑制；发生条件包括存在浓度差、高脂溶性和非离子化。\n载体转运包括主动转运和易化转运。\n胞吞/胞吐包括内吞和外排。\n\n主动转运的特点及意义：①媒介：需有载体参与；②逆浓度：外源化学物可以逆浓度梯度转运；③耗能：需消耗能量，代谢抑制剂可阻止转运；④选择性：载体对转运的外源化学物有特异选择性；⑤饱和性：转运量存在极限；⑥竞争性：同一载体转运的两种外源化学物竞争性抑制。\n主动转运对已吸收的外源化学物在体内的不均匀分布和排泄具有重要意义。",
           "questions": [
             {
               "n": 1,
@@ -1667,7 +1667,7 @@
           "freq": 9,
           "section": "第三节 急性毒性替代试验 /《5 毒作用机制、急性毒性和局部毒性试验》第38–44页",
           "basis": "\"急性毒性替代实验固定剂量法原理\"\"简述急毒替代实验固定剂量法的原理\"\"急性毒性的代替实验举1-2个，要点\"反复出现，对应本小节四种替代方法。",
-          "excerpt": "急性毒性替代试验：固定剂量法（fixed dose procedure，OECD 1992/2001，不以动物死亡作为观察终点，按5.0/50/300/2000 mg/kg观察存活及中毒表现判断毒性等级）；急性毒性分级法（acute toxic class method，OECD 1996/2001，以死亡为终点，少量动物，大鼠每阶段3只/同性别，剂量5、50、300、2000 mg/kg，观察14天，平均经2—4个阶段即可判断）；上、下移动法（up/down method，OECD 1998/2001，以死亡为终点，大鼠6~9只，由前一只反应决定下一只剂量）；限量试验（limit test，单次染毒剂量≤10 g/kg体重，食品毒理学≤15 g/kg）。",
+          "excerpt": "急性毒性替代试验：固定剂量法（fixed dose procedure，OECD 1992/2001，不以动物死亡作为观察终点，按5.0/50/300/2000 mg/kg观察存活及中毒表现判断毒性等级）；急性毒性分级法（acute toxic class method，OECD 1996/2001，以死亡为终点，少量动物，大鼠每阶段3只/同性别，剂量5、50、300、2000 mg/kg，观察14天，平均经2—4个阶段即可判断）；上、下移动法（up/down method，OECD 1998/2001，以死亡为终点，大鼠6~9只，由前一只反应决定下一只剂量）；限量试验（limit test，单次染毒剂量≤10 g/kg体重，食品毒理学≤15 g/kg）。\n\n【翻译】急性毒性替代试验包括固定剂量法、急性毒性分级法、上/下移动法和限量试验。\n固定剂量法不以动物死亡为观察终点，而根据存活和中毒表现判断毒性等级；急性毒性分级法和上/下移动法以死亡为终点但减少动物使用量；限量试验用于单次高剂量染毒条件下的急性毒性评价。",
           "questions": [
             {
               "n": 1,
@@ -1813,7 +1813,7 @@
           "freq": 5,
           "section": "第一节 毒作用机制 一、新概念 /《5 毒作用机制、急性毒性和局部毒性试验》第2–3页",
           "basis": "\"AOP,MIE.MOA,TP名解\"\"MOA，AOP，MIE，TP相关概念云云\"\"tp moa等四个概念\"直接对应本小节新概念。",
-          "excerpt": "毒作用模式（Mode of Action，MOA）：指从化学物与生物分子相互作用开始的、证据权重支持的、可能导致毒性有关终点的一组事件或过程。\n分子起始事件（Molecular Initiating Event，MIE）：在机体内化学物-生物分子相互作用，启动通路扰动的初始点，沿被扰动通路引起进一步的关键事件，并与有害结局相关联。\n有害结局通路（Adverse Outcome Pathway，AOP）：是在个人或群体的水平，关于分子起始事件和有害结局之间相互联系的已有的知识汇总。\n毒性通路（Toxicity Pathway）：在受到一定程度的干扰时会导致有害效应的细胞应答通路。",
+          "excerpt": "毒作用模式（Mode of Action，MOA）：指从化学物与生物分子相互作用开始的、证据权重支持的、可能导致毒性有关终点的一组事件或过程。\n分子起始事件（Molecular Initiating Event，MIE）：在机体内化学物-生物分子相互作用，启动通路扰动的初始点，沿被扰动通路引起进一步的关键事件，并与有害结局相关联。\n有害结局通路（Adverse Outcome Pathway，AOP）：是在个人或群体的水平，关于分子起始事件和有害结局之间相互联系的已有的知识汇总。\n毒性通路（Toxicity Pathway）：在受到一定程度的干扰时会导致有害效应的细胞应答通路。\n\n【翻译】MOA 是毒作用模式，MIE 是分子起始事件，AOP 是有害结局通路，TP 是毒性通路。\n它们用于把化学物与生物分子的初始相互作用、后续关键事件、细胞应答通路和最终有害结局联系起来。",
           "questions": [
             {
               "n": 1,
@@ -1877,7 +1877,7 @@
           "freq": 10,
           "section": "（一）Concept；The purpose；六、观察指标 /《6 亚慢性和慢性毒性试验》第8–9页、第20页",
           "basis": "\"亚慢性和慢性毒理学试验的定义、目的和参考指标\"\"subchronic toxicity和chronic toxicity的概念和研究目的\"\"慢性亚慢性毒性定义与研究目的\"反复出现，对应本小节。",
-          "excerpt": "Subchronic toxicity：The toxicity induced by xenobiotics under repeated exposure（1-3 months）in experimental animals. Chronic toxicity：The toxicity induced by xenobiotics under repeated exposure（long time or life long）in experimental animals. The purpose of sub-chronic and chronic toxicity experiment：1. New toxic effect；2. Target organ；3. Dose-response；4. Reversibility；5. Reference to chronic；6. Extrapolate。\n观察指标：1.一般性指标（动物外观、生长发育、行为功能、体征；动物体重；食物利用率）；2.实验室检查（血液学、血液生化、尿液）；3.眼科学检查；4.心脏血管检查；5.病理学检查（大体解剖脏器系数、组织病理学）；6.特异性指标（反映损伤机制、效应生物学标志）。",
+          "excerpt": "Subchronic toxicity：The toxicity induced by xenobiotics under repeated exposure（1-3 months）in experimental animals. Chronic toxicity：The toxicity induced by xenobiotics under repeated exposure（long time or life long）in experimental animals. The purpose of sub-chronic and chronic toxicity experiment：1. New toxic effect；2. Target organ；3. Dose-response；4. Reversibility；5. Reference to chronic；6. Extrapolate。\n观察指标：1.一般性指标（动物外观、生长发育、行为功能、体征；动物体重；食物利用率）；2.实验室检查（血液学、血液生化、尿液）；3.眼科学检查；4.心脏血管检查；5.病理学检查（大体解剖脏器系数、组织病理学）；6.特异性指标（反映损伤机制、效应生物学标志）。\n\n【翻译】亚慢性毒性是实验动物在 1-3 个月重复暴露于外源化学物后产生的毒性。\n慢性毒性是实验动物长期或终生重复暴露于外源化学物后产生的毒性。\n亚慢性和慢性毒性试验的目的包括发现新的毒性效应、确定靶器官、阐明剂量-反应关系、判断可逆性、为慢性试验提供参考以及进行外推。",
           "questions": [
             {
               "n": 1,
@@ -1965,7 +1965,7 @@
           "freq": 7,
           "section": "Single/Repeated exposure；The tendency for toxicity experiment /《6 亚慢性和慢性毒性试验》第5–12页",
           "basis": "\"重复暴露毒性试验的类型、目的、必要性\"\"重复毒性分类目的必要性\"反复出现，对应本小节单次/重复暴露、急性毒性不能预测重复暴露毒性、试验趋势。",
-          "excerpt": "Acute toxicity can not predict the repeated exposure toxicity。\nSingle exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\nThe tendency for toxicity experiment：01 Acute toxicity；02 Sub-chronic toxicity；03 Chronic toxicity will be studied only when necessary；04 Chronic toxicity experiment tends to be carried out combined with carcinogenesis experiment。\n（112 chemicals，Rats，97.5% of chemicals could present their toxic effects within 90 days。）",
+          "excerpt": "Acute toxicity can not predict the repeated exposure toxicity。\nSingle exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\nThe tendency for toxicity experiment：01 Acute toxicity；02 Sub-chronic toxicity；03 Chronic toxicity will be studied only when necessary；04 Chronic toxicity experiment tends to be carried out combined with carcinogenesis experiment。\n（112 chemicals，Rats，97.5% of chemicals could present their toxic effects within 90 days。）\n\n【翻译】急性毒性不能预测重复暴露毒性。\n单次暴露与重复暴露的差异之一在于蓄积，包括物质蓄积和效应蓄积。\n毒性试验的发展趋势是先进行急性毒性试验，再进行亚慢性毒性试验；慢性毒性试验仅在必要时开展，并且倾向于与致癌试验合并进行。\n在大鼠 112 种化学物研究中，97.5% 的化学物可在 90 天内表现出其毒性效应。",
           "questions": [
             {
               "n": 1,
@@ -2229,7 +2229,7 @@
           "freq": 3,
           "section": "致突变作用的分类；DNA损伤类型；致突变作用机制 /《7 遗传毒理学（一）》第11–30页",
           "basis": "20级选择题考碱基取代/移码突变的命名；07级口试\"基因突变实验不能用Ames实验时用什么检测\"涉及突变分类；对应本小节。",
-          "excerpt": "致突变作用的分类：基因突变（gene mutation——base-pair substitution mutation、frame shift mutation、codon mutation、fragment mutation）；染色体突变（chromosome mutation——chromosome aberration、chromatid aberration）；基因组突变（genomic mutation——aneuploid、euploid）。\n整码突变又称密码子的插入或缺失。\n片段突变：基因中小片段核苷酸序列发生改变。\n致突变作用机制：基因突变、染色体畸变——DNA损伤（碱基类似物取代、共价结合形成加合物、改变碱基结构、大分子嵌入DNA链、DNA-蛋白交联等）；非整倍体、整倍体——有丝分裂或减数分裂器损伤（如对纺锤体的毒作用）。",
+          "excerpt": "致突变作用的分类：基因突变（gene mutation——base-pair substitution mutation、frame shift mutation、codon mutation、fragment mutation）；染色体突变（chromosome mutation——chromosome aberration、chromatid aberration）；基因组突变（genomic mutation——aneuploid、euploid）。\n整码突变又称密码子的插入或缺失。\n片段突变：基因中小片段核苷酸序列发生改变。\n致突变作用机制：基因突变、染色体畸变——DNA损伤（碱基类似物取代、共价结合形成加合物、改变碱基结构、大分子嵌入DNA链、DNA-蛋白交联等）；非整倍体、整倍体——有丝分裂或减数分裂器损伤（如对纺锤体的毒作用）。\n\n【翻译】致突变作用可分为基因突变、染色体突变和基因组突变。\n基因突变包括碱基置换突变、移码突变、密码子突变和片段突变；染色体突变包括染色体畸变和染色单体畸变；基因组突变包括非整倍体和整倍体改变。",
           "questions": [
             {
               "n": 1,
@@ -3177,7 +3177,7 @@
           "freq": 12,
           "section": "生殖毒性与发育毒性；发育毒性的主要表现 /《11 化学致畸作用、生殖毒性、发育毒性2021》第10–13页（并见《11 化学致畸作用和发育毒性2022》第4–5页 发育毒性观察终点）",
           "basis": "\"生殖毒性和发育毒性的定义与主要表现\"\"development toxicity的概念及主要表现\"\"发育毒性的概念+表现\"反复出现，对应本小节。",
-          "excerpt": "生殖毒性（Reproductive Toxicity）：外源化学物对生殖过程的不良影响，主要指对生殖细胞的发生、卵细胞受精、胚胎形成、妊娠、分娩和哺乳过程的损害作用；着重研究外源化学物对亲代的生殖功能的有害作用。\n发育毒性（Developmental Toxicity）：外源化学物对发育过程的不良影响，包括对胚胎发育、胎仔发育及出生幼仔发育的损害作用；指出生前后接触有害因素，子代个体发育为成体之前诱发的任何有害影响；着重研究外源化学物对子代的发育过程的有害作用。\n发育毒性的主要表现：发育生物体死亡（death of the developing organism）；生长改变（altered growth，生长迟缓）；结构异常（structural abnormality，外观、内脏、骨骼畸形）；功能缺陷（functional deficiency，生理、生化、免疫、行为、智力）。",
+          "excerpt": "生殖毒性（Reproductive Toxicity）：外源化学物对生殖过程的不良影响，主要指对生殖细胞的发生、卵细胞受精、胚胎形成、妊娠、分娩和哺乳过程的损害作用；着重研究外源化学物对亲代的生殖功能的有害作用。\n发育毒性（Developmental Toxicity）：外源化学物对发育过程的不良影响，包括对胚胎发育、胎仔发育及出生幼仔发育的损害作用；指出生前后接触有害因素，子代个体发育为成体之前诱发的任何有害影响；着重研究外源化学物对子代的发育过程的有害作用。\n发育毒性的主要表现：发育生物体死亡（death of the developing organism）；生长改变（altered growth，生长迟缓）；结构异常（structural abnormality，外观、内脏、骨骼畸形）；功能缺陷（functional deficiency，生理、生化、免疫、行为、智力）。\n\n【翻译】生殖毒性是外源化学物对生殖过程造成的不良影响。\n发育毒性是外源化学物对发育过程造成的不良影响。\n发育毒性的主要表现包括发育中个体死亡、生长改变、结构异常和功能缺陷。",
           "questions": [
             {
               "n": 1,
@@ -4039,7 +4039,7 @@
           "freq": 4,
           "section": "GLP（Good Laboratory Practice）；GLP的主要内容 /《14 风险评估、管理毒理学》第31–32页（并见《13 安全性评价》第5页、《1 绪论》第32页）",
           "basis": "\"GLP、SOP和QA的概念和意义\"\"GLP SOP QA概念 意义\"反复出现，对应本小节。",
-          "excerpt": "GLP（Good Laboratory Practice）：为保证试验数据的准确、可靠，对于非临床的实验室研究在研究计划制定、实施、监督、记录及报告等各项工作的过程和条件提出的要求和指导。\nGLP的主要内容：关键-人员素质；基础-实验设施；手段-SOP（Standard Operation Procedure）；保证-QAU（Quality Assurance Unit）。",
+          "excerpt": "GLP（Good Laboratory Practice）：为保证试验数据的准确、可靠，对于非临床的实验室研究在研究计划制定、实施、监督、记录及报告等各项工作的过程和条件提出的要求和指导。\nGLP的主要内容：关键-人员素质；基础-实验设施；手段-SOP（Standard Operation Procedure）；保证-QAU（Quality Assurance Unit）。\n\n【翻译】GLP 指良好实验室规范，SOP 指标准操作规程，QAU 指质量保证部门。\nGLP 通过人员素质、实验设施、标准操作规程和质量保证体系，确保非临床实验室研究数据准确可靠。",
           "questions": [
             {
               "n": 1,
@@ -4277,7 +4277,7 @@
           "freq": 6,
           "section": "未完全匹配到课件知识点正文；根据题意暂归入：第六章 /《6 亚慢性和慢性毒性试验》第6页（并见《13 安全性评价》第6页 蓄积试验）",
           "basis": "该题在课件原文中未找到完整对应内容，课件仅在《6》第6页以英文列出\"Accumulation——materials accumulation、effect accumulation\"，《13》第6页第二阶段含\"蓄积试验\"；根据题干关键词和知识逻辑（物质蓄积/功能蓄积及其在重复暴露毒性、安全性评价中的意义），推测属于亚慢性和慢性毒性章节内容。",
-          "excerpt": "（《6 亚慢性和慢性毒性试验》第6页）Single exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\n（《13 安全性评价》第6页）四阶段毒理学安全性评价 第二阶段：蓄积试验、遗传毒理学试验和致畸试验。\n蓄积作用的完整分类（物质蓄积、功能蓄积）及其毒理学意义未完全匹配到课件原文。",
+          "excerpt": "（《6 亚慢性和慢性毒性试验》第6页）Single exposure / Repeated exposure：Accumulation——materials accumulation、effect accumulation。\n（《13 安全性评价》第6页）四阶段毒理学安全性评价 第二阶段：蓄积试验、遗传毒理学试验和致畸试验。\n蓄积作用的完整分类（物质蓄积、功能蓄积）及其毒理学意义未完全匹配到课件原文。\n\n【翻译】单次暴露和重复暴露的区别之一是蓄积作用，包括物质蓄积和效应蓄积。",
           "questions": [
             {
               "n": 1,
