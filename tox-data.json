@@ -1285,7 +1285,7 @@
           "freq": 3,
           "section": "首过消除（First-pass elimination）/《3 Biotransportation and Biotransformation_WXIAO》第13页",
           "basis": "\"first-pass effect的概念和毒理学意义\"\"first pass effect概念和毒理学意义\"直接对应本小节。",
-          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。\nA high first-pass effect will limit exposure and minimize toxic potential。\n\n【翻译】较强的首过效应会限制机体暴露水平，并降低潜在毒性。",
+          "excerpt": "首过消除（First-pass elimination）：外源化学物口服后，经胃肠道到达肝脏，一部分化学物在代谢酶作用下被代谢掉。\nA high first-pass effect will limit exposure and minimize toxic potential。\n\n【翻译】较强的首过效应会限制机体暴露水平，并降低潜在毒性。\n\n【勘误补充】\n首过效应 first pass effect：由于消化道血液循环的特点，从胃和肠吸收到局部血管的物质，都要汇入肝门静脉，再进入体循环。\n肝会代谢和排泄一部分外源化学物，使其未能进入体循环，这种现象称为首过效应。\n首过效应会使化学物的原型减少，而增加部分代谢产物，另一部分代谢产物会排入胆汁",
           "questions": [
             {
               "n": 1,
