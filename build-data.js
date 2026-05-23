@@ -60,6 +60,15 @@ function breakSentences(text) {
   }).join('\n').replace(/\n{3,}/g, '\n\n');
 }
 
+function normalizeQuestionType(source, type) {
+  const src = source.trim();
+  const raw = type.trim();
+  if (src === '03级环境卫生重点考题总结-曾.doc' && /口试/.test(raw)) return '题型未知';
+  if (raw === '选择' || raw === '选择回忆') return '单项选择';
+  if (raw === '大题') return '简答';
+  return raw;
+}
+
 function parse(md, opts = {}) {
   const lines = md.split(/\r?\n/);
   const chapters = [];
@@ -84,7 +93,7 @@ function parse(md, opts = {}) {
         blocks.push({
           n: parseInt(m[1], 10),
           source: m[2].trim(),
-          type: m[3].trim(),
+          type: normalizeQuestionType(m[2], m[3]),
           text: m[4].trim(),
         });
       }

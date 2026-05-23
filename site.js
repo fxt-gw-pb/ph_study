@@ -661,9 +661,9 @@
     const years = [...new Set(all.map(q => q.year).filter(Boolean))].sort();
     function baseType(t) {
       if (/名解|名词解释/.test(t)) return '名解';
-      if (/单选|单项选择/.test(t)) return '单选';
+      if (/单选|单项选择/.test(t) || /^选择(?:回忆)?$/.test(t)) return '单选';
       if (/多选|多项选择/.test(t)) return '多选';
-      if (/简答/.test(t)) return '简答';
+      if (/简答|大题|问答/.test(t)) return '简答';
       if (/论述/.test(t)) return '论述';
       if (/应用|案例/.test(t)) return '应用/案例';
       if (/填空/.test(t)) return '填空';
