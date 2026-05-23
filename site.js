@@ -489,6 +489,7 @@
     }).join('');
 
     const masteredHere = ch.points.filter(p => mastered.has(p.id)).length;
+    const masteredLabel = ch.points.length ? `${masteredHere}/${ch.points.length}` : '0';
 
     return `
       <div class="crumb">
@@ -507,11 +508,11 @@
         <div class="stat-row" style="flex:0 0 auto;grid-template-columns:repeat(3, minmax(80px, 1fr));margin-top:6px;min-width:280px">
           <div class="stat"><div class="v">${ch.points.length}</div><div class="k">知识点</div></div>
           <div class="stat hi"><div class="v">${ch.hi}</div><div class="k">高频</div></div>
-          <div class="stat"><div class="v">${masteredHere}/${ch.points.length}</div><div class="k">已掌握</div></div>
+          <div class="stat"><div class="v">${masteredLabel}</div><div class="k">已掌握</div></div>
         </div>
       </div>
 
-      <div class="heat-strip">
+      ${ch.points.length ? `<div class="heat-strip">
         <div class="heat-strip-head">
           <div class="eyebrow">本章考频热力</div>
           <div class="heat-legend">
@@ -521,7 +522,7 @@
           </div>
         </div>
         <div class="heat-bars">${heat}</div>
-      </div>
+      </div>` : ''}
 
       <div class="tabs" id="ch-tabs">
         <button class="active" data-tab="all">全部 · ${ch.points.length}</button>
@@ -531,7 +532,7 @@
       </div>
 
       <div id="kp-list" class="kp-list">
-        ${ch.points.map((p, i) => kpCardHTML(p, i + 1, false)).join('')}
+        ${ch.points.length ? ch.points.map((p, i) => kpCardHTML(p, i + 1, false)).join('') : '<div class="empty">本章暂未从往年题中归入知识点。</div>'}
       </div>
     `;
   }

@@ -18,6 +18,8 @@ const TARGETS = [
   // Toxicology — second real subject (window.TOX_SITE_DATA). Its excerpts are
   // long unbroken blocks; break them at sentence terminators for readability.
   { md: '毒理学往年题考点整理.md',     json: 'tox-data.json', js: 'tox-data.js',  varName: 'TOX_SITE_DATA', breakExcerpt: true },
+  // Environmental Health — third real subject (window.ENV_SITE_DATA).
+  { md: '环境健康学往年题考点整理.md', json: 'env-data.json', js: 'env-data.js',  varName: 'ENV_SITE_DATA' },
 ];
 
 const CHAPTER_NUM_TO_ID = {
