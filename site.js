@@ -347,25 +347,89 @@
     }
   }
 
+  // ── Aggregate stats across all subjects (for the hero panel) ──
+  function aggregateStats() {
+    let chapters = 0, points = 0, questions = 0, mastered = 0, ready = 0;
+    for (const s of SUBJECTS) {
+      const data = window.getSubjectData(s.slug);
+      if (data && data.meta && !data.meta.placeholder) {
+        ready++;
+        chapters += data.meta.chapters || 0;
+        points += data.meta.points || 0;
+        questions += data.meta.questions || 0;
+      }
+      // mastered marks are namespaced per subject; mirror loadMastered()'s
+      // legacy bridge for occupational-health so the count never double-reads.
+      try {
+        let raw = localStorage.getItem(`oh-review-mastered-v1::${s.slug}`);
+        if (!raw && s.slug === 'occupational-health') raw = localStorage.getItem('oh-review-mastered-v1');
+        if (raw) { const arr = JSON.parse(raw); if (Array.isArray(arr)) mastered += arr.length; }
+      } catch (_) {}
+    }
+    return { subjects: SUBJECTS.length, ready, chapters, points, questions, mastered };
+  }
+
   // ── Subject Hub (new home) ───────────────────────────────────
   function viewHub() {
+    const agg = aggregateStats();
+    const firstReady = SUBJECTS.find(s => s.status === 'ready') || SUBJECTS[0];
+    const metrics = [
+      { n: agg.subjects, l: '学科', cls: '' },
+      { n: agg.chapters, l: '章节', cls: '' },
+      { n: agg.points, l: '知识点', cls: '' },
+      { n: agg.questions, l: '往年题', cls: '' },
+      { n: agg.mastered, l: '已掌握知识点', cls: 'hero-metric-wide done' },
+    ];
     return `
+      <section class="hero">
+        <span class="hero-bg" aria-hidden="true"></span>
+        <span class="hero-glow" aria-hidden="true"></span>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <span class="hero-tag"><span class="hero-tag-dot"></span>PKU Public Health Review</span>
+            <h1 class="hero-title">预防医学往年题复习站</h1>
+            <p class="hero-sub">多学科知识点整理 · 高频考点追踪 · 往年题智能复习</p>
+            <div class="hero-actions">
+              <button class="hero-btn hero-btn-primary" data-hero="start" data-slug="${firstReady.slug}">开始复习<span class="hero-btn-arr">→</span></button>
+              <button class="hero-btn hero-btn-ghost" data-hero="search"><span class="hero-btn-ico" aria-hidden="true">⌕</span>进入题库 / 全站搜索<span class="kbd">⌘K</span></button>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="hero-panel-head">
+              <span class="hero-panel-title">数据概览</span>
+              <span class="hero-panel-sub">${agg.ready} 学科已接入 · 2026 春</span>
+            </div>
+            <div class="hero-metrics">
+              ${metrics.map(m => `
+                <div class="hero-metric ${m.cls}">
+                  <span class="n">${m.n}</span>
+                  <span class="l">${m.l}</span>
+                </div>`).join('')}
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="hub">
         <div class="hub-head">
           <div class="page-eyebrow">SUBJECTS · 学科选择</div>
-          <h1 class="page-title">选择一个学科开始复习</h1>
-          <p style="margin:14px 0 0;font-size:18px;font-weight:600;line-height:1.65;color:var(--primary);">如果你觉得有帮助,请在阅读时顺手点点勘误按钮,修正补充知识点与题目解答,或是记忆技巧~</p>
+          <h2 class="hub-title">选择一个学科开始复习</h2>
+          <p class="hub-note">如果你觉得有帮助,请在阅读时顺手点点勘误按钮,修正补充知识点与题目解答,或是记忆技巧~</p>
         </div>
         <div class="subj-grid">
           ${SUBJECTS.map((s, i) => {
             const data = window.getSubjectData(s.slug);
             const placeholder = s.status === 'placeholder';
             const meta = data ? data.meta : null;
+            const hot = meta && meta.hiFreqPoints >= 10;
             return `
-              <a class="subj-card ${placeholder ? 'is-placeholder' : 'is-ready'}" data-slug="${s.slug}" style="--accent:${s.accent};--enter-delay:${i * 40}ms">
+              <a class="subj-card ${placeholder ? 'is-placeholder' : 'is-ready'}" data-slug="${s.slug}" style="--accent:${s.accent};--enter-delay:${i * 55}ms">
+                <span class="subj-card-glow" aria-hidden="true"></span>
                 <div class="subj-card-head">
                   <span class="subj-icon">${escapeHTML(s.icon)}</span>
-                  <span class="subj-status">${placeholder ? '占位 · 待补充' : '已接入 · 真实数据'}</span>
+                  <span class="subj-badges">
+                    ${hot ? '<span class="subj-tag subj-tag-hot">高频复习</span>' : ''}
+                    <span class="subj-status">${placeholder ? '建设中' : '已接入真实数据'}</span>
+                  </span>
                 </div>
                 <div class="subj-title-row">
                   <h3 class="subj-title">${escapeHTML(s.title)}</h3>
@@ -377,6 +441,7 @@
                     <span><b>${meta.chapters}</b>章</span>
                     <span><b>${meta.points}</b>知识点</span>
                     ${meta.questions ? `<span><b>${meta.questions}</b>题</span>` : '<span class="dim">题库待入</span>'}
+                    ${meta.hiFreqPoints ? `<span><b>${meta.hiFreqPoints}</b>高频</span>` : ''}
                   ` : '<span class="dim">尚未接入</span>'}
                 </div>
                 <div class="subj-cta">
@@ -396,6 +461,10 @@
         go('#/s/' + el.dataset.slug);
       });
     });
+    const startBtn = document.querySelector('[data-hero="start"]');
+    if (startBtn) startBtn.addEventListener('click', () => go('#/s/' + startBtn.dataset.slug));
+    const searchBtn = document.querySelector('[data-hero="search"]');
+    if (searchBtn) searchBtn.addEventListener('click', () => openPalette());
   }
 
   // ── Subject Home (per-subject) ───────────────────────────────
@@ -499,7 +568,7 @@
         <span class="sep">›</span>
         <span>第 ${pad2(ch.id)} 章</span>
       </div>
-      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap">
+      <div class="ch-hero" style="display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap">
         <div style="flex:1;min-width:280px">
           <div class="page-eyebrow">第 ${pad2(ch.id)} 章 · CHAPTER ${ch.id}</div>
           <h1 class="page-title">${escapeHTML(ch.title)}</h1>
@@ -699,23 +768,27 @@
       `}
 
       ${all.length ? `
-        <div class="filters">
-          <span class="label">年份</span>
-          <button class="${!yearF ? 'active' : ''}" data-f="year" data-v="">全部</button>
-          ${years.map(y => `<button class="${yearF === y ? 'active' : ''}" data-f="year" data-v="${y}">${y}</button>`).join('')}
+        <div class="filter-panel">
+          <div class="filter-panel-head">
+            <span class="eyebrow">筛选</span>
+            <span class="filter-count">命中 <b>${list.length}</b> / ${all.length} 条</span>
+          </div>
+          <div class="filters">
+            <span class="label">年份</span>
+            <button class="${!yearF ? 'active' : ''}" data-f="year" data-v="">全部</button>
+            ${years.map(y => `<button class="${yearF === y ? 'active' : ''}" data-f="year" data-v="${y}">${y}</button>`).join('')}
+          </div>
+          <div class="filters">
+            <span class="label">题型</span>
+            <button class="${!typeF ? 'active' : ''}" data-f="type" data-v="">全部</button>
+            ${baseTypes.map(t => `<button class="${typeF === t ? 'active' : ''}" data-f="type" data-v="${t}">${t}</button>`).join('')}
+          </div>
+          <div class="filters">
+            <span class="label">章节</span>
+            <button class="${!chF ? 'active' : ''}" data-f="ch" data-v="">全部</button>
+            ${D.chapters.map(c => `<button class="${chF === c.id ? 'active' : ''}" data-f="ch" data-v="${c.id}">${pad2(c.id)} ${escapeHTML(c.title)}</button>`).join('')}
+          </div>
         </div>
-        <div class="filters">
-          <span class="label">题型</span>
-          <button class="${!typeF ? 'active' : ''}" data-f="type" data-v="">全部</button>
-          ${baseTypes.map(t => `<button class="${typeF === t ? 'active' : ''}" data-f="type" data-v="${t}">${t}</button>`).join('')}
-        </div>
-        <div class="filters">
-          <span class="label">章节</span>
-          <button class="${!chF ? 'active' : ''}" data-f="ch" data-v="">全部</button>
-          ${D.chapters.map(c => `<button class="${chF === c.id ? 'active' : ''}" data-f="ch" data-v="${c.id}">${pad2(c.id)} ${escapeHTML(c.title)}</button>`).join('')}
-        </div>
-
-        <div class="muted" style="margin:0 0 10px;font-size:12px">命中 ${list.length} 条</div>
 
         <div class="q-list kp-list-enter">
           ${list.length ? list.map(q => `
@@ -831,7 +904,13 @@
           </div>
         </div>` : ''}
 
-      ${(!chHits.length && !ptHits.length && !qHits.length) ? '<div class="empty">没有找到匹配项。</div>' : ''}
+      ${(!chHits.length && !ptHits.length && !qHits.length) ? `
+        <div class="search-empty">
+          <div class="search-empty-ico" aria-hidden="true">⌕</div>
+          <div class="search-empty-title">没有找到 “${escapeHTML(term)}” 的匹配项</div>
+          <p class="search-empty-sub">试试更短的关键词，或换用知识点 / 题型 / 章节名再搜一次。</p>
+          <button class="hero-btn hero-btn-ghost" data-go="search-again"><span class="hero-btn-ico" aria-hidden="true">⌕</span>重新搜索</button>
+        </div>` : ''}
     `;
   }
   function attachSearchHandlers() {
@@ -848,6 +927,8 @@
     document.querySelectorAll('.q a[data-pid]').forEach(a => {
       a.addEventListener('click', (e) => { e.preventDefault(); go(subjPath('/p/' + a.dataset.pid)); });
     });
+    const againBtn = document.querySelector('[data-go="search-again"]');
+    if (againBtn) againBtn.addEventListener('click', () => openPalette());
     attachKPHandlers();
   }
 
@@ -1111,6 +1192,14 @@
     const inner = document.getElementById('content');
     inner.innerHTML = html;
     inner.scrollTop = 0;
+    // Gentle fade-in on each navigation. Gated behind `has-view-anim` and
+    // applied as a self-completing animation (not a persistent state), so a
+    // missed animation frame never leaves the content stuck invisible.
+    if (document.body.classList.contains('has-view-anim')) {
+      inner.classList.remove('content-enter');
+      void inner.offsetWidth; // reflow to restart the animation
+      inner.classList.add('content-enter');
+    }
     if (attach) attach();
   }
 
