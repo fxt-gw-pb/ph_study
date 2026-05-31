@@ -20,6 +20,8 @@ const TARGETS = [
   { md: '毒理学往年题考点整理.md',     json: 'tox-data.json', js: 'tox-data.js',  varName: 'TOX_SITE_DATA', breakExcerpt: true },
   // Environmental Health — third real subject (window.ENV_SITE_DATA).
   { md: '环境健康学往年题考点整理.md', json: 'env-data.json', js: 'env-data.js',  varName: 'ENV_SITE_DATA' },
+  // Epidemiology — fourth real subject (window.EPI_SITE_DATA).
+  { md: '流行病学往年题考点整理.md', json: 'epi-data.json', js: 'epi-data.js',  varName: 'EPI_SITE_DATA' },
 ];
 
 const CHAPTER_NUM_TO_ID = {
@@ -125,9 +127,9 @@ function parse(md, opts = {}) {
     if (chMatch) { startChapter(chMatch[1], chMatch[2]); continue; }
 
     // Appendix section (TOX): ## 附：实验操作题…  — real KPs, treat as a chapter.
-    const fuMatch = line.match(/^##\s+(附[：:].*?)\s*$/);
+    const fuMatch = line.match(/^##\s+(附录?[：:].*?)\s*$/);
     if (fuMatch && curCh) {
-      startChapter('附', fuMatch[1].replace(/^附[：:]\s*/, ''));
+      startChapter('附', fuMatch[1].replace(/^附录?[：:]\s*/, ''));
       continue;
     }
 
