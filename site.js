@@ -620,7 +620,7 @@
 
       <div class="card card-pad" style="margin-top:12px">
         <h5 style="margin:0 0 8px;font-size:11px;letter-spacing:.12em;color:var(--ink-3);text-transform:uppercase">知识点原文摘取</h5>
-        <p style="margin:0;font-family:var(--font-serif);font-size:var(--read-size, 15px);line-height:var(--read-leading, 1.78);white-space:pre-wrap">${escapeHTML(p.excerpt)}</p>
+        <p class="kp-excerpt" style="margin:0;font-family:var(--font-serif);font-size:var(--read-size, 15px);line-height:var(--read-leading, 1.78);white-space:pre-wrap">${escapeHTML(p.excerpt)}</p>
       </div>
 
       ${p.questions.length ? `

@@ -345,6 +345,11 @@ button { font-family: inherit; }
   margin: 0;
   white-space: pre-wrap;
 }
+/* A $$…$$ formula already sits on its own pre-wrap line with blank lines
+   around it; drop KaTeX's default 1em block margin so it doesn't compound
+   with those blank lines into an oversized vertical gap. */
+.kp-excerpt .katex-display,
+.kp-section .excerpt .katex-display { margin: .2em 0; }
 .kp-section .section-path {
   font-size: 12px;
   color: var(--ink-3);
