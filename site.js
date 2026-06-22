@@ -360,12 +360,13 @@
           ${SUBJECTS.map((s, i) => {
             const data = window.getSubjectData(s.slug);
             const placeholder = s.status === 'placeholder';
+            const noExam = !!s.noExam;
             const meta = data ? data.meta : null;
             return `
-              <a class="subj-card ${placeholder ? 'is-placeholder' : 'is-ready'}" data-slug="${s.slug}" style="--accent:${s.accent};--enter-delay:${i * 40}ms">
+              <a class="subj-card ${placeholder ? 'is-placeholder' : 'is-ready'} ${noExam ? 'is-no-exam' : ''}" data-slug="${s.slug}" style="--accent:${s.accent};--enter-delay:${i * 40}ms">
                 <div class="subj-card-head">
                   <span class="subj-icon">${escapeHTML(s.icon)}</span>
-                  <span class="subj-status">${placeholder ? '占位 · 待补充' : '已接入 · 真实数据'}</span>
+                  <span class="subj-status">${noExam ? '大礼包无往年题' : (placeholder ? '占位 · 待补充' : '已接入 · 真实数据')}</span>
                 </div>
                 <div class="subj-title-row">
                   <h3 class="subj-title">${escapeHTML(s.title)}</h3>
@@ -373,14 +374,14 @@
                 </div>
                 <p class="subj-blurb">${escapeHTML(s.blurb)}</p>
                 <div class="subj-stats">
-                  ${meta ? `
+                  ${noExam ? '<span class="dim">大礼包未收录往年题</span>' : (meta ? `
                     <span><b>${meta.chapters}</b>章</span>
                     <span><b>${meta.points}</b>知识点</span>
                     ${meta.questions ? `<span><b>${meta.questions}</b>题</span>` : '<span class="dim">题库待入</span>'}
-                  ` : '<span class="dim">尚未接入</span>'}
+                  ` : '<span class="dim">尚未接入</span>')}
                 </div>
                 <div class="subj-cta">
-                  <span class="subj-cta-text">${placeholder ? '查看占位结构' : '进入复习'}</span>
+                  <span class="subj-cta-text">${noExam ? '查看说明' : (placeholder ? '查看占位结构' : '进入复习')}</span>
                   <span class="subj-cta-arrow">→</span>
                 </div>
               </a>`;
@@ -402,6 +403,7 @@
   function viewHome() {
     const total = D.meta;
     const isPlaceholder = !!total.placeholder;
+    const noExam = !!(currentSubject && currentSubject.noExam);
     const allPoints = D.chapters.flatMap(c => c.points.map(p => ({ ...p, chapterTitle: c.title })));
     const topPoints = allPoints.sort((a, b) => b.freq - a.freq || a.chapterId - b.chapterId).slice(0, 8);
 
@@ -413,7 +415,11 @@
       </div>
       <div class="page-eyebrow">REVIEW · ${escapeHTML(currentSubject.subtitle)}</div>
       <h1 class="page-title">${escapeHTML(currentSubject.title)} · 复习</h1>
-      ${isPlaceholder ? `
+      ${noExam ? `
+        <div class="placeholder-banner no-exam">
+          <span class="placeholder-pill">暂无往年题</span>
+          <span>${escapeHTML(currentSubject.noExamNote || '本学科的大礼包资料中没有往年题，暂无法整理考点与题库。')}</span>
+        </div>` : isPlaceholder ? `
         <div class="placeholder-banner">
           <span class="placeholder-pill">占位数据</span>
           <span>该学科的章节与知识点为占位结构，便于后续把真实考题/教材内容直接对位填入。</span>
