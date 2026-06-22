@@ -22,6 +22,8 @@ const TARGETS = [
   { md: '环境健康学往年题考点整理.md', json: 'env-data.json', js: 'env-data.js',  varName: 'ENV_SITE_DATA' },
   // Epidemiology — fourth real subject (window.EPI_SITE_DATA).
   { md: '流行病学往年题考点整理.md', json: 'epi-data.json', js: 'epi-data.js',  varName: 'EPI_SITE_DATA' },
+  // Nutrition & Food Hygiene — fifth real subject (window.NUTR_SITE_DATA).
+  { md: '营养学往年题考点整理.md', json: 'nutr-data.json', js: 'nutr-data.js', varName: 'NUTR_SITE_DATA' },
 ];
 
 const CHAPTER_NUM_TO_ID = {
