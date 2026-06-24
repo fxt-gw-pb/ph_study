@@ -24,8 +24,6 @@ const TARGETS = [
   { md: '流行病学往年题考点整理.md', json: 'epi-data.json', js: 'epi-data.js',  varName: 'EPI_SITE_DATA' },
   // Nutrition & Food Hygiene — fifth real subject (window.NUTR_SITE_DATA).
   { md: '营养学往年题考点整理.md', json: 'nutr-data.json', js: 'nutr-data.js', varName: 'NUTR_SITE_DATA' },
-  // Psychiatry — sixth real subject (window.PSY_SITE_DATA).
-  { md: '精神病学往年题考点整理.md', json: 'psy-data.json', js: 'psy-data.js', varName: 'PSY_SITE_DATA', breakExcerpt: true },
 ];
 
 const CHAPTER_NUM_TO_ID = {
