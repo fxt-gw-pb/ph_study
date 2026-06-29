@@ -26,6 +26,8 @@ const TARGETS = [
   { md: '营养学往年题考点整理.md', json: 'nutr-data.json', js: 'nutr-data.js', varName: 'NUTR_SITE_DATA' },
   // Psychiatry — sixth real subject (window.PSY_SITE_DATA).
   { md: '精神病学往年题考点整理.md', json: 'psy-data.json', js: 'psy-data.js', varName: 'PSY_SITE_DATA' },
+  // Occupational Disease — seventh real subject (window.OD_SITE_DATA).
+  { md: '职业病学往年题总结.md', json: 'od-data.json', js: 'od-data.js', varName: 'OD_SITE_DATA', freqFromQuestions: true, preserveChapterParentheses: true },
 ];
 
 const CHAPTER_NUM_TO_ID = {
@@ -38,7 +40,7 @@ const CHAPTER_NUM_TO_ID = {
 //   TOX: "/ 《1 绪论》" / "/ 《3 …》（生物转运）" → take the 《…》 inner
 //        text (dropping its leading file number), preferring a trailing
 //        （中文）gloss when present, and dropping a trailing year.
-function cleanChapterTitle(raw) {
+function cleanChapterTitle(raw, opts = {}) {
   let t = raw.trim().replace(/^[\/／]\s*/, '');
   const m = t.match(/《([^》]+)》/);
   if (m) {
@@ -46,7 +48,7 @@ function cleanChapterTitle(raw) {
     const gloss = t.match(/》\s*（([^）]+)）\s*$/);
     t = (gloss ? gloss[1] : inner).trim();
     t = t.replace(/\s*\d{4}\s*$/, '').trim();
-  } else {
+  } else if (!opts.preserveParentheses) {
     t = t.replace(/（[^）]*）\s*$/, '').trim();
   }
   return t;
@@ -75,6 +77,44 @@ function normalizeQuestionType(source, type) {
   return raw;
 }
 
+function parseFrequency(raw) {
+  const text = raw.replace(/\*/g, '').replace(/\s+/g, '').trim();
+  const numeric = text.match(/\d+/);
+  if (numeric) return { value: parseInt(numeric[0], 10), isNumeric: true };
+  if (/中高频/.test(text)) return { value: 3, isNumeric: false };
+  if (/高频/.test(text)) return { value: 4, isNumeric: false };
+  if (/中频/.test(text)) return { value: 2, isNumeric: false };
+  if (/低频/.test(text)) return { value: 1, isNumeric: false };
+  return null;
+}
+
+function parseQuestions(text) {
+  const blocks = [];
+  const legacy = /【往年题(\d+)[｜|]([^｜|】]+)[｜|]([^】]+)】\s*([\s\S]*?)(?=\n【往年题\d+|$)/g;
+  let m;
+  while ((m = legacy.exec(text)) !== null) {
+    blocks.push({
+      n: parseInt(m[1], 10),
+      source: m[2].trim(),
+      type: normalizeQuestionType(m[2], m[3]),
+      text: m[4].trim(),
+    });
+  }
+  if (blocks.length) return blocks;
+
+  const sourceType = /【([^｜|】]+)[｜|]([^】]+)】\s*([\s\S]*?)(?=\n【[^｜|】]+[｜|][^】]+】|$)/g;
+  let n = 1;
+  while ((m = sourceType.exec(text)) !== null) {
+    blocks.push({
+      n: n++,
+      source: m[1].trim(),
+      type: normalizeQuestionType(m[1], m[2]),
+      text: m[3].trim(),
+    });
+  }
+  return blocks;
+}
+
 function parse(md, opts = {}) {
   const lines = md.split(/\r?\n/);
   const chapters = [];
@@ -92,18 +132,7 @@ function parse(md, opts = {}) {
     } else if (mode === 'questions') {
       // Parse 【...】blocks; each followed by question text until next 【 or end.
       const text = buf.join('\n').trim();
-      const blocks = [];
-      const re = /【往年题(\d+)[｜|]([^｜|】]+)[｜|]([^】]+)】\s*([\s\S]*?)(?=\n【往年题\d+|$)/g;
-      let m;
-      while ((m = re.exec(text)) !== null) {
-        blocks.push({
-          n: parseInt(m[1], 10),
-          source: m[2].trim(),
-          type: normalizeQuestionType(m[2], m[3]),
-          text: m[4].trim(),
-        });
-      }
-      curKP.questions = blocks;
+      curKP.questions = parseQuestions(text);
     }
     buf = [];
   }
@@ -116,7 +145,7 @@ function parse(md, opts = {}) {
     curCh = {
       id,
       num,
-      title: cleanChapterTitle(rawTitle),
+      title: cleanChapterTitle(rawTitle, { preserveParentheses: opts.preserveChapterParentheses }),
       rawTitle: rawTitle.trim(),
       points: [],
     };
@@ -149,6 +178,7 @@ function parse(md, opts = {}) {
         chapterTitle: curCh.title,
         title: kpMatch[2].trim(),
         freq: 0,
+        _freqIsNumeric: false,
         section: '',
         basis: '',
         excerpt: '',
@@ -160,11 +190,15 @@ function parse(md, opts = {}) {
 
     if (!curKP) continue;
 
-    // **考频：N 次**  (OH)  or  **考频：** N 次 / N 余次（…）  (TOX)
-    const freqMatch = line.match(/^\*\*考频[：:]\*{0,2}\s*(\d+)/);
+    // **考频：N 次** / **考频：** N 次 / **考频：高频**
+    const freqMatch = line.match(/^\*\*考频[：:]\*{0,2}\s*(.+?)\s*(?:\*\*)?\s*$/);
     if (freqMatch) {
       flushBuf(); mode = null;
-      curKP.freq = parseInt(freqMatch[1], 10);
+      const freq = parseFrequency(freqMatch[1]);
+      if (freq) {
+        curKP.freq = freq.value;
+        curKP._freqIsNumeric = freq.isNumeric;
+      }
       continue;
     }
 
@@ -217,6 +251,12 @@ function parse(md, opts = {}) {
 
   // Sort points within each chapter by freq desc, then by index.
   for (const ch of chapters) {
+    for (const p of ch.points) {
+      if (opts.freqFromQuestions && !p._freqIsNumeric) {
+        p.freq = Math.max(p.freq, p.questions.length || 0);
+      }
+      delete p._freqIsNumeric;
+    }
     ch.points.sort((a, b) => b.freq - a.freq || a.index - b.index);
     ch.totalFreq = ch.points.reduce((s, p) => s + p.freq, 0);
     ch.totalQuestions = ch.points.reduce((s, p) => s + p.questions.length, 0);
@@ -259,7 +299,11 @@ for (const t of TARGETS) {
     console.warn(`SKIP ${t.md} — not found`);
     continue;
   }
-  const data = parse(fs.readFileSync(mdPath, 'utf8'), { breakExcerpt: t.breakExcerpt });
+  const data = parse(fs.readFileSync(mdPath, 'utf8'), {
+    breakExcerpt: t.breakExcerpt,
+    freqFromQuestions: t.freqFromQuestions,
+    preserveChapterParentheses: t.preserveChapterParentheses,
+  });
   const jsonPath = path.join(REPO, t.json);
   const jsPath = path.join(REPO, t.js);
   fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
