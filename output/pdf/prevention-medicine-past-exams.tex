@@ -186,18 +186,28 @@
   {\hfill\contentspage}
 \titlecontents{chapter}[1.2em]
   {\addvspace{0.22em}\sffamily\color{Ink}}
-  {\contentslabel{2.2em}}
+  {\contentslabel{5.8em}}
   {}
   {\titlerule*[0.55pc]{.}\contentspage}
 
+\newlength{\MetaLabelWidth}
+\setlength{\MetaLabelWidth}{6.4em}
 \newcommand{\InfoLabel}[1]{%
-  \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
-    arc=1.2mm,colback=CurrentAccent!9,colframe=CurrentAccent!22,boxrule=0.35pt]{%
-    \sffamily\bfseries\footnotesize\color{CurrentAccent}#1}}
+  \par\Needspace{2\baselineskip}\vspace{0.18em}%
+  \noindent\hangindent=\dimexpr\MetaLabelWidth+0.55em\relax\hangafter=1%
+  \makebox[\MetaLabelWidth][l]{%
+    \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
+      arc=1.2mm,colback=CurrentAccent!9,colframe=CurrentAccent!22,boxrule=0.35pt]{%
+      \sffamily\bfseries\footnotesize\color{CurrentAccent}#1}}%
+  \ignorespaces}
 \newcommand{\WarningLabel}[1]{%
-  \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
-    arc=1.2mm,colback=Warning!9,colframe=Warning!25,boxrule=0.35pt]{%
-    \sffamily\bfseries\footnotesize\color{Warning}#1}}
+  \par\Needspace{2\baselineskip}\vspace{0.18em}%
+  \noindent\hangindent=\dimexpr\MetaLabelWidth+0.55em\relax\hangafter=1%
+  \makebox[\MetaLabelWidth][l]{%
+    \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
+      arc=1.2mm,colback=Warning!9,colframe=Warning!25,boxrule=0.35pt]{%
+      \sffamily\bfseries\footnotesize\color{Warning}#1}}%
+  \ignorespaces}
 \newcommand{\FrequencyPill}[1]{%
   \tcbox[on line,boxsep=0.5pt,left=5pt,right=5pt,top=1.5pt,bottom=1.5pt,
     arc=2mm,colback=CurrentAccent,colframe=CurrentAccent,boxrule=0pt]{%
