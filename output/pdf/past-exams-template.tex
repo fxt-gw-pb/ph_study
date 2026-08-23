@@ -1,0 +1,334 @@
+% Compile with: xelatex
+% This template is consumed by Pandoc; the generated standalone source is
+% prevention-medicine-past-exams.tex in the same directory.
+\documentclass[UTF8,zihao=-4,openany,oneside,fontset=none]{ctexbook}
+
+\usepackage[a4paper,top=2.55cm,bottom=2.35cm,inner=2.55cm,outer=2.15cm,headheight=23pt,headsep=0.55cm,footskip=1.15cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,longtable,array,calc}
+\usepackage{graphicx,float}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec,titletoc}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage{newunicodechar}
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[
+  Path=/System/Library/Fonts/Supplemental/,
+  UprightFont=Times New Roman.ttf,
+  BoldFont=Times New Roman Bold.ttf,
+  ItalicFont=Times New Roman Italic.ttf,
+  BoldItalicFont=Times New Roman Bold Italic.ttf
+]{Times New Roman}
+\setsansfont[
+  Path=/System/Library/Fonts/Supplemental/,
+  UprightFont=Arial.ttf,
+  BoldFont=Arial Bold.ttf,
+  ItalicFont=Arial Italic.ttf,
+  BoldItalicFont=Arial Bold Italic.ttf
+]{Arial}
+\setmonofont[
+  Path=/System/Library/Fonts/Supplemental/,
+  UprightFont=Courier New.ttf,
+  BoldFont=Courier New Bold.ttf,
+  ItalicFont=Courier New Italic.ttf,
+  BoldItalicFont=Courier New Bold Italic.ttf,
+  Scale=MatchLowercase
+]{Courier New}
+\setCJKmainfont[
+  Path=/System/Library/Fonts/Supplemental/,
+  FontIndex=6,
+  BoldFont=Songti.ttc,
+  BoldFeatures={FontIndex=1}
+]{Songti.ttc}
+\setCJKsansfont[
+  Path=/System/Library/Fonts/,
+  FontIndex=0,
+  BoldFont=Hiragino Sans GB.ttc,
+  BoldFeatures={FontIndex=2}
+]{Hiragino Sans GB.ttc}
+\setCJKmonofont[Path=/System/Library/Fonts/,FontIndex=0]{Hiragino Sans GB.ttc}
+\setCJKfallbackfamilyfont{\CJKrmdefault}[Path=/System/Library/Fonts/Supplemental/]{Arial Unicode.ttf}
+\setCJKfallbackfamilyfont{\CJKsfdefault}[Path=/System/Library/Fonts/Supplemental/]{Arial Unicode.ttf}
+\setCJKfallbackfamilyfont{\CJKttdefault}[Path=/System/Library/Fonts/Supplemental/]{Arial Unicode.ttf}
+\xeCJKsetup{CJKspace=true,PunctStyle=kaiming,CJKmath=true}
+\setCJKmathfont[Path=/System/Library/Fonts/Supplemental/,FontIndex=6]{Songti.ttc}
+\xeCJKDeclareCharClass{CJK}{
+  "2070 -> "209F,
+  "2100 -> "218F,
+  "2200 -> "22FF,
+  "2460 -> "24FF,
+  "2600 -> "26FF
+}
+\newunicodechar{⁻}{\ensuremath{{}^{-}}}
+
+\definecolor{Ink}{HTML}{172033}
+\definecolor{TextBody}{HTML}{293246}
+\definecolor{TextMuted}{HTML}{687386}
+\definecolor{Paper}{HTML}{FBFCFE}
+\definecolor{PageTint}{HTML}{F2F6FA}
+\definecolor{SubjectBlue}{HTML}{2D5FD5}
+\definecolor{CurrentAccent}{HTML}{2D5FD5}
+\definecolor{Warning}{HTML}{C85C26}
+\definecolor{RuleGray}{HTML}{DCE2EA}
+
+\color{TextBody}
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  hypertexnames=false,
+  linkcolor=Ink,
+  urlcolor=SubjectBlue,
+  citecolor=CurrentAccent,
+  pdfborder={0 0 0},
+  pdftitle={预防医学大四下往年题（截止22级）},
+  pdfsubject={预防医学往年题知识文档汇编},
+  pdfkeywords={预防医学, 往年题, 复习资料, 北京大学公共卫生学院}
+}
+
+\newcommand{\CurrentSubject}{总览}
+\newcommand{\SetSubjectAccent}[2]{%
+  \setcounter{chapter}{0}%
+  \definecolor{CurrentAccent}{HTML}{#1}%
+  \renewcommand{\CurrentSubject}{#2}%
+  \hypersetup{urlcolor=CurrentAccent}%
+}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.22em}
+\setlength{\emergencystretch}{2.5em}
+\setlist{leftmargin=2.2em,itemsep=0.2em,topsep=0.45em,parsep=0.1em}
+\setlist[itemize,1]{label=\textcolor{CurrentAccent}{\small\textbullet}}
+\setlist[enumerate,1]{label=\textcolor{CurrentAccent}{\arabic*.}}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\providecommand{\pandocbounded}[1]{#1}
+\providecommand{\real}[1]{#1}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\footnotesize\bfseries\color{CurrentAccent}\CurrentSubject}
+\fancyhead[R]{\sffamily\footnotesize\color{TextMuted}\nouppercase{\leftmark}}
+\fancyfoot[C]{\sffamily\footnotesize\color{TextMuted}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{CurrentAccent!55}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\sffamily\footnotesize\color{TextMuted}\thepage}
+  \renewcommand{\headrulewidth}{0pt}}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\pretocmd{\part}{\setcounter{chapter}{0}}{}{}
+
+\titleformat{\part}[display]
+  {\thispagestyle{empty}\centering\sffamily}
+  {\vspace*{2.7cm}\color{CurrentAccent}\fontsize{15}{18}\selectfont\bfseries PART\enspace\Roman{part}}
+  {1.1em}
+  {\color{Ink}\fontsize{34}{43}\selectfont\bfseries}
+  [\vspace{1.4em}\color{CurrentAccent}\rule{0.34\textwidth}{3pt}]
+\titlespacing*{\part}{0pt}{0pt}{0pt}
+
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily}
+  {\color{CurrentAccent}\fontsize{12}{14}\selectfont\bfseries CHAPTER\enspace\thechapter}
+  {0.55em}
+  {\color{Ink}\fontsize{27}{34}\selectfont\bfseries}
+  [\vspace{0.7em}\color{CurrentAccent}\titlerule]
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\sffamily}
+  {\color{CurrentAccent}\fontsize{11}{13}\selectfont\bfseries REFERENCE}
+  {0.5em}
+  {\color{Ink}\fontsize{25}{32}\selectfont\bfseries}
+  [\vspace{0.65em}\color{CurrentAccent}\titlerule]
+\titlespacing*{\chapter}{0pt}{-0.25cm}{1.15cm}
+
+\titleformat{\section}[hang]
+  {\normalfont\sffamily\Large\bfseries\color{Ink}}
+  {\colorbox{CurrentAccent}{\makebox[2.4em][c]{\color{white}\small\thesection}}}
+  {0.75em}
+  {}
+\titlespacing*{\section}{0pt}{1.4em}{0.65em}
+
+\titleformat{\subsection}[hang]
+  {\normalfont\sffamily\large\bfseries\color{Ink}}
+  {\textcolor{CurrentAccent}{\thesubsection}}
+  {0.65em}
+  {}
+\titlespacing*{\subsection}{0pt}{1.15em}{0.5em}
+
+\titleformat{\paragraph}[runin]
+  {\normalfont\sffamily\bfseries\color{CurrentAccent}}
+  {}{0pt}{}[\quad]
+
+\titlecontents{part}[0em]
+  {\addvspace{1.0em}\sffamily\bfseries\color{CurrentAccent}}
+  {第\thecontentslabel\enspace 部分\quad}
+  {}
+  {\hfill\contentspage}
+\titlecontents{chapter}[1.2em]
+  {\addvspace{0.22em}\sffamily\color{Ink}}
+  {\contentslabel{2.2em}}
+  {}
+  {\titlerule*[0.55pc]{.}\contentspage}
+
+\newcommand{\InfoLabel}[1]{%
+  \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
+    arc=1.2mm,colback=CurrentAccent!9,colframe=CurrentAccent!22,boxrule=0.35pt]{%
+    \sffamily\bfseries\footnotesize\color{CurrentAccent}#1}}
+\newcommand{\WarningLabel}[1]{%
+  \tcbox[on line,boxsep=0.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,
+    arc=1.2mm,colback=Warning!9,colframe=Warning!25,boxrule=0.35pt]{%
+    \sffamily\bfseries\footnotesize\color{Warning}#1}}
+\newcommand{\FrequencyPill}[1]{%
+  \tcbox[on line,boxsep=0.5pt,left=5pt,right=5pt,top=1.5pt,bottom=1.5pt,
+    arc=2mm,colback=CurrentAccent,colframe=CurrentAccent,boxrule=0pt]{%
+    \sffamily\bfseries\footnotesize\color{white}考频\enspace#1}}
+\newcommand{\ContentBand}[1]{%
+  \par\Needspace{4\baselineskip}\vspace{0.62em}%
+  \noindent\begin{tikzpicture}[baseline=-0.55ex]
+    \fill[CurrentAccent] (0,0) rectangle (0.085,0.52);
+    \node[anchor=west,inner sep=0pt,text=CurrentAccent,font=\sffamily\bfseries] at (0.22,0.26) {#1};
+  \end{tikzpicture}\par\vspace{0.2em}}
+\newcommand{\QuestionLabel}[1]{{\sffamily\bfseries\color{CurrentAccent}#1}}
+\newcommand{\PointSeparator}{%
+  \par\vspace{0.38em}\noindent\textcolor{RuleGray}{\rule{\linewidth}{0.35pt}}\par\vspace{0.15em}}
+
+\newtcolorbox{pastquestion}{
+  enhanced jigsaw,
+  breakable,
+  colback=CurrentAccent!2,
+  colframe=CurrentAccent!42,
+  boxrule=0pt,
+  borderline west={1.35pt}{0pt}{CurrentAccent},
+  arc=0.8mm,
+  left=2.1mm,right=2.1mm,top=1.35mm,bottom=1.35mm,
+  before skip=3.8pt,after skip=3.8pt,
+  fontupper=\small,
+}
+
+\newtcolorbox{correctionbox}{
+  enhanced jigsaw,
+  breakable,
+  colback=Warning!5,
+  colframe=Warning!55,
+  boxrule=0.45pt,
+  borderline west={2.2pt}{0pt}{Warning},
+  arc=1mm,
+  left=2.4mm,right=2.4mm,top=1.8mm,bottom=1.8mm,
+  before skip=6pt,after skip=6pt,
+}
+
+\setlength{\LTpre}{0.65em}
+\setlength{\LTpost}{0.65em}
+\renewcommand{\arraystretch}{1.18}
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{2}
+
+\begin{document}
+
+\frontmatter
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{tikzpicture}[remember picture,overlay]
+    \fill[PageTint] (current page.south west) rectangle (current page.north east);
+    \fill[SubjectBlue] (current page.north west) rectangle ([xshift=1.35cm]current page.south west);
+    \fill[SubjectBlue!8] ([xshift=-5.1cm,yshift=-5.0cm]current page.north east) circle (4.6cm);
+    \draw[SubjectBlue!20,line width=1.2pt] ([xshift=-4.3cm,yshift=-4.2cm]current page.north east) circle (3.15cm);
+    \fill[SubjectBlue!12] ([xshift=1.5cm,yshift=1.0cm]current page.south west) circle (3.1cm);
+  \end{tikzpicture}
+
+  \vspace*{1.7cm}
+  \begin{flushleft}
+    {\sffamily\bfseries\color{SubjectBlue}\small PREVENTIVE MEDICINE\enspace·\enspace REVIEW ARCHIVE}\par
+    \vspace{1.05cm}
+    {\sffamily\bfseries\color{Ink}\fontsize{33}{43}\selectfont
+      预防医学大四下往年题\par}
+    \vspace{0.15cm}
+    {\sffamily\bfseries\color{SubjectBlue}\fontsize{22}{29}\selectfont
+      （截止22级）\par}
+    \vspace{0.75cm}
+    {\color{SubjectBlue}\rule{3.2cm}{3.2pt}}\par
+    \vspace{1.0cm}
+
+    \begin{tcolorbox}[
+      enhanced,
+      colback=white,
+      colframe=SubjectBlue!18,
+      boxrule=0.5pt,
+      arc=2mm,
+      left=5mm,right=5mm,top=4mm,bottom=4mm,
+      width=0.88\textwidth,
+      shadow={1mm}{-1mm}{0mm}{black!7},
+    ]
+      \sffamily\small
+      \textcolor{TextMuted}{网页地址}\quad
+      \href{https://fxt-gw-pb.github.io/ph_study/}{\texttt{https://fxt-gw-pb.github.io/ph\_study/}}\par
+      \vspace{0.3em}
+      \textcolor{TextMuted}{GitHub 地址}\quad
+      \href{https://github.com/fxt-gw-pb/ph_study}{\texttt{https://github.com/fxt-gw-pb/ph\_study}}
+    \end{tcolorbox}
+
+    \vspace{0.85cm}
+    {\sffamily\large\bfseries\color{Ink}
+      欢迎学弟学妹直接 fork 仓库并进行新的题目的补充}\par
+  \end{flushleft}
+
+  \vfill
+  \begin{tikzpicture}
+    \foreach \x/\metric/\captiontext in {
+      0/7/门学科,
+      4.0/502/个考点,
+      8.0/1699/条题源记录
+    }{
+      \node[anchor=west,text=SubjectBlue,font=\sffamily\bfseries\fontsize{20}{24}\selectfont] at (\x,0.45) {\metric};
+      \node[anchor=west,text=TextMuted,font=\sffamily\small] at (\x,0) {\captiontext};
+    }
+  \end{tikzpicture}
+  \vspace{0.7cm}
+\end{titlepage}
+
+\chapter*{使用说明}
+\addcontentsline{toc}{chapter}{使用说明}
+
+本书完整汇编网页知识仓库中的七门课程文档，保留原始章节顺序、考频口径、知识点原文、匹配依据、题源记录、版本提示与勘误补充。为便于纸面复习，源文中的重复数字前缀由 LaTeX 自动编号取代；正文内容不作删节。
+
+\begin{tcolorbox}[enhanced,breakable,colback=SubjectBlue!3,colframe=SubjectBlue!25,boxrule=0.45pt,arc=1.2mm,left=4mm,right=4mm,top=3mm,bottom=3mm]
+  \begin{itemize}
+    \item \textbf{考频}反映各源文采用的统计口径；不同课程的题源范围与计数方式并不完全相同，请先阅读每一部分的「说明」。
+    \item \textbf{知识点原文摘取}用于系统复习；\textbf{对应往年题}用于定位真实题型与提问方式。
+    \item 标注「未完全匹配到」「版本提示」或「勘误补充」的内容，应结合授课教师口径、最新版教材或规范再次核对。
+  \end{itemize}
+\end{tcolorbox}
+
+\vspace{0.7em}
+\noindent\textcolor{SubjectBlue}{\rule{1.2cm}{2pt}}\quad
+\sffamily\bfseries 欢迎学弟学妹直接 fork 仓库并进行新的题目的补充。\normalfont
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\mainmatter
+$body$
+
+\end{document}
