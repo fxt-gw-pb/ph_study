@@ -213,6 +213,7 @@
     arc=2mm,colback=CurrentAccent,colframe=CurrentAccent,boxrule=0pt]{%
     \sffamily\bfseries\footnotesize\color{white}考频\enspace#1}}
 \newcommand{\ContentBand}[1]{%
+  \ifstrequal{#1}{知识点原文摘取}{\setlength{\parindent}{0pt}}{\setlength{\parindent}{2em}}%
   \par\Needspace{4\baselineskip}\vspace{0.62em}%
   \noindent\begin{tikzpicture}[baseline=-0.55ex]
     \fill[CurrentAccent] (0,0) rectangle (0.085,0.52);
@@ -220,7 +221,7 @@
   \end{tikzpicture}\par\vspace{0.2em}}
 \newcommand{\QuestionLabel}[1]{{\sffamily\bfseries\color{CurrentAccent}#1}}
 \newcommand{\PointSeparator}{%
-  \par\vspace{0.38em}\noindent\textcolor{RuleGray}{\rule{\linewidth}{0.35pt}}\par\vspace{0.15em}}
+  \setlength{\parindent}{2em}\par\vspace{0.38em}\noindent\textcolor{RuleGray}{\rule{\linewidth}{0.35pt}}\par\vspace{0.15em}}
 
 \newtcolorbox{pastquestion}{
   enhanced jigsaw,
