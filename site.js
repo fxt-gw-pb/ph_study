@@ -154,7 +154,7 @@
             <span class="menu-icon"></span>
           </button>
           <div class="brand" id="brand">
-            <span class="brand-dot" id="brand-dot">职</span>
+            <img class="brand-logo" src="logo.jpg" alt="" aria-hidden="true"/>
             <span class="brand-text" id="brand-text">大四下学期往年题整理</span>
             <span class="brand-sub" id="brand-sub"></span>
           </div>
@@ -214,7 +214,7 @@
           buildThemeMenu();
           // close after a brief beat so user sees the tick move
           setTimeout(closeThemeMenu, 180);
-          // refresh brand-dot decoration
+          // refresh subject-specific brand text
           updateBrandDecor();
         });
       });
@@ -283,8 +283,6 @@
 
   function updateBrandDecor() {
     if (!currentSubject) return;
-    const dot = document.getElementById('brand-dot');
-    if (dot) dot.textContent = currentSubject.icon;
     const txt = document.getElementById('brand-text');
     if (txt) txt.textContent = currentSubject.title + '复习';
     const sub = document.getElementById('brand-sub');
@@ -1129,8 +1127,6 @@
   }
 
   function updateBrandShellForHub() {
-    const dot = document.getElementById('brand-dot');
-    if (dot) dot.textContent = '医';
     const txt = document.getElementById('brand-text');
     if (txt) txt.textContent = '大四下学期往年题整理';
     const sub = document.getElementById('brand-sub');
